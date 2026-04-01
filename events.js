@@ -1,0 +1,256 @@
+// Auto generated from public Google Calendar ICS
+export const RBM_EVENTS = {
+  "source": {
+    "type": "public_ics",
+    "icsUrl": "https://calendar.google.com/calendar/ical/hq05amnbaa5pr0u7ulc2v2ic44%40group.calendar.google.com/public/full.ics"
+  },
+  "timeZone": "America/New_York",
+  "windowStart": "2026-02-01T00:00:00-05:00",
+  "windowEnd": "2026-05-01T00:00:00-04:00",
+  "count": 12,
+  "events": [
+    {
+      "uid": "4f0c5jfubqnia0bsgguu97dvhl_R20250809T170000@google.com",
+      "title": "Bike Repair @ Oak City Cares",
+      "description": "Our monthly free community bike repair event! Hosted the second Saturday of each month from 1-3pm at Oak City Cares, a multiservice center for folks experiencing housing insecurity. We fix/replace brakes, clean chains/drivetrains, tune shifters, fix flats, and make other minor adjustments. First come, first served.<br> <br><a href=\"https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing\" target=\"_blank\">RCK Volunteer Signup</a>",
+      "location": "Oak City Cares 1430 S. Wilmington Street, Raleigh, NC 27603",
+      "start": "2026-02-14T13:00:00-05:00",
+      "end": "2026-02-14T15:00:00-05:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [
+        "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing"
+      ],
+      "attachments": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing",
+          "filename": "RCK Volunteer Signup",
+          "fmttype": "application/vnd.google-apps.spreadsheet"
+        },
+        {
+          "url": "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3",
+          "filename": "RCK Flyer 25_0710.png",
+          "fmttype": "image/png"
+        }
+      ],
+      "images": [
+        "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3"
+      ],
+      "localImages": [
+        "assets/events/1adwdYGzmzIANt72BRDPROmlYSPNraoe3.png"
+      ]
+    },
+    {
+      "uid": "5n2beoduujegodh9nuscptf1i2@google.com",
+      "title": "Community Shop Hours",
+      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
+      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
+      "start": "2026-02-15T17:00:00+00:00",
+      "end": "2026-02-15T21:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "3gd6hq327vqrmegb8h8dt8a9uu@google.com",
+      "title": "Community Shop Hours",
+      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
+      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
+      "start": "2026-02-22T17:00:00+00:00",
+      "end": "2026-02-22T21:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "51u3if4th2b438d6hc6f7q142d@google.com",
+      "title": "Community Shop Hours",
+      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
+      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
+      "start": "2026-03-08T16:00:00+00:00",
+      "end": "2026-03-08T20:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "4f0c5jfubqnia0bsgguu97dvhl_R20250809T170000@google.com",
+      "title": "Bike Repair @ Oak City Cares",
+      "description": "Our monthly free community bike repair event! Hosted the second Saturday of each month from 1-3pm at Oak City Cares, a multiservice center for folks experiencing housing insecurity. We fix/replace brakes, clean chains/drivetrains, tune shifters, fix flats, and make other minor adjustments. First come, first served.<br> <br><a href=\"https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing\" target=\"_blank\">RCK Volunteer Signup</a>",
+      "location": "Oak City Cares 1430 S. Wilmington Street, Raleigh, NC 27603",
+      "start": "2026-03-14T13:00:00-04:00",
+      "end": "2026-03-14T15:00:00-04:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [
+        "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing"
+      ],
+      "attachments": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing",
+          "filename": "RCK Volunteer Signup",
+          "fmttype": "application/vnd.google-apps.spreadsheet"
+        },
+        {
+          "url": "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3",
+          "filename": "RCK Flyer 25_0710.png",
+          "fmttype": "image/png"
+        }
+      ],
+      "images": [
+        "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3"
+      ],
+      "localImages": [
+        "assets/events/1adwdYGzmzIANt72BRDPROmlYSPNraoe3.png"
+      ]
+    },
+    {
+      "uid": "2avvni5s3sabr1sfsglpj55mbh@google.com",
+      "title": "Community Shop Hours",
+      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
+      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
+      "start": "2026-03-18T21:00:00+00:00",
+      "end": "2026-03-19T00:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "0ubansvqtuon0dj6fatt7kmopk@google.com",
+      "title": "Free Bike Repair @ Peach Road Park",
+      "description": "Free adult bike repairs, safety checks, and tune-ups. <span>First come, first served. </span>",
+      "location": "Peach Road Cultural Center, 911 Ileagnes Rd, Raleigh, NC 27603, USA",
+      "start": "2026-03-26T21:00:00+00:00",
+      "end": "2026-03-26T23:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "48ptolte0tt29vfs76likck6t7@google.com",
+      "title": "Community Shop Hours",
+      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
+      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
+      "start": "2026-03-29T16:00:00+00:00",
+      "end": "2026-03-29T20:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "4f0c5jfubqnia0bsgguu97dvhl_R20250809T170000@google.com",
+      "title": "Bike Repair @ Oak City Cares",
+      "description": "Our monthly free community bike repair event! Hosted the second Saturday of each month from 1-3pm at Oak City Cares, a multiservice center for folks experiencing housing insecurity. We fix/replace brakes, clean chains/drivetrains, tune shifters, fix flats, and make other minor adjustments. First come, first served.<br> <br><a href=\"https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing\" target=\"_blank\">RCK Volunteer Signup</a>",
+      "location": "Oak City Cares 1430 S. Wilmington Street, Raleigh, NC 27603",
+      "start": "2026-04-11T13:00:00-04:00",
+      "end": "2026-04-11T15:00:00-04:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [
+        "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing"
+      ],
+      "attachments": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing",
+          "filename": "RCK Volunteer Signup",
+          "fmttype": "application/vnd.google-apps.spreadsheet"
+        },
+        {
+          "url": "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3",
+          "filename": "RCK Flyer 25_0710.png",
+          "fmttype": "image/png"
+        }
+      ],
+      "images": [
+        "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3"
+      ],
+      "localImages": [
+        "assets/events/1adwdYGzmzIANt72BRDPROmlYSPNraoe3.png"
+      ]
+    },
+    {
+      "uid": "3a38a6os219idtfmkl5f9j6ghb@google.com",
+      "title": "Repair Skill Share & Basic Tune-Ups @ Raleigh RRFM in Eliza Pool Park",
+      "description": "<span>Free basic bike repair skill-share workshop at Eliza Pool Park for the Raleigh Really, Really Free Market (RRFM). We will also be offering free adult bike <span>safety checks</span> and tune-ups. <span>First come, first served. </span></span>",
+      "location": "Eliza Pool Park, 1600 Fayetteville St, Raleigh, NC 27603, USA",
+      "start": "2026-04-12T11:00:00-04:00",
+      "end": "2026-04-12T13:00:00-04:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "1d23bsd08fri5o8t4dc3a8ooin@google.com",
+      "title": "Community Shop Hours",
+      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
+      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
+      "start": "2026-04-22T21:00:00+00:00",
+      "end": "2026-04-23T00:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "10rli2nkfpb5cc3nc7rbi95ioa@google.com",
+      "title": "Community Shop Hours",
+      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
+      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
+      "start": "2026-04-26T15:00:00+00:00",
+      "end": "2026-04-26T19:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    }
+  ]
+};
