@@ -495,7 +495,7 @@ def main() -> None:
         "--ics-url", default="https://calendar.google.com/calendar/ical/hq05amnbaa5pr0u7ulc2v2ic44%40group.calendar.google.com/public/full.ics"
     )
     ap.add_argument("--start", default="2026-02-01", help="YYYY-MM-DD or RFC3339 datetime")
-    ap.add_argument("--end", default="2026-05-01", help="YYYY-MM-DD or RFC3339 datetime (end is exclusive)")
+    ap.add_argument("--end", default="2026-05-31", help="YYYY-MM-DD or RFC3339 datetime (end is exclusive)")
     ap.add_argument("--tz", default="America/New_York")
     ap.add_argument("--out", default="events.json")
     args = ap.parse_args()

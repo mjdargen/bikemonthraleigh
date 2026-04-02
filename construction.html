@@ -9,10 +9,16 @@
   <meta name="author" content="Michael D'Argenio">
 
   <!-- icon for browser -->
-  <link rel="icon" href="assets\images\bike.png">
+  <link rel="icon" href="assets\images\favicon.ico">
 
   <title>Bike Month Raleigh</title>
 
+  <!-- Poppins from google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+    rel="stylesheet">
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- fullPage.js CSS -->
@@ -27,7 +33,12 @@
   <!-- Keep navbar OUTSIDE #fullpage -->
   <nav id="mainNav" class="navbar navbar-expand-md navbar-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#home">bike month raleigh</a>
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <div class="icon-bg">
+          <img class="brand-logo" src="assets/images/bike_color.svg" alt="Bike Month Logo">
+        </div>
+        <span class="ms-2">bike month raleigh</span>
+      </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,39 +68,84 @@
   </nav>
 
   <div id="fullpage">
-    <div class="section home-section">
-      <div class="section-inner container">
-        <h1>Bike Month Raleigh</h1>
-        <p>This is where some fun graphics will go.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis omnis quasi quidem iusto architecto
-          quisquam earum et sunt ex. Voluptate incidunt temporibus nam sunt ullam animi amet in atque!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis omnis quasi quidem iusto architecto
-          quisquam earum et sunt ex. Voluptate incidunt temporibus nam sunt ullam animi amet in atque!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis omnis quasi quidem iusto architecto
-          quisquam earum et sunt ex. Voluptate incidunt temporibus nam sunt ullam animi amet in atque!</p>
-      </div>
-    </div>
+    <section class="section home-section">
+      <div class="section-inner container py-5">
+        <div class="row justify-content-center text-center">
+          <div class="col-12 col-lg-8">
+            <img src="assets/images/bm_flowers.svg" alt="Bike Month Logo" class="img-fluid mb-4">
 
-    <div class="section about-section">
-      <div class="section-inner container">
-        <h2>About</h2>
-        <p>This is where some information about bike month and maybe oaks and spokes will go?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis omnis quasi quidem iusto architecto
-          quisquam earum et sunt ex. Voluptate incidunt temporibus nam sunt ullam animi amet in atque!</p>
+            <p>This is where some fun graphics will go.</p>
+            <p><a href="#">Fake Link</a></p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis omnis quasi quidem iusto
+              architecto
+              quisquam earum et sunt ex. Voluptate incidunt temporibus nam sunt ullam animi amet in atque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis omnis quasi quidem iusto
+              architecto
+              quisquam earum et sunt ex. Voluptate incidunt temporibus nam sunt ullam animi amet in atque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis omnis quasi quidem iusto
+              architecto
+              quisquam earum et sunt ex. Voluptate incidunt temporibus nam sunt ullam animi amet in atque!
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="section calendar-section">
-      <div class="section-inner container">
-        <h2>Calendar</h2>
-        <p>This is where a cool looking embedded calendar will go with the whole month.</p>
-        <p>The next section will have the event by event view. it will load up the current or next event in the calendar
-          and allow
-          you to swipe through or auto advance after 5 seconds unless you are hovering over it.</p>
-        <p>Right now it is just pulling from the Kickstand Calendar for Feb-Apr to test</p>
-        <p>it also has a fun graphic that i spent way too long on</p>
+    <section class="section about-section">
+      <div class="section-inner container py-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8 text-center">
+            <h2 class="mb-4">About</h2>
+            <p><a href="#">Fake Link</a></p>
+            <p>This is where some information about Bike Month and maybe Oaks and Spokes will go.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis omnis quasi quidem iusto
+              architecto quisquam earum et sunt ex. Voluptate incidunt temporibus nam sunt ullam animi amet in atque!
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-3 justify-content-center">
+          <div class="col-4 col-md-3">
+            <img src="assets/images/o&s_blue.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-4 col-md-3">
+            <img src="assets/images/o&s_green.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-4 col-md-3">
+            <img src="assets/images/o&s_orange.svg" class="img-fluid" alt="">
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section class="section calendar-section">
+      <div class="section-inner container py-5">
+        <div class="row justify-content-center text-center">
+          <div class="col-12 col-lg-8">
+            <img src="assets/images/bm_banner_yellow.svg" alt="Bike Month Logo" class="img-fluid mb-4">
+
+            <h2 class="mb-4">Calendar</h2>
+            <p><a href="#">Fake Link</a></p>
+            <p>This is where a cool looking embedded calendar will go with the whole month.</p>
+            <p>
+              The next section will have the event-by-event view. It will load the current or next event in the calendar
+              and allow you to swipe through, or auto-advance after 5 seconds unless you are hovering over it.
+            </p>
+            <p>Right now it is just pulling from the Kickstand Calendar for Feb-Apr to test.</p>
+            <p>It also has a fun graphic that I spent way too long on.</p>
+            <div class="calendar-month-wrap">
+              <div id="monthView"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div class="section events-section">
       <div class="bike-overlay idle">
@@ -103,6 +159,7 @@
     <div class="section orgs-section">
       <div class="section-inner container">
         <h2>Organizations</h2>
+        <p><a href="#">Fake Link.</a></p>
         <p>Here is where info or logos and links to the partners can go.</p>
       </div>
     </div>

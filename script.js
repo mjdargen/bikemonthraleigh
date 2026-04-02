@@ -87,6 +87,22 @@ function parseISO(s) {
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
+function formatLocation(location) {
+  const s = String(location ?? "").trim();
+  if (!s) return "";
+
+  // Remove trailing country
+  let cleaned = s.replace(/,\s*USA$/i, "");
+
+  // Remove trailing ZIP
+  cleaned = cleaned.replace(/\s+\d{5}(?:-\d{4})?$/i, "");
+
+  // Remove trailing state abbreviation when it appears before the ZIP/country
+  cleaned = cleaned.replace(/,\s*[A-Z]{2}$/i, "");
+
+  return cleaned.trim();
+}
+
 function formatWhen(ev) {
   const start = parseISO(ev.start);
   const end = parseISO(ev.end);
@@ -95,13 +111,14 @@ function formatWhen(ev) {
 
   const dateFmt = new Intl.DateTimeFormat(undefined, {
     timeZone: tz,
-    weekday: "long",
-    year: "numeric",
-    month: "long",
+    weekday: "short",
+    month: "short",
     day: "numeric",
   });
 
-  if (ev.allDay) return dateFmt.format(start);
+  if (ev.allDay) {
+    return dateFmt.format(start);
+  }
 
   const timeFmt = new Intl.DateTimeFormat(undefined, {
     timeZone: tz,
@@ -109,11 +126,13 @@ function formatWhen(ev) {
     minute: "2-digit",
   });
 
+  const formatShortTime = (d) => timeFmt.format(d).replace(":00", "").replace(" AM", "am").replace(" PM", "pm");
+
   if (!end) {
-    return `${dateFmt.format(start)} • ${timeFmt.format(start)}`;
+    return `${dateFmt.format(start)} · ${formatShortTime(start)}`;
   }
 
-  return `${dateFmt.format(start)} • ${timeFmt.format(start)} to ${timeFmt.format(end)}`;
+  return `${dateFmt.format(start)} · ${formatShortTime(start)}-${formatShortTime(end)}`;
 }
 
 function driveEmbedUrl(url) {
@@ -216,16 +235,23 @@ function placeholderHTML() {
   `;
 }
 
+function getPlaceholderNumber(ev) {
+  if (!ev.placeholderNumber) {
+    ev.placeholderNumber = Math.floor(Math.random() * 3) + 1;
+  }
+  return ev.placeholderNumber;
+}
+
 function slideHTML(ev, isCurrent = false) {
   const title = escapeHTML(ev.title ?? "");
   const when = escapeHTML(formatWhen(ev) || "TBA");
-  const where = escapeHTML(ev.location ?? "TBA");
+  const where = escapeHTML(formatLocation(ev.location) || "TBA");
   const desc = sanitizeDescription(ev.description ?? "");
   const imgUrl = bestImageUrl(ev);
 
   const loadingAttr = isCurrent ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"';
   const decodingAttr = isCurrent ? 'decoding="sync"' : 'decoding="async"';
-
+  const n = getPlaceholderNumber(ev);
   const imageBlock = imgUrl
     ? `
       <img
@@ -238,7 +264,7 @@ function slideHTML(ev, isCurrent = false) {
     `
     : `
       <img
-        src="assets/events/placeholder.png"
+        src="assets/events/placeholder${n}.svg"
         alt="Bike Month Raleigh"
         class="img-fluid rounded shadow event-image"
         ${loadingAttr}
@@ -328,6 +354,12 @@ function renderAround(center) {
   preloadImage(wrapIndex(center + 2));
 }
 
+function setNavTheme(anchor) {
+  const nav = document.getElementById("mainNav");
+  nav.classList.remove("home", "about", "calendar", "events", "orgs");
+  nav.classList.add(anchor);
+}
+
 /*************************************************
  * INITIAL EVENT SELECTION
  *
@@ -368,27 +400,6 @@ function findInitialIndex() {
  * The bike lives once at the top of the Events
  * section, independent of individual slides.
  *************************************************/
-
-function ensureBikeOverlay() {
-  let overlay = eventsSection.querySelector(".bike-overlay");
-  console.log(eventsSection);
-  console.log(overlay);
-  if (overlay) return overlay;
-  console.log("yabba");
-
-  overlay = document.createElement("div");
-  overlay.className = "bike-overlay idle";
-  overlay.innerHTML = `
-    <div class="bike-track">
-      <div class="background-layer sky-layer" aria-hidden="true"></div>
-      <div class="background-layer scenery-layer" aria-hidden="true"></div>
-      <div class="bike-sprite" aria-hidden="true"></div>
-    </div>
-  `;
-
-  eventsSection.appendChild(overlay);
-  return overlay;
-}
 
 function freezeBackgroundLayers() {
   const layers = eventsSection.querySelectorAll(".background-layer");
@@ -484,6 +495,175 @@ function buildSlides() {
   });
 }
 
+function formatMonthTitle(year, monthIndex) {
+  return new Intl.DateTimeFormat(undefined, {
+    timeZone: tz,
+    month: "long",
+    year: "numeric",
+  }).format(new Date(year, monthIndex, 1));
+}
+
+function formatMonthEventTime(ev) {
+  const start = parseISO(ev.start);
+  if (!start || ev.allDay) return "All day";
+
+  const fmt = new Intl.DateTimeFormat(undefined, {
+    timeZone: tz,
+    hour: "numeric",
+    minute: "2-digit",
+  });
+
+  return fmt.format(start).replace(":00", "").replace(" AM", "am").replace(" PM", "pm");
+}
+
+function getEventLocalParts(date) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: tz,
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+  }).formatToParts(date);
+
+  const year = Number(parts.find((p) => p.type === "year")?.value);
+  const month = Number(parts.find((p) => p.type === "month")?.value);
+  const day = Number(parts.find((p) => p.type === "day")?.value);
+
+  return { year, month, day };
+}
+
+function getDayKey(year, monthIndex, day) {
+  return `${year}-${String(monthIndex + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+}
+
+function getEventDayKey(ev) {
+  const start = parseISO(ev.start);
+  if (!start) return null;
+
+  const parts = getEventLocalParts(start);
+  return getDayKey(parts.year, parts.month - 1, parts.day);
+}
+
+function getEventsForMonth(year, monthIndex) {
+  return events
+    .filter((ev) => {
+      const start = parseISO(ev.start);
+      if (!start) return false;
+
+      const parts = getEventLocalParts(start);
+      return parts.year === year && parts.month === monthIndex + 1;
+    })
+    .sort((a, b) => {
+      const aStart = parseISO(a.start)?.getTime() ?? 0;
+      const bStart = parseISO(b.start)?.getTime() ?? 0;
+      return aStart - bStart;
+    });
+}
+
+function groupEventsByDay(eventsForMonth) {
+  const byDay = new Map();
+
+  eventsForMonth.forEach((ev) => {
+    const key = getEventDayKey(ev);
+    if (!key) return;
+
+    if (!byDay.has(key)) {
+      byDay.set(key, []);
+    }
+
+    byDay.get(key).push(ev);
+  });
+
+  return byDay;
+}
+
+function eventColorClass(index) {
+  const classes = ["event-blue", "event-green", "event-orange", "event-pink"];
+  return classes[index % classes.length];
+}
+
+function renderMonthEventPill(ev, index) {
+  const title = escapeHTML(ev.title ?? "Untitled Event");
+  const time = escapeHTML(formatMonthEventTime(ev));
+  const colorClass = eventColorClass(index);
+
+  return `
+    <a href="#events" class="month-event-pill ${colorClass}">
+      <span class="month-event-time">${time}</span>
+      <span class="month-event-name">${title}</span>
+    </a>
+  `;
+}
+
+function renderMonthDayCell(dayNumber, dayEvents, isOutside = false) {
+  const outsideClass = isOutside ? " is-outside" : "";
+  const pills = isOutside ? "" : dayEvents.map((ev, i) => renderMonthEventPill(ev, i)).join("");
+
+  return `
+    <div class="month-day${outsideClass}">
+      <div class="month-day-number">${dayNumber}</div>
+      ${pills}
+    </div>
+  `;
+}
+
+function buildMonthViewHTML(year, monthIndex) {
+  const monthName = escapeHTML(formatMonthTitle(year, monthIndex));
+  const firstOfMonth = new Date(year, monthIndex, 1);
+  const daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
+  const firstWeekday = firstOfMonth.getDay();
+
+  const prevMonthDays = new Date(year, monthIndex, 0).getDate();
+  const eventsForMonth = getEventsForMonth(year, monthIndex);
+  const eventsByDay = groupEventsByDay(eventsForMonth);
+
+  const dow = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const cells = [];
+
+  for (let i = 0; i < dow.length; i++) {
+    cells.push(`<div class="month-view-dow">${dow[i]}</div>`);
+  }
+
+  for (let i = 0; i < firstWeekday; i++) {
+    const dayNumber = prevMonthDays - firstWeekday + i + 1;
+    cells.push(renderMonthDayCell(dayNumber, [], true));
+  }
+
+  for (let day = 1; day <= daysInMonth; day++) {
+    const key = getDayKey(year, monthIndex, day);
+    const dayEvents = eventsByDay.get(key) ?? [];
+    cells.push(renderMonthDayCell(day, dayEvents, false));
+  }
+
+  const totalCellsSoFar = cells.length - 7;
+  const trailingCount = (7 - (totalCellsSoFar % 7)) % 7;
+
+  for (let day = 1; day <= trailingCount; day++) {
+    cells.push(renderMonthDayCell(day, [], true));
+  }
+
+  return `
+    <div class="month-view-shell">
+      <div class="month-view-header">
+        <div class="month-view-title-wrap">
+          <h3 class="month-view-title">${monthName}</h3>
+          <p class="month-view-subtitle">Bike Month Raleigh events</p>
+        </div>
+      </div>
+
+      <div class="month-view-grid">
+        ${cells.join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderMonthView(year, monthIndex) {
+  const host = document.getElementById("monthView");
+  if (!host) return;
+
+  host.innerHTML = buildMonthViewHTML(year, monthIndex);
+}
+
 /*************************************************
  * PAGE STARTUP
  *
@@ -494,6 +674,7 @@ function buildSlides() {
  *************************************************/
 
 document.addEventListener("DOMContentLoaded", () => {
+  renderMonthView(2026, 4);
   buildSlides();
 
   currentIndex = findInitialIndex();
@@ -531,6 +712,8 @@ document.addEventListener("DOMContentLoaded", () => {
     afterLoad: function (origin, destination) {
       bsCollapse.hide();
 
+      setNavTheme(destination.anchor);
+
       if (destination.anchor === "events") {
         if (!hasPositionedEvents && events.length > 0) {
           hasPositionedEvents = true;
@@ -550,6 +733,7 @@ document.addEventListener("DOMContentLoaded", () => {
         startAutoSlides();
       } else {
         stopAutoSlides();
+        fullpage_api.setScrollingSpeed(700);
       }
     },
 
@@ -563,6 +747,7 @@ document.addEventListener("DOMContentLoaded", () => {
     onLeave: function (origin, destination) {
       if (origin.anchor === "events" && destination.anchor !== "events") {
         stopAutoSlides();
+        fullpage_api.setScrollingSpeed(700);
       }
     },
 
