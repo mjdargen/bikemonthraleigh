@@ -1,7 +1,10 @@
 import { RBM_EVENTS } from "./events.js";
 
 /*************************************************
- * GLOBALS
+ * DATA + DOM REFERENCES
+ *
+ * Static data from events.js and the main DOM nodes
+ * this script needs to control.
  *************************************************/
 
 const events = RBM_EVENTS.events ?? [];
@@ -10,23 +13,36 @@ const tz = RBM_EVENTS.timeZone || "America/New_York";
 const nav = document.getElementById("mainNav");
 const navbarCollapse = document.getElementById("navbarResponsive");
 const bsCollapse = bootstrap.Collapse.getOrCreateInstance(navbarCollapse, { toggle: false });
-const eventsSection = document.querySelector(".events-section");
-eventsSection.classList.add("prepositioning");
-const preloadedImageUrls = new Set();
 
+const eventsSection = document.querySelector(".events-section");
 if (!eventsSection) {
   throw new Error("Missing .events-section");
 }
 
+// Hide event content until the first time the Events section is positioned.
+eventsSection.classList.add("prepositioning");
+
+/*************************************************
+ * RUNTIME STATE
+ *
+ * Mutable state used while the page is running.
+ *************************************************/
+
 const slides = [];
+const preloadedImageUrls = new Set();
+
 let currentIndex = 0;
 
 let slideInterval = null;
-const SLIDE_DELAY = 5000; // 5 seconds
+const SLIDE_DELAY = 5000; // 5 seconds between automatic slide advances
+
 let hasPositionedEvents = false;
 
 /*************************************************
- * auto advance event slides
+ * AUTO-ADVANCING EVENT SLIDES
+ *
+ * The Events section auto-advances unless the user
+ * is hovering over it.
  *************************************************/
 
 function stopAutoSlides() {
@@ -42,18 +58,21 @@ function startAutoSlides() {
   slideInterval = setInterval(() => {
     const total = slides.length;
     const next = (currentIndex + 1) % total;
-
     fullpage_api.moveTo("events", next);
   }, SLIDE_DELAY);
 }
 
-// pause on hover
+// Pause auto-advance while the mouse is over the Events section.
 eventsSection.addEventListener("mouseenter", stopAutoSlides);
 eventsSection.addEventListener("mouseleave", startAutoSlides);
 
 /*************************************************
- * EVENTS
+ * SMALL EVENT UTILITIES
+ *
+ * Helpers for formatting and sanitizing event data
+ * before it is inserted into the page.
  *************************************************/
+
 function escapeHTML(s) {
   return String(s ?? "")
     .replaceAll("&", "&amp;")
@@ -71,6 +90,7 @@ function parseISO(s) {
 function formatWhen(ev) {
   const start = parseISO(ev.start);
   const end = parseISO(ev.end);
+
   if (!start) return "";
 
   const dateFmt = new Intl.DateTimeFormat(undefined, {
@@ -89,7 +109,10 @@ function formatWhen(ev) {
     minute: "2-digit",
   });
 
-  if (!end) return `${dateFmt.format(start)} • ${timeFmt.format(start)}`;
+  if (!end) {
+    return `${dateFmt.format(start)} • ${timeFmt.format(start)}`;
+  }
+
   return `${dateFmt.format(start)} • ${timeFmt.format(start)} to ${timeFmt.format(end)}`;
 }
 
@@ -126,7 +149,9 @@ function sanitizeDescription(html) {
 
   while (walker.nextNode()) {
     const el = walker.currentNode;
-    if (!allowedTags.has(el.tagName)) toReplace.push(el);
+    if (!allowedTags.has(el.tagName)) {
+      toReplace.push(el);
+    }
   }
 
   for (const el of toReplace) {
@@ -149,6 +174,13 @@ function sanitizeDescription(html) {
   return host.innerHTML;
 }
 
+/*************************************************
+ * IMAGE PRELOADING
+ *
+ * Only preload images we might need soon, and only
+ * once per URL.
+ *************************************************/
+
 function preloadImage(index) {
   if (index < 0 || index >= events.length) return;
 
@@ -163,6 +195,14 @@ function preloadImage(index) {
 
   preloadedImageUrls.add(url);
 }
+
+/*************************************************
+ * SLIDE HTML TEMPLATES
+ *
+ * Two visual states:
+ * - placeholder slide: cheap to render
+ * - full slide: actual event content
+ *************************************************/
 
 function placeholderHTML() {
   return `
@@ -229,14 +269,25 @@ function slideHTML(ev, isCurrent = false) {
   `;
 }
 
+/*************************************************
+ * SLIDE RENDERING HELPERS
+ *
+ * We keep all slide shells in the DOM, but only
+ * fully render the current slide and its immediate
+ * neighbors.
+ *************************************************/
 function setPlaceholder(slide) {
   if (slide.dataset.mode === "placeholder") return;
-  slide.innerHTML = placeholderHTML();
+  const host = slide.querySelector(".slide-content-host");
+  if (!host) return;
+  host.innerHTML = placeholderHTML();
   slide.dataset.mode = "placeholder";
 }
 
 function setFull(slide, ev, isCurrent = false) {
-  slide.innerHTML = slideHTML(ev, isCurrent);
+  const host = slide.querySelector(".slide-content-host");
+  if (!host) return;
+  host.innerHTML = slideHTML(ev, isCurrent);
   slide.dataset.mode = "full";
 }
 
@@ -269,6 +320,7 @@ function renderAround(center) {
     }
   });
 
+  // Preload the current neighborhood first, then a little farther out.
   preloadImage(wrapIndex(center));
   preloadImage(wrapIndex(center - 1));
   preloadImage(wrapIndex(center + 1));
@@ -276,10 +328,18 @@ function renderAround(center) {
   preloadImage(wrapIndex(center + 2));
 }
 
-// find next event
+/*************************************************
+ * INITIAL EVENT SELECTION
+ *
+ * Choose which event the Events section should
+ * start on:
+ * - current event if one is happening now
+ * - otherwise the next future event
+ * - otherwise the most recent past event
+ *************************************************/
+
 function findInitialIndex() {
   const now = new Date();
-
   let lastPastIndex = 0;
 
   for (let i = 0; i < events.length; i++) {
@@ -289,11 +349,11 @@ function findInitialIndex() {
     if (!start) continue;
 
     if (start <= now && now <= end) {
-      return i; // event happening right now
+      return i;
     }
 
     if (start > now) {
-      return i; // next upcoming event
+      return i;
     }
 
     lastPastIndex = i;
@@ -302,27 +362,113 @@ function findInitialIndex() {
   return lastPastIndex;
 }
 
-function buildSlides() {
-  eventsSection.innerHTML = "";
-  slides.length = 0;
+/*************************************************
+ * BIKE OVERLAY
+ *
+ * The bike lives once at the top of the Events
+ * section, independent of individual slides.
+ *************************************************/
 
-  if (events.length === 0) {
-    const slide = document.createElement("div");
-    slide.className = "slide";
-    slide.dataset.mode = "full";
-    slide.innerHTML = `
-      <div class="section-inner container">
-        <div class="row py-4 py-md-5">
-          <div class="col-12">
-            <h2 class="event-title mb-4">No events</h2>
-          </div>
-        </div>
-      </div>
-    `;
-    eventsSection.appendChild(slide);
-    slides.push(slide);
-    return;
-  }
+function ensureBikeOverlay() {
+  let overlay = eventsSection.querySelector(".bike-overlay");
+  console.log(eventsSection);
+  console.log(overlay);
+  if (overlay) return overlay;
+  console.log("yabba");
+
+  overlay = document.createElement("div");
+  overlay.className = "bike-overlay idle";
+  overlay.innerHTML = `
+    <div class="bike-track">
+      <div class="background-layer sky-layer" aria-hidden="true"></div>
+      <div class="background-layer scenery-layer" aria-hidden="true"></div>
+      <div class="bike-sprite" aria-hidden="true"></div>
+    </div>
+  `;
+
+  eventsSection.appendChild(overlay);
+  return overlay;
+}
+
+function freezeBackgroundLayers() {
+  const layers = eventsSection.querySelectorAll(".background-layer");
+
+  layers.forEach((layer) => {
+    const styles = window.getComputedStyle(layer);
+    const bgPos = styles.backgroundPosition.split(" ");
+    const x = bgPos[0];
+
+    layer.style.setProperty("--bg-start-x", x);
+    layer.style.animation = "none";
+
+    void layer.offsetWidth;
+  });
+}
+
+function resumeBackgroundLayers() {
+  const layers = eventsSection.querySelectorAll(".background-layer");
+
+  layers.forEach((layer) => {
+    layer.style.animation = "";
+  });
+}
+
+function setBikeFacingForward() {
+  const overlay = eventsSection.querySelector(".bike-overlay");
+  if (!overlay) return;
+
+  overlay.classList.remove("going-backward");
+  overlay.classList.add("going-forward");
+}
+
+function setBikeFacingBackward() {
+  const overlay = eventsSection.querySelector(".bike-overlay");
+  if (!overlay) return;
+
+  overlay.classList.remove("going-forward");
+  overlay.classList.add("going-backward");
+}
+
+function setBikeIdle() {
+  const overlay = eventsSection.querySelector(".bike-overlay");
+  if (!overlay) return;
+
+  overlay.classList.remove("pedaling");
+  overlay.classList.add("idle");
+}
+
+function setBikePedaling() {
+  const overlay = eventsSection.querySelector(".bike-overlay");
+  const sprite = eventsSection.querySelector(".bike-sprite");
+  if (!overlay || !sprite) return;
+
+  // Restart the pedal animation from the beginning each time.
+  overlay.classList.remove("idle");
+  overlay.classList.remove("pedaling");
+
+  // Force a reflow so the animation restart is recognized.
+  void sprite.offsetWidth;
+
+  overlay.classList.add("pedaling");
+
+  const handleEnd = (e) => {
+    if (e.animationName !== "bike-pedal") return;
+    sprite.removeEventListener("animationend", handleEnd);
+    setBikeIdle();
+  };
+
+  sprite.addEventListener("animationend", handleEnd);
+}
+
+/*************************************************
+ * BUILD THE EVENTS SECTION
+ *
+ * This clears and rebuilds all event slides, while
+ * preserving the bike overlay at the top.
+ *************************************************/
+
+function buildSlides() {
+  slides.length = 0;
 
   events.forEach((ev, i) => {
     const slide = document.createElement("div");
@@ -330,7 +476,8 @@ function buildSlides() {
     slide.dataset.index = String(i);
     slide.dataset.anchor = `event-${i + 1}`;
     slide.dataset.mode = "placeholder";
-    slide.innerHTML = placeholderHTML();
+
+    slide.innerHTML = `<div class="slide-content-host">${placeholderHTML()}</div>`;
 
     eventsSection.appendChild(slide);
     slides.push(slide);
@@ -338,7 +485,12 @@ function buildSlides() {
 }
 
 /*************************************************
- * start up
+ * PAGE STARTUP
+ *
+ * 1. Build slides
+ * 2. Choose the initial event
+ * 3. Render the neighborhood around that event
+ * 4. Initialize fullPage.js
  *************************************************/
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -346,7 +498,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   currentIndex = findInitialIndex();
   renderAround(currentIndex);
-  console.log(nav.offsetHeight);
 
   new fullpage("#fullpage", {
     licenseKey: "gplv3-license",
@@ -364,7 +515,19 @@ document.addEventListener("DOMContentLoaded", () => {
     paddingTop: nav.offsetHeight + "px",
     controlArrows: true,
     scrollOverflow: true,
+    recordHistory: false,
+    lockAnchors: true,
 
+    /*********************************************
+     * afterLoad
+     *
+     * Runs after landing on a vertical section.
+     * Used here to:
+     * - hide the collapsed navbar
+     * - start/stop auto-sliding
+     * - the first time we hit Events, jump to the
+     *   correct event slide based on the date
+     *********************************************/
     afterLoad: function (origin, destination) {
       bsCollapse.hide();
 
@@ -376,7 +539,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
           requestAnimationFrame(() => {
             eventsSection.classList.remove("prepositioning");
+            setBikeFacingForward();
+            setBikeIdle();
           });
+        } else {
+          setBikeFacingForward();
+          setBikeIdle();
         }
 
         startAutoSlides();
@@ -385,14 +553,49 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     },
 
+    /*********************************************
+     * onLeave
+     *
+     * Runs when leaving a vertical section.
+     * Used here to stop auto-sliding when leaving
+     * the Events section.
+     *********************************************/
     onLeave: function (origin, destination) {
       if (origin.anchor === "events" && destination.anchor !== "events") {
         stopAutoSlides();
       }
     },
 
+    onSlideLeave: function (section, origin, destination, direction) {
+      if (section.anchor !== "events") return;
+
+      freezeBackgroundLayers();
+
+      if (direction === "right") {
+        setBikeFacingForward();
+      } else if (direction === "left") {
+        setBikeFacingBackward();
+      }
+
+      resumeBackgroundLayers();
+      setBikePedaling();
+      fullpage_api.setScrollingSpeed(2400);
+    },
+
+    /*********************************************
+     * afterSlideLoad
+     *
+     * Runs after landing on a horizontal slide
+     * inside a section. In the Events section,
+     * this updates the current event index,
+     * re-renders nearby slides, restarts the bike
+     * pedal animation, and restarts auto-advance.
+     *********************************************/
     afterSlideLoad: function (section, origin, destination) {
       if (destination.index === currentIndex) return;
+      // restore normal speed
+      fullpage_api.setScrollingSpeed(700);
+
       currentIndex = destination.index;
       renderAround(currentIndex);
 
@@ -402,6 +605,14 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
 });
+
+/*************************************************
+ * RESIZE HANDLING
+ *
+ * Keep the CSS nav-height variable in sync with
+ * the real navbar height, then ask fullPage.js to
+ * recalculate layout.
+ *************************************************/
 
 window.addEventListener("resize", function () {
   document.documentElement.style.setProperty("--nav-height", nav.offsetHeight + "px");
