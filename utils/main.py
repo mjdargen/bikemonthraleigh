@@ -491,10 +491,14 @@ def export_public_ics(ics_url: str, window_start: datetime, window_end: datetime
 
 def main() -> None:
     ap = argparse.ArgumentParser()
+    # ap.add_argument(
+    #     "--ics-url", default="https://calendar.google.com/calendar/ical/hq05amnbaa5pr0u7ulc2v2ic44%40group.calendar.google.com/public/full.ics"
+    # )
     ap.add_argument(
-        "--ics-url", default="https://calendar.google.com/calendar/ical/hq05amnbaa5pr0u7ulc2v2ic44%40group.calendar.google.com/public/full.ics"
+        "--ics-url",
+        default="https://calendar.google.com/calendar/ical/c_68253accc6c8fd6a59483d04329bc7149676eeb6c9b4b8715cf31647d83abb00%40group.calendar.google.com/public/full.ics",
     )
-    ap.add_argument("--start", default="2026-02-01", help="YYYY-MM-DD or RFC3339 datetime")
+    ap.add_argument("--start", default="2026-05-01", help="YYYY-MM-DD or RFC3339 datetime")
     ap.add_argument("--end", default="2026-05-31", help="YYYY-MM-DD or RFC3339 datetime (end is exclusive)")
     ap.add_argument("--tz", default="America/New_York")
     ap.add_argument("--out", default="events.json")

@@ -1,53 +1,62 @@
 {
   "source": {
     "type": "public_ics",
-    "icsUrl": "https://calendar.google.com/calendar/ical/hq05amnbaa5pr0u7ulc2v2ic44%40group.calendar.google.com/public/full.ics"
+    "icsUrl": "https://calendar.google.com/calendar/ical/c_68253accc6c8fd6a59483d04329bc7149676eeb6c9b4b8715cf31647d83abb00%40group.calendar.google.com/public/full.ics"
   },
   "timeZone": "America/New_York",
-  "windowStart": "2026-02-01T00:00:00-05:00",
+  "windowStart": "2026-05-01T00:00:00-04:00",
   "windowEnd": "2026-05-31T00:00:00-04:00",
-  "count": 14,
+  "count": 13,
   "events": [
     {
-      "uid": "4f0c5jfubqnia0bsgguu97dvhl_R20250809T170000@google.com",
-      "title": "Bike Repair @ Oak City Cares",
-      "description": "Our monthly free community bike repair event! Hosted the second Saturday of each month from 1-3pm at Oak City Cares, a multiservice center for folks experiencing housing insecurity. We fix/replace brakes, clean chains/drivetrains, tune shifters, fix flats, and make other minor adjustments. First come, first served.<br> <br><a href=\"https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing\" target=\"_blank\">RCK Volunteer Signup</a>",
-      "location": "Oak City Cares, 1430 S Wilmington St, Raleigh, NC 27603, USA",
-      "start": "2026-02-14T13:00:00-05:00",
-      "end": "2026-02-14T15:00:00-05:00",
+      "uid": "643c14s9kqsd8ch2qmo08nrqf3@google.com",
+      "title": "Coffee Outside",
+      "description": "On the first Friday of every month, we roll from Oak City Cycling at 7:30am to House of Many Porches at Dix Park, where we'll hang out together to brew coffee outside! Don't have a way to make hot beverages outside?? That's fine. We have equipment, just bring beans and water (or make coffee or tea at home and bring it with you -- we just want you there!).<br><br><br>Organizer/community partner: Oaks &amp; Spokes<ul><li><b>Passport eligible?</b> Yes</li><li><b>Pre-registration needed?</b> No</li></ul>",
+      "location": "Oak City Cycling, 707 N Person St, Raleigh, NC 27604, USA",
+      "start": "2026-05-01T11:30:00+00:00",
+      "end": "2026-05-01T13:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "2uss5k5pbir1faeahrn0dg1rb4@google.com",
+      "title": "Kidical Mass - A Group Ride for Kids and Families!",
+      "description": "Join us before the City of Raleigh's Bike Bonanza event for a kid-friendly, family-focused group ride around Dix Park! Pre-ride party begins at 3:30p; group will roll at 4p. We'll stop halfway through for a sweet treat facilitated by Old North Cycling team. Kids should be able to balance a two-wheeled bike. Cargos, trailers, and kid seats encouraged for littles! Learn more <a href=\"https://oaksandspokes.org/2026/03/09/kidical-mass-spring-2026/\" target=\"_blank\">here</a>.<br><br>Organizer/community partner: Oaks &amp; Spokes &amp; Wake County Safe Routes to School<ul><li><b>Passport eligible? </b>Yes</li><li><b>Registration required?</b> No</li></ul>",
+      "location": "Middleton Drive, Middleton Dr, Raleigh, NC 27603, USA",
+      "start": "2026-05-01T19:30:00+00:00",
+      "end": "2026-05-01T21:30:00+00:00",
       "allDay": false,
       "url": null,
       "status": "CONFIRMED",
       "categories": null,
       "links": [
-        "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing"
+        "https://oaksandspokes.org/2026/03/09/kidical-mass-spring-2026/"
       ],
       "attachments": [
         {
-          "url": "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing",
-          "filename": "RCK Volunteer Signup",
-          "fmttype": "application/vnd.google-apps.spreadsheet"
-        },
-        {
-          "url": "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3",
-          "filename": "RCK Flyer 25_0710.png",
+          "url": "https://drive.google.com/open?id=1IEIcWwuLjkMEJdrv18HYbo2-_qV4oew4",
+          "filename": "KidicalMass8.5x11.png",
           "fmttype": "image/png"
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3"
+        "https://drive.google.com/open?id=1IEIcWwuLjkMEJdrv18HYbo2-_qV4oew4"
       ],
-      "localImages": [
-        "assets/events/1adwdYGzmzIANt72BRDPROmlYSPNraoe3.png"
-      ]
+      "localImages": []
     },
     {
-      "uid": "5n2beoduujegodh9nuscptf1i2@google.com",
-      "title": "Community Shop Hours",
-      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
-      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
-      "start": "2026-02-15T17:00:00+00:00",
-      "end": "2026-02-15T21:00:00+00:00",
+      "uid": "65ne764q8te9kr4p916kl3bben@google.com",
+      "title": "Revolutionary War History - By Bike!",
+      "description": "Hop on your bike for a ride into history. The Raleigh Historic Development Commission (RHDC), in partnership with the Bicycle and Pedestrian Advisory Commission (BPAC) and Raleigh Sister Cities, is hosting the 3rd annual Raleigh Historic Bike Ride. This year, the 5-mile route will feature stops at five Raleigh Historic Landmarks that span 250 years of the city’s building history! RHDC volunteers at each site will share a brief history of the property and talk about what else was going on in Raleigh during that time.<br><br><br><br>Organizer/community partner: BPAC and RHDC<ul><li><b>Passport eligible?</b> Yes</li><li><b>Registration required?</b> No</li></ul>",
+      "location": "One Exchange Plaza, 1 Exchange Plaza, Raleigh, NC 27601, USA",
+      "start": "2026-05-02T14:00:00+00:00",
+      "end": "2026-05-02T16:00:00+00:00",
       "allDay": false,
       "url": null,
       "status": "CONFIRMED",
@@ -58,12 +67,12 @@
       "localImages": []
     },
     {
-      "uid": "3gd6hq327vqrmegb8h8dt8a9uu@google.com",
-      "title": "Community Shop Hours",
-      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
-      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
-      "start": "2026-02-22T17:00:00+00:00",
-      "end": "2026-02-22T21:00:00+00:00",
+      "uid": "0rctp91q57qbkh4odad3k2j13n@google.com",
+      "title": "Bike Month Kickoff Party!",
+      "description": "Kick off Bike Month with Oaks &amp; Spokes! Clean off your bike and roll out to Bend Bar to pick up your Bike Month passport, grab a slice of pizza, and be entered to win one of our kickoff raffle prize baskets (announced at 6p)! This is a drop-in event.<br><br><br><br>Organizer/community partner: Oaks &amp; Spokes &amp; AARP<ul><li><b>Passport eligible?</b> Yes</li><li><b>Pre-registration needed?</b> No</li></ul>",
+      "location": "The Bend Bar, 853 W Morgan St, Raleigh, NC 27603, USA",
+      "start": "2026-05-02T20:00:00+00:00",
+      "end": "2026-05-02T23:00:00+00:00",
       "allDay": false,
       "url": null,
       "status": "CONFIRMED",
@@ -74,12 +83,12 @@
       "localImages": []
     },
     {
-      "uid": "51u3if4th2b438d6hc6f7q142d@google.com",
-      "title": "Community Shop Hours",
-      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
-      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
-      "start": "2026-03-08T16:00:00+00:00",
-      "end": "2026-03-08T20:00:00+00:00",
+      "uid": "5g4h4tnfprq062sdkj74f356b2@google.com",
+      "title": "Try Bike Polo! + Alley Cat",
+      "description": "Try your hand at one of the most unique bike sports out there -- bike polo! This soccer-like game is played on a basketball court with a ball, a stick, and two players per team. Raleigh Bike Polo will be providing basic coaching and have bikes and sticks available to borrow. Not in for court time? Join for a mid-day \"alley cat\" (a scavenger hunt bike race) to work up an appetite for a post-race grillout.<br>Open play: 12-4p<br>Alley cat scavenger hunt race: 1:30-2:30p<br><br>Organizer/community partner: Raleigh Bike Polo<br><ul><li><b>Passport eligible?</b> Yes</li><li><b>Registration required?</b> No</li></ul>",
+      "location": "Tarboro Road Community Center, 121 N Tarboro St, Raleigh, NC 27610, USA",
+      "start": "2026-05-03T16:00:00+00:00",
+      "end": "2026-05-03T20:00:00+00:00",
       "allDay": false,
       "url": null,
       "status": "CONFIRMED",
@@ -90,207 +99,120 @@
       "localImages": []
     },
     {
-      "uid": "4f0c5jfubqnia0bsgguu97dvhl_R20250809T170000@google.com",
-      "title": "Bike Repair @ Oak City Cares",
-      "description": "Our monthly free community bike repair event! Hosted the second Saturday of each month from 1-3pm at Oak City Cares, a multiservice center for folks experiencing housing insecurity. We fix/replace brakes, clean chains/drivetrains, tune shifters, fix flats, and make other minor adjustments. First come, first served.<br> <br><a href=\"https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing\" target=\"_blank\">RCK Volunteer Signup</a>",
-      "location": "Oak City Cares, 1430 S Wilmington St, Raleigh, NC 27603, USA",
-      "start": "2026-03-14T13:00:00-04:00",
-      "end": "2026-03-14T15:00:00-04:00",
+      "uid": "3l3j1ti5fdvlattq3sttth1a7f@google.com",
+      "title": "Bike & Roll to School Day",
+      "description": "Multiple Raleigh schools are participating in Bike &amp; Roll to School Day -- is your school one of them? Check <a href=\"https://www.walkbiketoschool.org/registration/whosbiking.php?sid=NC&cityid=RALEIGH\" target=\"_blank\">here</a> or connect with your PTA or school administration to learn more about meeting times, locations, and what fun activities you can expect for your roll to school.<br><br>Organizer/community partner: Schools, with support from Wake County Safe Routes to School<br><ul><li><b>Passport eligible? </b>No</li><li><b>Registration required? </b>No</li></ul>",
+      "location": null,
+      "start": "2026-05-06T00:00:00-04:00",
+      "end": "2026-05-07T00:00:00-04:00",
+      "allDay": true,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [
+        "https://www.walkbiketoschool.org/registration/whosbiking.php?sid=NC&cityid=RALEIGH"
+      ],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "4vtj5roamjuf7qe4q677og0qcl@google.com",
+      "title": "Stop Super Speeders Lobby Day",
+      "description": "Help NC Families for Safe Streets advocate for Intelligent Speed Assist technology that would reduce deaths caused by \"super speeders\".<br><ul><li>Attendees Arrive by 9:30 am</li><li>Press Conference Begins  - 10 am </li><li>We will hold a press conference featuring the stories FSS members, coalition partners, and community leaders urging the need for this legislation.</li><li>ISA Tech Demonstration - TBD There will be a live demonstration of the intelligent speed assistance technology. Legislators, the press, legislative staff, and others will be able to test drive a vehicle equipped with ISA.</li><li>Lobby Visits - TBD</li></ul><br>Throughout the day, participants will meet directly with elected officials—both before and after the press event—to urge passage of a Stop Super Speeders bill that will protect all North Carolinians. These meetings are a powerful opportunity to share stories, present data, and make clear that safer streets are a priority across our communities. Want to share your story or lobby? Register <a href=\"https://secure.everyaction.com/vFvg9xltZ0mQ2ps7dithAw2\" target=\"_blank\">here</a>.<br><br>Organizer/community partner: NC Families for Safe Streets<ul><li><b>Passport eligible?</b> No</li><li><b>Registration required?</b> <a href=\"https://secure.everyaction.com/vFvg9xltZ0mQ2ps7dithAw2\" target=\"_blank\">Yes</a> (for lobbying/speaking)</li></ul>",
+      "location": "North Carolina State Capitol, 1 E Edenton St, Raleigh, NC 27601, USA",
+      "start": "2026-05-06T13:30:00+00:00",
+      "end": "2026-05-06T18:00:00+00:00",
       "allDay": false,
       "url": null,
       "status": "CONFIRMED",
       "categories": null,
       "links": [
-        "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing"
+        "https://secure.everyaction.com/vFvg9xltZ0mQ2ps7dithAw2"
       ],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "798duchh3aid42j7uil0a2rsmp@google.com",
+      "title": "Chavis Park Bike Rodeo + Traffic Garden",
+      "description": "Grab your bike and come on our to our second-annual Chavis Bike Rodeo! We'll have a pop-up traffic garden to explore a miniature world of streets, a series of skill stations, and a bike obstacle course. Bikes and helmets will be available to borrow. This event is in partnership with Wake County Safe Routes to School and Chavis Park.<br><br>Organizer/community partner: Oaks &amp; Spokes and Wake County Safe Routes to School<br><ul><li><b>Passport eligible? </b>Yes</li><li><b>Registration required?</b> No</li></ul>",
+      "location": "600 Chavis Way, Raleigh, NC 27601, USA",
+      "start": "2026-05-06T20:00:00+00:00",
+      "end": "2026-05-06T22:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
       "attachments": [
         {
-          "url": "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing",
-          "filename": "RCK Volunteer Signup",
-          "fmttype": "application/vnd.google-apps.spreadsheet"
-        },
-        {
-          "url": "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3",
-          "filename": "RCK Flyer 25_0710.png",
-          "fmttype": "image/png"
+          "url": "https://drive.google.com/open?id=13KgrOzkvgNP2_diENKlNe9PiLNvbhFTs",
+          "filename": "2026 Bike Rodeo Banner.jpg",
+          "fmttype": "image/jpeg"
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3"
+        "https://drive.google.com/open?id=13KgrOzkvgNP2_diENKlNe9PiLNvbhFTs"
       ],
       "localImages": [
-        "assets/events/1adwdYGzmzIANt72BRDPROmlYSPNraoe3.png"
+        "assets/events/13KgrOzkvgNP2_diENKlNe9PiLNvbhFTs.jpg"
       ]
     },
     {
-      "uid": "2avvni5s3sabr1sfsglpj55mbh@google.com",
-      "title": "Community Shop Hours",
-      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
-      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
-      "start": "2026-03-18T21:00:00+00:00",
-      "end": "2026-03-19T00:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
-    },
-    {
-      "uid": "0ubansvqtuon0dj6fatt7kmopk@google.com",
-      "title": "Free Bike Repair @ Peach Road Park",
-      "description": "Free adult bike repairs, safety checks, and tune-ups. <span>First come, first served. </span>",
-      "location": "Peach Road Cultural Center, 911 Ileagnes Rd, Raleigh, NC 27603, USA",
-      "start": "2026-03-26T21:00:00+00:00",
-      "end": "2026-03-26T23:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
-    },
-    {
-      "uid": "48ptolte0tt29vfs76likck6t7@google.com",
-      "title": "Community Shop Hours",
-      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
-      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
-      "start": "2026-03-29T16:00:00+00:00",
-      "end": "2026-03-29T20:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
-    },
-    {
-      "uid": "4f0c5jfubqnia0bsgguu97dvhl_R20250809T170000@google.com",
-      "title": "Bike Repair @ Oak City Cares",
-      "description": "Our monthly free community bike repair event! Hosted the second Saturday of each month from 1-3pm at Oak City Cares, a multiservice center for folks experiencing housing insecurity. We fix/replace brakes, clean chains/drivetrains, tune shifters, fix flats, and make other minor adjustments. First come, first served.<br> <br><a href=\"https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing\" target=\"_blank\">RCK Volunteer Signup</a>",
-      "location": "Oak City Cares, 1430 S Wilmington St, Raleigh, NC 27603, USA",
-      "start": "2026-04-11T13:00:00-04:00",
-      "end": "2026-04-11T15:00:00-04:00",
+      "uid": "04r6d9lnov23ca89hb1e0fg9b2@google.com",
+      "title": "Learn to Ride @ Lion's Park",
+      "description": "Our spring Learn to Ride series for kids concludes with classes at Lion's Park (10a-12p) and Dix Park (2-4p). Registration is free. Lion's Park: <u><a target=\"_blank\" href=\"http://tinyurl.com/LionsLTR.\">tinyurl.com/LionsLTR.</a></u> Bikes and helmets are available to borrow! Volunteer help appreciated; contact Kat@oaksandspokes.org if interested in helping out.<br><ul><li><b>Passport eligible:</b> Yes (for kids/families and volunteers)</li><li><b>Registration required: </b>Yes - register <a href=\"http://tinyurl.com/LionsLTR\">here</a>!</li></ul>",
+      "location": "Lions Park playground, 1421 Lions Way, Raleigh, NC 27604, USA",
+      "start": "2026-05-09T10:00:00-04:00",
+      "end": "2026-05-09T12:00:00-04:00",
       "allDay": false,
       "url": null,
       "status": "CONFIRMED",
       "categories": null,
       "links": [
-        "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing"
+        "http://tinyurl.com/LionsLTR.",
+        "http://tinyurl.com/LionsLTR"
       ],
       "attachments": [
         {
-          "url": "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing",
-          "filename": "RCK Volunteer Signup",
-          "fmttype": "application/vnd.google-apps.spreadsheet"
-        },
-        {
-          "url": "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3",
-          "filename": "RCK Flyer 25_0710.png",
-          "fmttype": "image/png"
+          "url": "https://drive.google.com/open?id=1IpnMjk5VvOi9LMN91e6CTmzZ0VhpSpp8",
+          "filename": "LearnToRide_Spring2026.jpg",
+          "fmttype": "image/jpeg"
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3"
+        "https://drive.google.com/open?id=1IpnMjk5VvOi9LMN91e6CTmzZ0VhpSpp8"
       ],
-      "localImages": [
-        "assets/events/1adwdYGzmzIANt72BRDPROmlYSPNraoe3.png"
-      ]
-    },
-    {
-      "uid": "3a38a6os219idtfmkl5f9j6ghb@google.com",
-      "title": "Repair Skill Share & Basic Tune-Ups @ Raleigh RRFM in Eliza Pool Park",
-      "description": "<span>Free basic bike repair skill-share workshop at Eliza Pool Park for the Raleigh Really, Really Free Market (RRFM). We will also be offering free adult bike <span>safety checks</span> and tune-ups. <span>First come, first served. </span></span>",
-      "location": "Eliza Pool Park, 1600 Fayetteville St, Raleigh, NC 27603, USA",
-      "start": "2026-04-12T11:00:00-04:00",
-      "end": "2026-04-12T13:00:00-04:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [],
-      "images": [],
       "localImages": []
     },
     {
-      "uid": "1d23bsd08fri5o8t4dc3a8ooin@google.com",
-      "title": "Community Shop Hours",
-      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
-      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
-      "start": "2026-04-22T21:00:00+00:00",
-      "end": "2026-04-23T00:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
-    },
-    {
-      "uid": "10rli2nkfpb5cc3nc7rbi95ioa@google.com",
-      "title": "Community Shop Hours",
-      "description": "Need tools, space, or a hand fixing your bike? Swing by our storage unit turned DIY community bike shop. We’ve got stands, tools, parts, tunes, and support! Bring a bike to work on, or help fix one of ours to give to someone in need.<br><br><span>Access to the shop requires getting through a locked gate</span>. Contact <a href=\"mailto:volunteer@raleighcommunitykickstand.org\" target=\"_blank\">volunteer@raleighcommunitykickstand.org</a> in advance for the code!",
-      "location": "SecurCare Self Storage, 4615 Beryl Rd, Raleigh, NC 27606, USA",
-      "start": "2026-04-26T15:00:00+00:00",
-      "end": "2026-04-26T19:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
-    },
-    {
-      "uid": "4f0c5jfubqnia0bsgguu97dvhl_R20250809T170000@google.com",
-      "title": "Bike Repair @ Oak City Cares",
-      "description": "Our monthly free community bike repair event! Hosted the second Saturday of each month from 1-3pm at Oak City Cares, a multiservice center for folks experiencing housing insecurity. We fix/replace brakes, clean chains/drivetrains, tune shifters, fix flats, and make other minor adjustments. First come, first served.<br> <br><a href=\"https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing\" target=\"_blank\">RCK Volunteer Signup</a>",
-      "location": "Oak City Cares, 1430 S Wilmington St, Raleigh, NC 27603, USA",
-      "start": "2026-05-09T13:00:00-04:00",
-      "end": "2026-05-09T15:00:00-04:00",
+      "uid": "04r6d9lnov23ca89hb1e0fg9b2@google.com",
+      "title": "Learn to Ride @ Lion's Park",
+      "description": "Our spring Learn to Ride series for kids concludes with classes at Lion's Park (10a-12p) and Dix Park (2-4p). Registration is free. Lion's Park: <u><a target=\"_blank\" href=\"http://tinyurl.com/LionsLTR.\">tinyurl.com/LionsLTR.</a></u> Bikes and helmets are available to borrow! Volunteer help appreciated; contact Kat@oaksandspokes.org if interested in helping out.<br><ul><li><b>Passport eligible:</b> Yes (for kids/families and volunteers)</li><li><b>Registration required: </b>Yes - register <a href=\"http://tinyurl.com/LionsLTR\">here</a>!</li></ul>",
+      "location": "Lions Park playground, 1421 Lions Way, Raleigh, NC 27604, USA",
+      "start": "2026-05-09T10:00:00-04:00",
+      "end": "2026-05-09T12:00:00-04:00",
       "allDay": false,
       "url": null,
       "status": "CONFIRMED",
       "categories": null,
       "links": [
-        "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing"
+        "http://tinyurl.com/LionsLTR.",
+        "http://tinyurl.com/LionsLTR"
       ],
-      "attachments": [
-        {
-          "url": "https://docs.google.com/spreadsheets/d/1VJGkxpowGLi9LNfFjneI8mNoEKFTLBa6J27K8PHTpyE/edit?usp=sharing",
-          "filename": "RCK Volunteer Signup",
-          "fmttype": "application/vnd.google-apps.spreadsheet"
-        },
-        {
-          "url": "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3",
-          "filename": "RCK Flyer 25_0710.png",
-          "fmttype": "image/png"
-        }
-      ],
-      "images": [
-        "https://drive.google.com/open?id=1adwdYGzmzIANt72BRDPROmlYSPNraoe3"
-      ],
-      "localImages": [
-        "assets/events/1adwdYGzmzIANt72BRDPROmlYSPNraoe3.png"
-      ]
+      "attachments": [],
+      "images": [],
+      "localImages": []
     },
     {
-      "uid": "3a38a6os219idtfmkl5f9j6ghb@google.com",
-      "title": "Repair Skill Share & Basic Tune-Ups @ Raleigh RRFM in Eliza Pool Park",
-      "description": "<span>Free basic bike repair skill-share workshop at Eliza Pool Park for the Raleigh Really, Really Free Market (RRFM). We will also be offering free adult bike <span>safety checks</span> and tune-ups. <span>First come, first served. </span></span>",
-      "location": "Eliza Pool Park, 1600 Fayetteville St, Raleigh, NC 27603, USA",
-      "start": "2026-05-10T11:00:00-04:00",
-      "end": "2026-05-10T13:00:00-04:00",
+      "uid": "2k8tuacdhndlvuu67ruij3d3qu@google.com",
+      "title": "E-Bike Demo Day",
+      "description": "Drop-in between 12-2 at Green Hills County Park to try out a pedal-assist e-bike with Trek North Raleigh! E-bikes can replace car trips for many people. Do a test ride up to the viewpoint to really experience the full capability of these bikes.<br><br>Organizer/community partner: Trek North Raleigh<br><ul><li><b>Passport eligible?</b> Yes</li><li><b>Registration required?</b> No</li></ul>",
+      "location": "Green Hills County Park, 9300 Deponie Dr, Raleigh, NC 27614, USA",
+      "start": "2026-05-09T16:00:00+00:00",
+      "end": "2026-05-09T18:00:00+00:00",
       "allDay": false,
       "url": null,
       "status": "CONFIRMED",
@@ -298,6 +220,58 @@
       "links": [],
       "attachments": [],
       "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000F8B4B1D1EC8FDC01000000000000000010000000B96576EEC6AAE9499B045C2733FEDCE2",
+      "title": "Learn to Ride @ Dix Park",
+      "description": "Our spring Learn to Ride series for kids concludes with classes at Lion's Park (10a-12p) and Dix Park (2-4p). Registration is free. Dix Park registration: <u><a target=\"_blank\" href=\"http://tinyurl.com/DixParkLTR\">tinyurl.com/DixParkLTR</a></u>. Bikes and helmets are available to borrow! Adult volunteers are needed -- if interested, contact Kat Dale at kat@oaksandspokes.org.<br><ul><li><b>Passport eligible:</b> Yes (for kids/families and volunteers!)</li><li><b>Registration required:</b> Yes, register <a href=\"http://tinyurl.com/DixParkLTR\">here</a></li></ul>",
+      "location": null,
+      "start": "2026-05-09T18:00:00+00:00",
+      "end": "2026-05-09T20:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [
+        "http://tinyurl.com/DixParkLTR"
+      ],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1IpnMjk5VvOi9LMN91e6CTmzZ0VhpSpp8",
+          "filename": "LearnToRide_Spring2026.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "https://drive.google.com/open?id=1IpnMjk5VvOi9LMN91e6CTmzZ0VhpSpp8"
+      ],
+      "localImages": []
+    },
+    {
+      "uid": "29fcuiliculh34qs2sirk5rha7@google.com",
+      "title": "Gravel Criterium (GRIT)",
+      "description": "Oak City Cycling Race Team presents GRIT, a gravel criterium, 30 to 45 minutes of racing on the Wake Med Cross Country course just outside downtown Cary. You'll be racing on a 1.6 mile loop of surprisingly punchy, twisty, gravel road around the soccer park. Come out to give crits the good ol' college try, race it for realz, or just come cheer! This is a low-stakes chance for you to experience road racing with the comfort of that gravel and cyclocross spirit. Our mission is to make this thing fun! Passport eligible for all participants and spectators. <br><br>Organizer/community partner: Oak City Cycling Race Team<br><ul><li><b>Passport eligible: </b>Yes</li><li><b>Registration required</b>: Yes, if racing -- sign up <a href=\"https://www.bikereg.com/grit-2026\">here</a></li></ul>",
+      "location": "WakeMed Soccer Park, 101 Soccer Park Dr, Cary, NC 27511, USA",
+      "start": "2026-05-10T14:00:00+00:00",
+      "end": "2026-05-10T19:30:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [
+        "https://www.bikereg.com/grit-2026"
+      ],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1DuXfp31CdLhWWadlcH89Cd0jvuGSvmNE",
+          "filename": "GRIT.png",
+          "fmttype": "image/png"
+        }
+      ],
+      "images": [
+        "https://drive.google.com/open?id=1DuXfp31CdLhWWadlcH89Cd0jvuGSvmNE"
+      ],
       "localImages": []
     }
   ]

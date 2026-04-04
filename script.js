@@ -258,6 +258,7 @@ function slideHTML(ev, isCurrent = false) {
         src="${escapeHTML(imgUrl)}"
         alt="${title}"
         class="img-fluid rounded shadow event-image"
+        onerror="this.onerror=null; this.src='assets/events/placeholder1.svg';"
         ${loadingAttr}
         ${decodingAttr}
       >
@@ -267,6 +268,7 @@ function slideHTML(ev, isCurrent = false) {
         src="assets/events/placeholder${n}.svg"
         alt="Bike Month Raleigh"
         class="img-fluid rounded shadow event-image"
+        onerror="this.onerror=null; this.src='assets/events/placeholder1.svg';"
         ${loadingAttr}
         ${decodingAttr}
       >
