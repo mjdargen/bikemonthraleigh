@@ -50,17 +50,17 @@
           <li class="nav-item" data-menuanchor="home">
             <a class="nav-link" href="#home">Home</a>
           </li>
-          <li class="nav-item" data-menuanchor="about">
-            <a class="nav-link" href="#about">About</a>
-          </li>
           <li class="nav-item" data-menuanchor="calendar">
             <a class="nav-link" href="#calendar">Calendar</a>
           </li>
           <li class="nav-item" data-menuanchor="events">
             <a class="nav-link" href="#events">Events</a>
           </li>
-          <li class="nav-item" data-menuanchor="orgs">
-            <a class="nav-link" href="#orgs">Orgs</a>
+          <li class="nav-item" data-menuanchor="partners">
+            <a class="nav-link" href="#partners">Partners</a>
+          </li>
+          <li class="nav-item" data-menuanchor="about">
+            <a class="nav-link" href="#about">About</a>
           </li>
         </ul>
       </div>
@@ -88,6 +88,46 @@
             </p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section calendar-section">
+      <div class="section-inner container py-5">
+        <div class="row justify-content-center text-center">
+          <div class="col-12 col-lg-8">
+            <img src="assets/images/bm_banner_yellow.svg" alt="Bike Month Logo" class="img-fluid mb-4">
+
+            <h2 class="mb-4">Calendar</h2>
+            <p><a href="#">Fake Link</a></p>
+            <p>This is where a cool looking embedded calendar will go with the whole month.</p>
+            <p>
+              The next section will have the event-by-event view. It will load the current or next event in the calendar
+              and allow you to swipe through, or auto-advance after 5 seconds unless you are hovering over it.
+            </p>
+            <p>Right now it is just pulling from the Kickstand Calendar for Feb-Apr to test.</p>
+            <p>It also has a fun graphic that I spent way too long on.</p>
+            <div class="calendar-month-wrap">
+              <div id="monthView"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section events-section">
+      <div class="bike-overlay idle">
+        <div class="background-layer sky-layer" aria-hidden="true"></div>
+        <div class="background-layer scenery-layer" aria-hidden="true"></div>
+        <div class="bike-sprite" aria-hidden="true"></div>
+      </div>
+      <!-- events content inserted here -->
+    </section>
+
+    <section class="section partners-section">
+      <div class="section-inner container">
+        <h2>Partners</h2>
+        <p><a href="#">Fake Link.</a></p>
+        <p>Here is where info or logos and links to the partners can go.</p>
       </div>
     </section>
 
@@ -119,50 +159,11 @@
       </div>
     </section>
 
-    <section class="section calendar-section">
-      <div class="section-inner container py-5">
-        <div class="row justify-content-center text-center">
-          <div class="col-12 col-lg-8">
-            <img src="assets/images/bm_banner_yellow.svg" alt="Bike Month Logo" class="img-fluid mb-4">
-
-            <h2 class="mb-4">Calendar</h2>
-            <p><a href="#">Fake Link</a></p>
-            <p>This is where a cool looking embedded calendar will go with the whole month.</p>
-            <p>
-              The next section will have the event-by-event view. It will load the current or next event in the calendar
-              and allow you to swipe through, or auto-advance after 5 seconds unless you are hovering over it.
-            </p>
-            <p>Right now it is just pulling from the Kickstand Calendar for Feb-Apr to test.</p>
-            <p>It also has a fun graphic that I spent way too long on.</p>
-            <div class="calendar-month-wrap">
-              <div id="monthView"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="section events-section">
-      <div class="bike-overlay idle">
-        <div class="background-layer sky-layer" aria-hidden="true"></div>
-        <div class="background-layer scenery-layer" aria-hidden="true"></div>
-        <div class="bike-sprite" aria-hidden="true"></div>
-      </div>
-      <!-- events content inserted here -->
-    </div>
-
-    <div class="section orgs-section">
-      <div class="section-inner container">
-        <h2>Organizations</h2>
-        <p><a href="#">Fake Link.</a></p>
-        <p>Here is where info or logos and links to the partners can go.</p>
-      </div>
-    </div>
-
   </div>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
   <!-- fullPage.js -->
   <script src="https://cdn.jsdelivr.net/npm/fullpage.js/dist/fullpage.min.js"></script>
   <!-- my javascript -->

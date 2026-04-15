@@ -225,10 +225,10 @@ h3 {
   background: var(--rbm-blue);
 }
 
-#mainNav.orgs .navbar-brand span {
+#mainNav.partners .navbar-brand span {
   color: var(--rbm-orange);
 }
-#mainNav.orgs .icon-bg {
+#mainNav.partners .icon-bg {
   background: var(--rbm-orange);
 }
 
@@ -316,14 +316,14 @@ h3 {
 /* -----------------------------------------------
   ORGS STYLING
 ------------------------------------------------ */
-.orgs-section {
+.partners-section {
   background: var(--rbm-orange);
   color: var(--rbm-white);
 }
-.orgs-section a {
+.partners-section a {
   color: var(--rbm-yellow);
 }
-.orgs-section a:hover {
+.partners-section a:hover {
   color: var(--rbm-pink);
 }
 
@@ -385,6 +385,11 @@ h3 {
   align-items: center;
   justify-content: center;
   background-color: var(--rbm-blue);
+}
+
+.event-details ol,
+.event-details ul {
+  text-align: left;
 }
 
 /* -----------------------------------------------

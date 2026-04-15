@@ -34,9 +34,12 @@ const preloadedImageUrls = new Set();
 let currentIndex = 0;
 
 let slideInterval = null;
-const SLIDE_DELAY = 5000; // 5 seconds between automatic slide advances
+const SLIDE_DELAY = 6000; // 6 seconds between automatic slide advances
 
 let hasPositionedEvents = false;
+
+let isHoveringEvents = false;
+let isFocusInEvents = false;
 
 /*************************************************
  * AUTO-ADVANCING EVENT SLIDES
@@ -53,6 +56,7 @@ function stopAutoSlides() {
 }
 
 function startAutoSlides() {
+  if (isHoveringEvents || isFocusInEvents) return;
   stopAutoSlides();
 
   slideInterval = setInterval(() => {
@@ -63,9 +67,27 @@ function startAutoSlides() {
 }
 
 // Pause auto-advance while the mouse is over the Events section.
-eventsSection.addEventListener("mouseenter", stopAutoSlides);
-eventsSection.addEventListener("mouseleave", startAutoSlides);
+eventsSection.addEventListener("mouseenter", () => {
+  isHoveringEvents = true;
+  stopAutoSlides();
+});
 
+eventsSection.addEventListener("mouseleave", () => {
+  isHoveringEvents = false;
+  startAutoSlides();
+});
+
+eventsSection.addEventListener("focusin", () => {
+  isFocusInEvents = true;
+  stopAutoSlides();
+});
+
+eventsSection.addEventListener("focusout", () => {
+  isFocusInEvents = eventsSection.contains(document.activeElement);
+  if (!isFocusInEvents) {
+    startAutoSlides();
+  }
+});
 /*************************************************
  * SMALL EVENT UTILITIES
  *
@@ -162,7 +184,8 @@ function sanitizeDescription(html) {
   const host = document.createElement("div");
   host.innerHTML = String(html ?? "");
 
-  const allowedTags = new Set(["BR", "A"]);
+  const allowedTags = new Set(["P", "BR", "A", "B", "STRONG", "I", "EM", "UL", "OL", "LI"]);
+
   const walker = document.createTreeWalker(host, NodeFilter.SHOW_ELEMENT);
   const toReplace = [];
 
@@ -174,7 +197,7 @@ function sanitizeDescription(html) {
   }
 
   for (const el of toReplace) {
-    el.replaceWith(document.createTextNode(el.textContent ?? ""));
+    el.replaceWith(...el.childNodes);
   }
 
   host.querySelectorAll("a").forEach((a) => {
@@ -182,7 +205,7 @@ function sanitizeDescription(html) {
     const safe = href.startsWith("https://") || href.startsWith("http://") || href.startsWith("mailto:");
 
     if (!safe) {
-      a.replaceWith(document.createTextNode(a.textContent ?? ""));
+      a.replaceWith(...a.childNodes);
       return;
     }
 
@@ -277,7 +300,8 @@ function slideHTML(ev, isCurrent = false) {
   return `
     <div class="event-slide-content section-inner container">
       <div class="row py-4 py-md-5">
-        <div class="col-12">
+
+        <div class="col-12 d-md-none">
           <h2 class="event-title mb-4">${title}</h2>
         </div>
 
@@ -287,11 +311,13 @@ function slideHTML(ev, isCurrent = false) {
 
         <div class="col-12 col-md-7 col-lg-8">
           <div class="event-details">
+            <h2 class="event-title mb-4 d-none d-md-block">${title}</h2>
             <p class="mb-2"><strong>Location:</strong> ${where}</p>
             <p class="mb-2"><strong>Date:</strong> ${when}</p>
-            <p class="mb-0">${desc}</p>
+            <div class="mb-0">${desc}</div>
           </div>
         </div>
+
       </div>
     </div>
   `;
@@ -358,7 +384,7 @@ function renderAround(center) {
 
 function setNavTheme(anchor) {
   const nav = document.getElementById("mainNav");
-  nav.classList.remove("home", "about", "calendar", "events", "orgs");
+  nav.classList.remove("home", "calendar", "events", "partners", "about");
   nav.classList.add(anchor);
 }
 
@@ -687,7 +713,7 @@ document.addEventListener("DOMContentLoaded", () => {
     credits: {
       enabled: false,
     },
-    anchors: ["home", "about", "calendar", "events", "orgs"],
+    anchors: ["home", "calendar", "events", "partners", "about"],
     menu: "#mainMenu",
     navigation: false,
     css3: true,
