@@ -24,64 +24,121 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART:20260509T180000Z
-DTEND:20260509T200000Z
-DTSTAMP:20260415T042517Z
-UID:040000008200E00074C5B7101A82E00800000000F8B4B1D1EC8FDC01000000000000000
- 010000000B96576EEC6AAE9499B045C2733FEDCE2
-CREATED:20260128T002701Z
-DESCRIPTION:Our spring Learn to Ride series for kids concludes with classes
-  at Lion's Park (10a-12p) and Dix Park (2-4p). Registration is free. Dix Pa
- rk registration: <u><a href="http://tinyurl.com/DixParkLTR" target="_blank"
- >tinyurl.com/DixParkLTR</a></u>. Bikes and helmets are available to borrow!
-  Adult volunteers are needed -- if interested\, contact Kat Dale at <a href
- ="mailto:kat@oaksandspokes.org" target="_blank">kat@oaksandspokes.org</a>.<
- br><b><br></b><br><b>Registration required:</b> Yes\, register <a href="htt
- p://tinyurl.com/DixParkLTR" target="_blank"><u>here</u></a> (opens 2 weeks 
- prior to the class)<br><b>Passport eligible:</b> Yes (for kids/families and
-  volunteers!)<br><b>Community partner:</b> Wake County Safe Routes to Schoo
- l
-LAST-MODIFIED:20260415T024940Z
-LOCATION:Gipson Play Plaza\, 715 Biggs Dr\, Raleigh\, NC 27603\, USA
-SEQUENCE:1
+DTSTART:20260503T160000Z
+DTEND:20260503T200000Z
+DTSTAMP:20260415T230918Z
+UID:5g4h4tnfprq062sdkj74f356b2@google.com
+CREATED:20260403T154502Z
+DESCRIPTION:Try your hand at one of the most unique bike sports out there -
+ - bike polo! This soccer-like game is played on a basketball court with a b
+ all\, a stick\, and two players per team. Raleigh Bike Polo will be providi
+ ng basic coaching and have bikes and sticks available to borrow. Not in for
+  court time? Join for a mid-day "alley cat" (a scavenger hunt bike race) to
+  work up an appetite for a post-race grillout.<br>Open play: 12-4p<br>Alley
+  cat scavenger hunt race: 1:30-2:30p<br><b><br></b><br><b>Registration requ
+ ired?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: 
+ Raleigh Bike Polo
+LAST-MODIFIED:20260414T192949Z
+LOCATION:Tarboro Road Community Center\, 121 N Tarboro St\, Raleigh\, NC 27
+ 610\, USA
+SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Learn to Ride @ Dix Park
+SUMMARY:Try Bike Polo! + Alley Cat
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260502T200000Z
-DTEND:20260502T230000Z
-DTSTAMP:20260415T042517Z
-UID:0rctp91q57qbkh4odad3k2j13n@google.com
-CREATED:20260403T152856Z
-DESCRIPTION:Kick off Bike Month with Oaks &amp\; Spokes! Clean off your bik
- e and roll out to Bend Bar to pick up your Bike Month passport (and get you
- r first stamp)\, grab a slice of pizza\, and pick up some free swag! This i
- s a drop-in event.<b><br></b><br><b>Registration required?</b> No<br><b>Pas
- sport eligible?</b> Yes<br><b>Community partner: </b>AARP &amp\; Bend Bar
-LAST-MODIFIED:20260414T192923Z
-LOCATION:The Bend Bar\, 853 W Morgan St\, Raleigh\, NC 27603\, USA
-SEQUENCE:1
+DTSTART:20260501T193000Z
+DTEND:20260501T213000Z
+DTSTAMP:20260415T230918Z
+UID:2uss5k5pbir1faeahrn0dg1rb4@google.com
+CREATED:20260403T153341Z
+DESCRIPTION:Join us before the City of Raleigh's Bike Bonanza event for a k
+ id-friendly\, family-focused group ride around Dix Park! Pre-ride party beg
+ ins at 3:30p\; group will roll at 4p. We'll stop halfway through for a swee
+ t treat facilitated by Old North Cycling team. Kids should be able to balan
+ ce a two-wheeled bike. Cargos\, trailers\, and kid seats encouraged for lit
+ tles! Learn more <a href="https://oaksandspokes.org/2026/03/09/kidical-mass
+ -spring-2026/" target="_blank">here</a>.<br><br><b>Registration required?</
+ b> No<br><b>Passport eligible? </b>Yes<br><b>Community partner:</b> Wake Co
+ unty Safe Routes to School\, Old North Cycling
+LAST-MODIFIED:20260414T192914Z
+LOCATION:Middleton Drive\, Middleton Dr\, Raleigh\, NC 27603\, USA
+SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Bike Month Kickoff Party!
+SUMMARY:Kidical Mass - A Group Ride for Kids and Families!
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20260110T100000
-DTEND;TZID=America/New_York:20260110T120000
-RRULE:FREQ=MONTHLY;UNTIL=20260510T035900Z;INTERVAL=1;BYDAY=SA;BYSETPOS=2
-DTSTAMP:20260415T042517Z
+DTSTART:20260521T230000Z
+DTEND:20260522T010000Z
+DTSTAMP:20260415T230918Z
+UID:5mcjg09rn9ch21gjaf32175048@google.com
+CREATED:20260414T005846Z
+DESCRIPTION:Oaks &amp\; Spokes is taking over Oak City Cycling's 3rd Thursd
+ ay Cruiser Ride ("the slowest ride in town!"). On this ride\, we'll be hear
+ ing from Downtown Raleigh Alliance experts on three interconnected projects
+ : The new Smoky Hollow Park\; the S-line train from Raleigh to Richmond\; a
+ nd upcoming protected bike lanes on West/Harrington Sts.<br><br><b>Registra
+ tion required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community part
+ ner:</b> Downtown Raleigh Alliance &amp\; Oak City Cycling
+LAST-MODIFIED:20260414T194539Z
+LOCATION:Oak City Cycling\, 707 N Person St\, Raleigh\, NC 27604\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Cruiser Ride: Smokey Hollow & the S-Line
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260506T133000Z
+DTEND:20260506T180000Z
+DTSTAMP:20260415T230918Z
+UID:4vtj5roamjuf7qe4q677og0qcl@google.com
+CREATED:20260403T155811Z
+DESCRIPTION:Help NC Families for Safe Streets advocate for Intelligent Spee
+ d Assist technology that would reduce deaths caused by "super speeders".<br
+ ><br>Attendees Arrive by 9:30 am<br>Press Conference Begins  - 10 am<br>We 
+ will hold a press conference featuring the stories FSS members\, coalition 
+ partners\, and community leaders urging the need for this legislation.<br>I
+ SA Tech Demonstration - TBD There will be a live demonstration of the intel
+ ligent speed assistance technology. Legislators\, the press\, legislative s
+ taff\, and others will be able to test drive a vehicle equipped with ISA.<b
+ r>Lobby Visits - TBDThroughout the day\, participants will meet directly wi
+ th elected officials—both before and after the press event—to urge passage 
+ of a Stop Super Speeders bill that will protect all North Carolinians. Thes
+ e meetings are a powerful opportunity to share stories\, present data\, and
+  make clear that safer streets are a priority across our communities. Want 
+ to share your story or lobby? Register <a href="https://secure.everyaction.
+ com/vFvg9xltZ0mQ2ps7dithAw2" target="_blank">here</a>.<b><br></b><br><b>Reg
+ istration required?</b> <a href="https://secure.everyaction.com/vFvg9xltZ0m
+ Q2ps7dithAw2" target="_blank">Yes</a> (for lobbying/speaking)<br><b>Passpor
+ t eligible?</b> No<br><b>Community partner:</b> NC Families for Safe Street
+ s
+LAST-MODIFIED:20260415T025052Z
+LOCATION:North Carolina State Capitol\, 1 E Edenton St\, Raleigh\, NC 27601
+ \, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Stop Super Speeders Lobby Day
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260509T100000
+DTEND;TZID=America/New_York:20260509T120000
+DTSTAMP:20260415T230918Z
 UID:04r6d9lnov23ca89hb1e0fg9b2@google.com
+RECURRENCE-ID;TZID=America/New_York:20260509T100000
 CREATED:20260106T184441Z
 DESCRIPTION:Our spring Learn to Ride series for kids concludes with classes
   at Lion's Park (10a-12p) and Dix Park (2-4p). Registration is free. Lion's
-  Park: <u><a target="_blank" href="http://tinyurl.com/LionsLTR.">tinyurl.co
+  Park: <u><a href="http://tinyurl.com/LionsLTR." target="_blank">tinyurl.co
  m/LionsLTR.</a></u> Bikes and helmets are available to borrow! Volunteer he
- lp appreciated\; contact Kat@oaksandspokes.org if interested in helping out
- .<br><ul><li><b>Passport eligible:</b> Yes (for kids/families and volunteer
- s)</li><li><b>Registration required: </b>Yes - register <a href="http://tin
- yurl.com/LionsLTR">here</a>!</li></ul>
-LAST-MODIFIED:20260403T222041Z
+ lp appreciated\; contact <a href="mailto:Kat@oaksandspokes.org" target="_bl
+ ank">Kat@oaksandspokes.org</a> if interested in helping out.<br><b><br></b>
+ <br><b>Registration required: </b>Yes - register <a href="http://tinyurl.co
+ m/LionsLTR" target="_blank"><u>here</u></a>!<br><b>Passport eligible:</b> Y
+ es (for kids/families and volunteers)<br><b>Community partner</b>: Wake Cou
+ nty Safe Routes to School
+LAST-MODIFIED:20260414T193121Z
 LOCATION:Lions Park playground\, 1421 Lions Way\, Raleigh\, NC 27604\, USA
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -89,145 +146,9 @@ SUMMARY:Learn to Ride @ Lion's Park
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260515T230000Z
-DTEND:20260516T010000Z
-DTSTAMP:20260415T042517Z
-UID:1o2ds4mr2f8pp47bnl99ms5o9l@google.com
-CREATED:20260414T013021Z
-DESCRIPTION:For this year's Bike Month\, we'll be showing a double header a
- t the Rialto. First\, a short film called Tandem\, filmed right here in Ral
- eigh\, followed by Breaking Away\, the classic (and Oscar-winning) 1979 fil
- m about four friends\, an obsession with an Italian cycling team\, and the 
- race of a lifetime.<b><br></b><br><b>Registration required?</b> Tickets ava
- ilable for purchase<br><b>Passport eligible?</b> Yes<br><b>Community partne
- r</b>: The Rialto\, High Dive Studios
-LAST-MODIFIED:20260414T194346Z
-LOCATION:The Rialto\, 1620 Glenwood Ave\, Raleigh\, NC 27608\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Bike Movies @ The Rialto
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260530T130000Z
-DTEND:20260530T150000Z
-DTSTAMP:20260415T042517Z
-UID:24f9adba1rhhlglam26s70fhvj@google.com
-CREATED:20260414T010843Z
-DESCRIPTION:<p>Join Triangle Offroad Cyclists (TORC) for a special event de
- signed to help kids learn the fundamentals of off-road bike riding. This tw
- o-hour clinic engages participants through structured instruction in small 
- groups\, led by experienced coaches who group riders by similar age and ski
- ll level. Snacks\, break time\, and fun games will be included throughout t
- he session. Kids will build confidence\, improve bike handling skills\, and
-  have fun exploring the basics of trail riding in a safe and supportive env
- ironment.</p><p>Participants must be between ages 7–12 (typically 2nd–5th g
- rade). Children should already be able to balance and pedal independently. 
- Riders must bring a properly fitting youth bike with 20-inch wheels or larg
- er and functioning hand brakes and a helmet.</p><p><b>Registration required
- ?</b> Yes - register <a href="https://www.meetup.com/torc-nc/events/3141924
- 50/" target="_blank">here</a></p><p><b>Passport eligible?</b> Yes</p><p><b>
- Community partner:</b> Triangle Offroad Cyclists</p><p></p>
-LAST-MODIFIED:20260414T194439Z
-LOCATION:Spring Hill Cyclocross (CX) Course\, 2238-2212 Dorsett Dr\, Raleig
- h\, NC 27603\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Youth Mountain Biking Clinic
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260501T113000Z
-DTEND:20260501T130000Z
-DTSTAMP:20260415T042517Z
-UID:643c14s9kqsd8ch2qmo08nrqf3@google.com
-CREATED:20260403T153009Z
-DESCRIPTION:On the first Friday of every month\, we roll from Oak City Cycl
- ing at 7:30am to House of Many Porches at Dix Park\, where we'll hang out t
- ogether to brew coffee outside! Don't have a way to make hot beverages outs
- ide?? That's fine. We have equipment\, just bring beans and water (or make 
- coffee or tea at home and bring it with you -- we just want you there!).<br
- ><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</
- b> Yes<br><b>Community partner</b>: NA
-LAST-MODIFIED:20260414T192902Z
-LOCATION:Oak City Cycling\, 707 N Person St\, Raleigh\, NC 27604\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Coffee Outside
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260516T160000Z
-DTEND:20260516T200000Z
-DTSTAMP:20260415T042517Z
-UID:2a3r71jen8im1s1bli8lsfu857@google.com
-CREATED:20260414T005123Z
-DESCRIPTION:Come on out for Oak City Swim School's Summer Safety festival! 
- There will be games\, food\, swimming\, and\, of course\, bikes and bike sa
- fety! Oaks &amp\; Spokes will be hosting a pop-up traffic garden at this ev
- ent. Bikes and helmets will be available to borrow.<br><br><b>Registration 
- required?</b> No<br><b>Passport eligible?</b> Yes (come find the Oaks &amp\
- ; Spokes tent)<br><b>Community partner: </b>Oak City Swim School
-LAST-MODIFIED:20260414T194404Z
-LOCATION:Oak City Swim School\, 3651 Bastion Ln\, Raleigh\, NC 27604\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Oak City Swim School Summer Safety Festival
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260517T143000Z
-DTEND:20260517T170000Z
-DTSTAMP:20260415T042517Z
-UID:7doccin6vnl8s6gflan6j2gf0n@google.com
-CREATED:20260414T004957Z
-DESCRIPTION:Ladies -- do you need some self-care during this busy Bike Mont
- h? We've got you! Join us for a women/trans/femme "Self Care Sunday" ride s
- ponsored by the Downtown Raleigh Alliance. We'll start the day off at the B
- ike Library with a coffee or matcha at 10:30 (optionally\, join us for 9:30
- am yoga at Homebody Yoga beforehand -- 10 free spots are available for free
-  using code BIKES). At 11\, we'll take the scenic route to the Self Care Ma
- rketplace and Raleigh Raw\, before heading to Raleigh City Farm where Laure
- n B. will give us a personal tour! Finally\, we'll ride to Blackbird Books 
- &amp\; Coffee to pick up a new read before heading back to the Bike Library
- .<br><b><br></b><br><b>Registration required</b>? Not for the ride! Registe
- r for yoga beforehand <a href="https://momence.com/Homebody-Yoga/Vinyasa/13
- 4606064?skipPreview=true&_gl=1*1gf2q08*_ga*MTA5NzM2Mjg1Mi4xNzYzNDAwOTM2*_ga
- _GS6ZXJF4DT*czE3NzYxMDU3NjIkbzYkZzEkdDE3NzYxMDU3NjMkajU5JGwwJGgw" target="_
- blank">here</a> (10 spots are available for free using code BIKES).<br><b>P
- assport eligible</b>? Yes<br><b>Community partner</b>: Downtown Raleigh All
- iance &amp\; The Bike Library
-LAST-MODIFIED:20260414T194239Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Bikes Mean Business: Self-Care Ride (Women/Trans/Femme)
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260506T200000Z
-DTEND:20260506T220000Z
-DTSTAMP:20260415T042517Z
-UID:798duchh3aid42j7uil0a2rsmp@google.com
-CREATED:20260403T160212Z
-DESCRIPTION:Grab your bike and come on our to our second-annual Chavis Bike
-  Rodeo and Traffic Garden! We'll have a series of skill stations\, a pop-up
-  traffic garden to explore a miniature world of streets\, and a bike obstac
- le course. Bikes and helmets will be available to borrow. This event is in 
- partnership with Wake County Safe Routes to School and Chavis Park.<br><b><
- b><br></b></b><br><b><b>Registration required?</b></b><br><b>Passport eligi
- ble? </b>Yes<br><b>Community partner</b>: Wake County Safe Routes to School
-  and Raleigh Parks
-LAST-MODIFIED:20260414T194320Z
-LOCATION:600 Chavis Way\, Raleigh\, NC 27601\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Chavis Park Bike Rodeo + Traffic Garden
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20260503T160000Z
 DTEND:20260503T210000Z
-DTSTAMP:20260415T042517Z
+DTSTAMP:20260415T230918Z
 UID:02lnbct4uletehd4b4k689n62j@google.com
 CREATED:20260414T031250Z
 DESCRIPTION:Come join Trek Holly Park on Sunday\, May 3rd at 12pm for the W
@@ -255,93 +176,9 @@ SUMMARY:Trek Holly Park Williamson Challenge
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260524T160000Z
-DTEND:20260524T180000Z
-DTSTAMP:20260415T042517Z
-UID:30nm3454ts5g8k3ee1s8rk4hda@google.com
-CREATED:20260414T010547Z
-DESCRIPTION:Celebrate Geek Pride Day with Oaks &amp\; Spokes and the Downto
- wn Raleigh Alliance!<br>Gather at 12p at Rebus Works for a coffee or snack.
-  Then\, we'll head to Newsagents\, Sorry State Records\, pose with a troll 
- in Dix (maybe with a nerdy prop) and play games at an arcade.<br><br><b>Reg
- istration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community
-  partner</b>: Downtown Raleigh Alliance
-LAST-MODIFIED:20260414T194519Z
-LOCATION:Rebus Works\, 301-2 Kinsey St\, Raleigh\, NC 27603\, USA
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Bikes Mean Business: Geek Pride Day
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260510T140000Z
-DTEND:20260510T193000Z
-DTSTAMP:20260415T042517Z
-UID:29fcuiliculh34qs2sirk5rha7@google.com
-CREATED:20260403T161234Z
-DESCRIPTION:Oak City Cycling Race Team presents GRIT\, a gravel criterium\,
-  30 to 45 minutes of racing on the Wake Med Cross Country course just outsi
- de downtown Cary. You'll be racing on a 1.6 mile loop of surprisingly punch
- y\, twisty\, gravel road around the soccer park. Come out to give crits the
-  good ol' college try\, race it for realz\, or just come cheer! This is a l
- ow-stakes chance for you to experience road racing with the comfort of that
-  gravel and cyclocross spirit. Our mission is to make this thing fun! Passp
- ort eligible for all participants and spectators. <br><b><br></b><br><b>Reg
- istration required</b>? Yes\, if racing -- sign up <a href="https://www.bik
- ereg.com/grit-2026" target="_blank"><u><u>here</u></u></a><br><b>Passport e
- ligible</b>?<b> </b>Yes<br><b>Community partner</b>: Oak City Cycling Race 
- Team
-LAST-MODIFIED:20260414T193200Z
-LOCATION:WakeMed Soccer Park\, 101 Soccer Park Dr\, Cary\, NC 27511\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Gravel Criterium (GRIT)
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260509T160000Z
-DTEND:20260509T180000Z
-DTSTAMP:20260415T042517Z
-UID:2k8tuacdhndlvuu67ruij3d3qu@google.com
-CREATED:20260403T160609Z
-DESCRIPTION:Drop-in between 12-2 at Green Hills County Park to try out a pe
- dal-assist e-bike with Trek North Raleigh! E-bikes can replace car trips fo
- r many people. Do a test ride up to the viewpoint to really experience the 
- full capability of these bikes.<b><br></b><br><b>Registration required?</b>
-  No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Trek Nort
- h Raleigh
-LAST-MODIFIED:20260414T193139Z
-LOCATION:Green Hills County Park\, 9300 Deponie Dr\, Raleigh\, NC 27614\, U
- SA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:E-Bike Demo Day
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260521T230000Z
-DTEND:20260522T010000Z
-DTSTAMP:20260415T042517Z
-UID:5mcjg09rn9ch21gjaf32175048@google.com
-CREATED:20260414T005846Z
-DESCRIPTION:Oaks &amp\; Spokes is taking over Oak City Cycling's 3rd Thursd
- ay Cruiser Ride ("the slowest ride in town!"). On this ride\, we'll be hear
- ing from Downtown Raleigh Alliance experts on three interconnected projects
- : The new Smoky Hollow Park\; the S-line train from Raleigh to Richmond\; a
- nd upcoming protected bike lanes on West/Harrington Sts.<br><br><b>Registra
- tion required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community part
- ner:</b> Downtown Raleigh Alliance &amp\; Oak City Cycling
-LAST-MODIFIED:20260414T194539Z
-LOCATION:Oak City Cycling\, 707 N Person St\, Raleigh\, NC 27604\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Cruiser Ride: Smokey Hollow & the S-Line
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20260531T210000Z
 DTEND:20260531T230000Z
-DTSTAMP:20260415T042517Z
+DTSTAMP:20260415T230918Z
 UID:3dbagfn2l11591rub4a543sa44@google.com
 CREATED:20260414T013313Z
 DESCRIPTION:Pick up your passport tier prizes! Win one of our Bike Month gr
@@ -355,7 +192,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260516T140000Z
 DTEND:20260516T170000Z
-DTSTAMP:20260415T042517Z
+DTSTAMP:20260415T230918Z
 UID:74vu76hkq6qknv8f3e3lr0js7j@google.com
 CREATED:20260414T004614Z
 DESCRIPTION:Join us for a hands-on scavenger hunt across NC State Centennia
@@ -375,31 +212,159 @@ SUMMARY:Greenway Gear Collective Scavenger Hunt
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260501T193000Z
-DTEND:20260501T213000Z
-DTSTAMP:20260415T042517Z
-UID:2uss5k5pbir1faeahrn0dg1rb4@google.com
-CREATED:20260403T153341Z
-DESCRIPTION:Join us before the City of Raleigh's Bike Bonanza event for a k
- id-friendly\, family-focused group ride around Dix Park! Pre-ride party beg
- ins at 3:30p\; group will roll at 4p. We'll stop halfway through for a swee
- t treat facilitated by Old North Cycling team. Kids should be able to balan
- ce a two-wheeled bike. Cargos\, trailers\, and kid seats encouraged for lit
- tles! Learn more <a href="https://oaksandspokes.org/2026/03/09/kidical-mass
- -spring-2026/" target="_blank">here</a>.<br><br><b>Registration required?</
- b> No<br><b>Passport eligible? </b>Yes<br><b>Community partner:</b> Wake Co
- unty Safe Routes to School\, Old North Cycling
-LAST-MODIFIED:20260414T192914Z
-LOCATION:Middleton Drive\, Middleton Dr\, Raleigh\, NC 27603\, USA
+DTSTART:20260515T230000Z
+DTEND:20260516T010000Z
+DTSTAMP:20260415T230918Z
+UID:1o2ds4mr2f8pp47bnl99ms5o9l@google.com
+CREATED:20260414T013021Z
+DESCRIPTION:For this year's Bike Month\, we'll be showing a double header a
+ t the Rialto. First\, a short film called Tandem\, filmed right here in Ral
+ eigh\, followed by Breaking Away\, the classic (and Oscar-winning) 1979 fil
+ m about four friends\, an obsession with an Italian cycling team\, and the 
+ race of a lifetime.<b><br></b><br><b>Registration required?</b> Tickets ava
+ ilable for purchase<br><b>Passport eligible?</b> Yes<br><b>Community partne
+ r</b>: The Rialto\, High Dive Studios
+LAST-MODIFIED:20260414T194346Z
+LOCATION:The Rialto\, 1620 Glenwood Ave\, Raleigh\, NC 27608\, USA
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Kidical Mass - A Group Ride for Kids and Families!
+SUMMARY:Bike Movies @ The Rialto
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260502T200000Z
+DTEND:20260502T230000Z
+DTSTAMP:20260415T230918Z
+UID:0rctp91q57qbkh4odad3k2j13n@google.com
+CREATED:20260403T152856Z
+DESCRIPTION:Kick off Bike Month with Oaks &amp\; Spokes! Clean off your bik
+ e and roll out to Bend Bar to pick up your Bike Month passport (and get you
+ r first stamp)\, grab a slice of pizza\, and pick up some free swag! This i
+ s a drop-in event.<b><br></b><br><b>Registration required?</b> No<br><b>Pas
+ sport eligible?</b> Yes<br><b>Community partner: </b>AARP &amp\; Bend Bar
+LAST-MODIFIED:20260414T192923Z
+LOCATION:The Bend Bar\, 853 W Morgan St\, Raleigh\, NC 27603\, USA
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Bike Month Kickoff Party!
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260509T160000Z
+DTEND:20260509T180000Z
+DTSTAMP:20260415T230918Z
+UID:2k8tuacdhndlvuu67ruij3d3qu@google.com
+CREATED:20260403T160609Z
+DESCRIPTION:Drop-in between 12-2 at Green Hills County Park to try out a pe
+ dal-assist e-bike with Trek North Raleigh! E-bikes can replace car trips fo
+ r many people. Do a test ride up to the viewpoint to really experience the 
+ full capability of these bikes.<b><br></b><br><b>Registration required?</b>
+  No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Trek Nort
+ h Raleigh
+LAST-MODIFIED:20260414T193139Z
+LOCATION:Green Hills County Park\, 9300 Deponie Dr\, Raleigh\, NC 27614\, U
+ SA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:E-Bike Demo Day
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260502T140000Z
+DTEND:20260502T160000Z
+DTSTAMP:20260415T230918Z
+UID:65ne764q8te9kr4p916kl3bben@google.com
+CREATED:20260403T153623Z
+DESCRIPTION:Hop on your bike for a ride into history. The Raleigh Historic 
+ Development Commission (RHDC)\, in partnership with the Bicycle and Pedestr
+ ian Advisory Commission (BPAC) and Raleigh Sister Cities\, is hosting the 3
+ rd annual Raleigh Historic Bike Ride. This year\, the 5-mile route will fea
+ ture stops at five Raleigh Historic Landmarks that span 250 years of the ci
+ ty’s building history! RHDC volunteers at each site will share a brief hist
+ ory of the property and talk about what else was going on in Raleigh during
+  that time.<br><b><br></b><br><b>Registration required?</b> No<br><b>Passpo
+ rt eligible?</b> Yes<br><b>Community partner</b>: BPAC and RHDC
+LAST-MODIFIED:20260414T192931Z
+LOCATION:One Exchange Plaza\, 1 Exchange Plaza\, Raleigh\, NC 27601\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Raleigh History - By Bike!
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260517T143000Z
+DTEND:20260517T170000Z
+DTSTAMP:20260415T230918Z
+UID:7doccin6vnl8s6gflan6j2gf0n@google.com
+CREATED:20260414T004957Z
+DESCRIPTION:Ladies -- do you need some self-care during this busy Bike Mont
+ h? We've got you! Join us for a women/trans/femme "Self Care Sunday" ride s
+ ponsored by the Downtown Raleigh Alliance. We'll start the day off at the B
+ ike Library with a coffee or matcha at 10:30 (optionally\, join us for 9:30
+ am yoga at Homebody Yoga beforehand -- 10 free spots are available for free
+  using code BIKES). At 11\, we'll take the scenic route to the Self Care Ma
+ rketplace and Raleigh Raw\, before heading to Raleigh City Farm where Laure
+ n B. will give us a personal tour! Finally\, we'll ride to Blackbird Books 
+ &amp\; Coffee to pick up a new read before heading back to the Bike Library
+ .<br><b><br></b><br><b>Registration required</b>? Not for the ride! Registe
+ r for yoga beforehand <a href="https://momence.com/Homebody-Yoga/Vinyasa/13
+ 4606064?skipPreview=true&_gl=1*1gf2q08*_ga*MTA5NzM2Mjg1Mi4xNzYzNDAwOTM2*_ga
+ _GS6ZXJF4DT*czE3NzYxMDU3NjIkbzYkZzEkdDE3NzYxMDU3NjMkajU5JGwwJGgw" target="_
+ blank">here</a> (10 spots are available for free using code BIKES).<br><b>P
+ assport eligible</b>? Yes<br><b>Community partner</b>: Downtown Raleigh All
+ iance &amp\; The Bike Library
+LAST-MODIFIED:20260414T194239Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bikes Mean Business: Self-Care Ride (Women/Trans/Femme)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260501T113000Z
+DTEND:20260501T130000Z
+DTSTAMP:20260415T230918Z
+UID:643c14s9kqsd8ch2qmo08nrqf3@google.com
+CREATED:20260403T153009Z
+DESCRIPTION:On the first Friday of every month\, we roll from Oak City Cycl
+ ing at 7:30am to House of Many Porches at Dix Park\, where we'll hang out t
+ ogether to brew coffee outside! Don't have a way to make hot beverages outs
+ ide?? That's fine. We have equipment\, just bring beans and water (or make 
+ coffee or tea at home and bring it with you -- we just want you there!).<br
+ ><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</
+ b> Yes<br><b>Community partner</b>: NA
+LAST-MODIFIED:20260414T192902Z
+LOCATION:Oak City Cycling\, 707 N Person St\, Raleigh\, NC 27604\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Coffee Outside
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260110T100000
+DTEND;TZID=America/New_York:20260110T120000
+RRULE:FREQ=MONTHLY;UNTIL=20260510T035900Z;INTERVAL=1;BYDAY=SA;BYSETPOS=2
+DTSTAMP:20260415T230918Z
+UID:04r6d9lnov23ca89hb1e0fg9b2@google.com
+CREATED:20260106T184441Z
+DESCRIPTION:Our spring Learn to Ride series for kids concludes with classes
+  at Lion's Park (10a-12p) and Dix Park (2-4p). Registration is free. Lion's
+  Park: <u><a target="_blank" href="http://tinyurl.com/LionsLTR.">tinyurl.co
+ m/LionsLTR.</a></u> Bikes and helmets are available to borrow! Volunteer he
+ lp appreciated\; contact Kat@oaksandspokes.org if interested in helping out
+ .<br><ul><li><b>Passport eligible:</b> Yes (for kids/families and volunteer
+ s)</li><li><b>Registration required: </b>Yes - register <a href="http://tin
+ yurl.com/LionsLTR">here</a>!</li></ul>
+LAST-MODIFIED:20260403T222041Z
+LOCATION:Lions Park playground\, 1421 Lions Way\, Raleigh\, NC 27604\, USA
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Learn to Ride @ Lion's Park
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260506
 DTEND;VALUE=DATE:20260507
-DTSTAMP:20260415T042517Z
+DTSTAMP:20260415T230918Z
 UID:3l3j1ti5fdvlattq3sttth1a7f@google.com
 CREATED:20260403T155212Z
 DESCRIPTION:Multiple Raleigh schools are participating in Bike &amp\; Roll 
@@ -417,10 +382,35 @@ SUMMARY:Bike & Roll to School Day
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20260509T180000Z
+DTEND:20260509T200000Z
+DTSTAMP:20260415T230918Z
+UID:040000008200E00074C5B7101A82E00800000000F8B4B1D1EC8FDC01000000000000000
+ 010000000B96576EEC6AAE9499B045C2733FEDCE2
+CREATED:20260128T002701Z
+DESCRIPTION:Our spring Learn to Ride series for kids concludes with classes
+  at Lion's Park (10a-12p) and Dix Park (2-4p). Registration is free. Dix Pa
+ rk registration: <u><a href="http://tinyurl.com/DixParkLTR" target="_blank"
+ >tinyurl.com/DixParkLTR</a></u>. Bikes and helmets are available to borrow!
+  Adult volunteers are needed -- if interested\, contact Kat Dale at <a href
+ ="mailto:kat@oaksandspokes.org" target="_blank">kat@oaksandspokes.org</a>.<
+ br><b><br></b><br><b>Registration required:</b> Yes\, register <a href="htt
+ p://tinyurl.com/DixParkLTR" target="_blank"><u>here</u></a> (opens 2 weeks 
+ prior to the class)<br><b>Passport eligible:</b> Yes (for kids/families and
+  volunteers!)<br><b>Community partner:</b> Wake County Safe Routes to Schoo
+ l
+LAST-MODIFIED:20260415T024940Z
+LOCATION:Gipson Play Plaza\, 715 Biggs Dr\, Raleigh\, NC 27603\, USA
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Learn to Ride @ Dix Park
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260506T073000
 DTEND;TZID=America/New_York:20260506T090000
 RRULE:FREQ=WEEKLY;WKST=SU;COUNT=4;BYDAY=WE
-DTSTAMP:20260415T042517Z
+DTSTAMP:20260415T230918Z
 UID:3sshroo4ok7ce5j8n6djmlv5vo@google.com
 CREATED:20260414T141335Z
 DESCRIPTION:<p>Every Wednesday morning\, April–October 2026<br></p><p>If yo
@@ -454,31 +444,112 @@ SUMMARY:Green Line Commuter Bike Bus
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260502T140000Z
-DTEND:20260502T160000Z
-DTSTAMP:20260415T042517Z
-UID:65ne764q8te9kr4p916kl3bben@google.com
-CREATED:20260403T153623Z
-DESCRIPTION:Hop on your bike for a ride into history. The Raleigh Historic 
- Development Commission (RHDC)\, in partnership with the Bicycle and Pedestr
- ian Advisory Commission (BPAC) and Raleigh Sister Cities\, is hosting the 3
- rd annual Raleigh Historic Bike Ride. This year\, the 5-mile route will fea
- ture stops at five Raleigh Historic Landmarks that span 250 years of the ci
- ty’s building history! RHDC volunteers at each site will share a brief hist
- ory of the property and talk about what else was going on in Raleigh during
-  that time.<br><b><br></b><br><b>Registration required?</b> No<br><b>Passpo
- rt eligible?</b> Yes<br><b>Community partner</b>: BPAC and RHDC
-LAST-MODIFIED:20260414T192931Z
-LOCATION:One Exchange Plaza\, 1 Exchange Plaza\, Raleigh\, NC 27601\, USA
+DTSTART:20260516T160000Z
+DTEND:20260516T200000Z
+DTSTAMP:20260415T230918Z
+UID:2a3r71jen8im1s1bli8lsfu857@google.com
+CREATED:20260414T005123Z
+DESCRIPTION:Come on out for Oak City Swim School's Summer Safety festival! 
+ There will be games\, food\, swimming\, and\, of course\, bikes and bike sa
+ fety! Oaks &amp\; Spokes will be hosting a pop-up traffic garden at this ev
+ ent. Bikes and helmets will be available to borrow.<br><br><b>Registration 
+ required?</b> No<br><b>Passport eligible?</b> Yes (come find the Oaks &amp\
+ ; Spokes tent)<br><b>Community partner: </b>Oak City Swim School
+LAST-MODIFIED:20260414T194404Z
+LOCATION:Oak City Swim School\, 3651 Bastion Ln\, Raleigh\, NC 27604\, USA
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Raleigh History - By Bike!
+SUMMARY:Oak City Swim School Summer Safety Festival
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260514T210000Z
+DTEND:20260514T230000Z
+DTSTAMP:20260415T230918Z
+UID:01mbandcpbc6pr48osbn7jj637@google.com
+CREATED:20260413T215617Z
+DESCRIPTION:Not an early riser or missed out on our bike to work pit stop? 
+ Swing by Oak City Cycling when you clock out to grab a beer and grill out w
+ ith Oaks &amp\; Spokes!<b><br></b><br><b>Registration required? </b>No<br><
+ b>Passport eligible? </b>Yes<br><b>Community partner:</b> Oak City Cycling
+LAST-MODIFIED:20260414T194337Z
+LOCATION:Oak City Cycling\, 707 N Person St\, Raleigh\, NC 27604\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bike From Work Day!
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260529T230000Z
+DTEND:20260530T010000Z
+DTSTAMP:20260415T230918Z
+UID:7451i3tq1a1ilplrlcc212cf02@google.com
+CREATED:20260414T010644Z
+DESCRIPTION:Will you help make this month's Critical Mass the biggest Ralei
+ gh has ever seen? On the last Friday of every month\, we launch from the NC
+ SU belltower at 7pm to demonstrate that streets should be for everyone\, in
+ cluding people on bikes\, one-wheels\, scooters\, and more. Route and dista
+ nce vary\, but expect 12 miles or less at a very slow pace.<br><br><b>Regis
+ tration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community p
+ artner:</b> Raleigh Critical Mass
+LAST-MODIFIED:20260414T194427Z
+LOCATION:Memorial Belltower\, 2011 Hillsborough St\, Raleigh\, NC 27607\, U
+ SA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Raleigh Critical Mass
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260506T200000Z
+DTEND:20260506T220000Z
+DTSTAMP:20260415T230918Z
+UID:798duchh3aid42j7uil0a2rsmp@google.com
+CREATED:20260403T160212Z
+DESCRIPTION:Grab your bike and come on our to our second-annual Chavis Bike
+  Rodeo and Traffic Garden! We'll have a series of skill stations\, a pop-up
+  traffic garden to explore a miniature world of streets\, and a bike obstac
+ le course. Bikes and helmets will be available to borrow. This event is in 
+ partnership with Wake County Safe Routes to School and Chavis Park.<br><b><
+ b><br></b></b><br><b><b>Registration required?</b></b><br><b>Passport eligi
+ ble? </b>Yes<br><b>Community partner</b>: Wake County Safe Routes to School
+  and Raleigh Parks
+LAST-MODIFIED:20260414T194320Z
+LOCATION:600 Chavis Way\, Raleigh\, NC 27601\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Chavis Park Bike Rodeo + Traffic Garden
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260510T140000Z
+DTEND:20260510T193000Z
+DTSTAMP:20260415T230918Z
+UID:29fcuiliculh34qs2sirk5rha7@google.com
+CREATED:20260403T161234Z
+DESCRIPTION:Oak City Cycling Race Team presents GRIT\, a gravel criterium\,
+  30 to 45 minutes of racing on the Wake Med Cross Country course just outsi
+ de downtown Cary. You'll be racing on a 1.6 mile loop of surprisingly punch
+ y\, twisty\, gravel road around the soccer park. Come out to give crits the
+  good ol' college try\, race it for realz\, or just come cheer! This is a l
+ ow-stakes chance for you to experience road racing with the comfort of that
+  gravel and cyclocross spirit. Our mission is to make this thing fun! Passp
+ ort eligible for all participants and spectators. <br><b><br></b><br><b>Reg
+ istration required</b>? Yes\, if racing -- sign up <a href="https://www.bik
+ ereg.com/grit-2026" target="_blank"><u><u>here</u></u></a><br><b>Passport e
+ ligible</b>?<b> </b>Yes<br><b>Community partner</b>: Oak City Cycling Race 
+ Team
+LAST-MODIFIED:20260414T193200Z
+LOCATION:WakeMed Soccer Park\, 101 Soccer Park Dr\, Cary\, NC 27511\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gravel Criterium (GRIT)
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260520T213000Z
 DTEND:20260520T230000Z
-DTSTAMP:20260415T042517Z
+DTSTAMP:20260415T230918Z
 UID:3s3s4pvujnu6sur8k230olu2gc@google.com
 CREATED:20260414T005502Z
 DESCRIPTION:The Ride of Silence is a quiet ride honoring victims of traffic
@@ -500,80 +571,56 @@ SUMMARY:Ride of Silence
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260514T210000Z
-DTEND:20260514T230000Z
-DTSTAMP:20260415T042517Z
-UID:01mbandcpbc6pr48osbn7jj637@google.com
-CREATED:20260413T215617Z
-DESCRIPTION:Not an early riser or missed out on our bike to work pit stop? 
- Swing by Oak City Cycling when you clock out to grab a beer and grill out w
- ith Oaks &amp\; Spokes!<b><br></b><br><b>Registration required? </b>No<br><
- b>Passport eligible? </b>Yes<br><b>Community partner:</b> Oak City Cycling
-LAST-MODIFIED:20260414T194337Z
-LOCATION:Oak City Cycling\, 707 N Person St\, Raleigh\, NC 27604\, USA
+DTSTART:20260530T130000Z
+DTEND:20260530T150000Z
+DTSTAMP:20260415T230918Z
+UID:24f9adba1rhhlglam26s70fhvj@google.com
+CREATED:20260414T010843Z
+DESCRIPTION:<p>Join Triangle Offroad Cyclists (TORC) for a special event de
+ signed to help kids learn the fundamentals of off-road bike riding. This tw
+ o-hour clinic engages participants through structured instruction in small 
+ groups\, led by experienced coaches who group riders by similar age and ski
+ ll level. Snacks\, break time\, and fun games will be included throughout t
+ he session. Kids will build confidence\, improve bike handling skills\, and
+  have fun exploring the basics of trail riding in a safe and supportive env
+ ironment.</p><p>Participants must be between ages 7–12 (typically 2nd–5th g
+ rade). Children should already be able to balance and pedal independently. 
+ Riders must bring a properly fitting youth bike with 20-inch wheels or larg
+ er and functioning hand brakes and a helmet.</p><p><b>Registration required
+ ?</b> Yes - register <a href="https://www.meetup.com/torc-nc/events/3141924
+ 50/" target="_blank">here</a></p><p><b>Passport eligible?</b> Yes</p><p><b>
+ Community partner:</b> Triangle Offroad Cyclists</p><p></p>
+LAST-MODIFIED:20260414T194439Z
+LOCATION:Spring Hill Cyclocross (CX) Course\, 2238-2212 Dorsett Dr\, Raleig
+ h\, NC 27603\, USA
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Bike From Work Day!
+SUMMARY:Youth Mountain Biking Clinic
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260529T230000Z
-DTEND:20260530T010000Z
-DTSTAMP:20260415T042517Z
-UID:7451i3tq1a1ilplrlcc212cf02@google.com
-CREATED:20260414T010644Z
-DESCRIPTION:Will you help make this month's Critical Mass the biggest Ralei
- gh has ever seen? On the last Friday of every month\, we launch from the NC
- SU belltower at 7pm to demonstrate that streets should be for everyone\, in
- cluding people on bikes\, one-wheels\, scooters\, and more. Route and dista
- nce vary\, but expect 12 miles or less at a very slow pace.<br><br><b>Regis
- tration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community p
- artner:</b> Raleigh Critical Mass
-LAST-MODIFIED:20260414T194427Z
-LOCATION:Memorial Belltower\, 2011 Hillsborough St\, Raleigh\, NC 27607\, U
- SA
-SEQUENCE:0
+DTSTART:20260524T160000Z
+DTEND:20260524T180000Z
+DTSTAMP:20260415T230918Z
+UID:30nm3454ts5g8k3ee1s8rk4hda@google.com
+CREATED:20260414T010547Z
+DESCRIPTION:Celebrate Geek Pride Day with Oaks &amp\; Spokes and the Downto
+ wn Raleigh Alliance!<br>Gather at 12p at Rebus Works for a coffee or snack.
+  Then\, we'll head to Newsagents\, Sorry State Records\, pose with a troll 
+ in Dix (maybe with a nerdy prop) and play games at an arcade.<br><br><b>Reg
+ istration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community
+  partner</b>: Downtown Raleigh Alliance
+LAST-MODIFIED:20260414T194519Z
+LOCATION:Rebus Works\, 301-2 Kinsey St\, Raleigh\, NC 27603\, USA
+SEQUENCE:1
 STATUS:CONFIRMED
-SUMMARY:Raleigh Critical Mass
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260506T133000Z
-DTEND:20260506T180000Z
-DTSTAMP:20260415T042517Z
-UID:4vtj5roamjuf7qe4q677og0qcl@google.com
-CREATED:20260403T155811Z
-DESCRIPTION:Help NC Families for Safe Streets advocate for Intelligent Spee
- d Assist technology that would reduce deaths caused by "super speeders".<br
- ><br>Attendees Arrive by 9:30 am<br>Press Conference Begins  - 10 am<br>We 
- will hold a press conference featuring the stories FSS members\, coalition 
- partners\, and community leaders urging the need for this legislation.<br>I
- SA Tech Demonstration - TBD There will be a live demonstration of the intel
- ligent speed assistance technology. Legislators\, the press\, legislative s
- taff\, and others will be able to test drive a vehicle equipped with ISA.<b
- r>Lobby Visits - TBDThroughout the day\, participants will meet directly wi
- th elected officials—both before and after the press event—to urge passage 
- of a Stop Super Speeders bill that will protect all North Carolinians. Thes
- e meetings are a powerful opportunity to share stories\, present data\, and
-  make clear that safer streets are a priority across our communities. Want 
- to share your story or lobby? Register <a href="https://secure.everyaction.
- com/vFvg9xltZ0mQ2ps7dithAw2" target="_blank">here</a>.<b><br></b><br><b>Reg
- istration required?</b> <a href="https://secure.everyaction.com/vFvg9xltZ0m
- Q2ps7dithAw2" target="_blank">Yes</a> (for lobbying/speaking)<br><b>Passpor
- t eligible?</b> No<br><b>Community partner:</b> NC Families for Safe Street
- s
-LAST-MODIFIED:20260415T025052Z
-LOCATION:North Carolina State Capitol\, 1 E Edenton St\, Raleigh\, NC 27601
- \, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Stop Super Speeders Lobby Day
-TRANSP:OPAQUE
+SUMMARY:Bikes Mean Business: Geek Pride Day
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260514T110000Z
 DTEND:20260514T130000Z
-DTSTAMP:20260415T042517Z
+DTSTAMP:20260415T230918Z
 UID:6ocb9u9542pffsue6je68qnvdp@google.com
 CREATED:20260413T215211Z
 DESCRIPTION:Celebrate Bike to Work Day with Oaks and Spokes! Stop by our ta
@@ -588,53 +635,6 @@ LOCATION:Benchwarmers Bagels\, in the Rockway Building\, 1015 S Saunders St
 SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:Bike to Work Day!
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260503T160000Z
-DTEND:20260503T200000Z
-DTSTAMP:20260415T042517Z
-UID:5g4h4tnfprq062sdkj74f356b2@google.com
-CREATED:20260403T154502Z
-DESCRIPTION:Try your hand at one of the most unique bike sports out there -
- - bike polo! This soccer-like game is played on a basketball court with a b
- all\, a stick\, and two players per team. Raleigh Bike Polo will be providi
- ng basic coaching and have bikes and sticks available to borrow. Not in for
-  court time? Join for a mid-day "alley cat" (a scavenger hunt bike race) to
-  work up an appetite for a post-race grillout.<br>Open play: 12-4p<br>Alley
-  cat scavenger hunt race: 1:30-2:30p<br><b><br></b><br><b>Registration requ
- ired?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: 
- Raleigh Bike Polo
-LAST-MODIFIED:20260414T192949Z
-LOCATION:Tarboro Road Community Center\, 121 N Tarboro St\, Raleigh\, NC 27
- 610\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Try Bike Polo! + Alley Cat
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20260509T100000
-DTEND;TZID=America/New_York:20260509T120000
-DTSTAMP:20260415T042517Z
-UID:04r6d9lnov23ca89hb1e0fg9b2@google.com
-RECURRENCE-ID;TZID=America/New_York:20260509T100000
-CREATED:20260106T184441Z
-DESCRIPTION:Our spring Learn to Ride series for kids concludes with classes
-  at Lion's Park (10a-12p) and Dix Park (2-4p). Registration is free. Lion's
-  Park: <u><a href="http://tinyurl.com/LionsLTR." target="_blank">tinyurl.co
- m/LionsLTR.</a></u> Bikes and helmets are available to borrow! Volunteer he
- lp appreciated\; contact <a href="mailto:Kat@oaksandspokes.org" target="_bl
- ank">Kat@oaksandspokes.org</a> if interested in helping out.<br><b><br></b>
- <br><b>Registration required: </b>Yes - register <a href="http://tinyurl.co
- m/LionsLTR" target="_blank"><u>here</u></a>!<br><b>Passport eligible:</b> Y
- es (for kids/families and volunteers)<br><b>Community partner</b>: Wake Cou
- nty Safe Routes to School
-LAST-MODIFIED:20260414T193121Z
-LOCATION:Lions Park playground\, 1421 Lions Way\, Raleigh\, NC 27604\, USA
-SEQUENCE:2
-STATUS:CONFIRMED
-SUMMARY:Learn to Ride @ Lion's Park
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR

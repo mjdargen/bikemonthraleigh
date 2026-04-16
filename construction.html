@@ -21,6 +21,7 @@
     rel="stylesheet">
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <!-- fullPage.js CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullpage.js/dist/fullpage.min.css">
   <!-- CSS style sheets -->
@@ -67,6 +68,8 @@
     </div>
   </nav>
 
+  <div id="partnerPopover" class="partner-popover-root" hidden></div>
+
   <div id="fullpage">
     <section class="section home-section">
       <div class="section-inner container py-5">
@@ -74,17 +77,23 @@
           <div class="col-12 col-lg-8">
             <img src="assets/images/bm_flowers.svg" alt="Bike Month Logo" class="img-fluid mb-4">
 
-            <p>This is where some fun graphics will go.</p>
-            <p><a href="#">Fake Link</a></p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis omnis quasi quidem iusto
-              architecto
-              quisquam earum et sunt ex. Voluptate incidunt temporibus nam sunt ullam animi amet in atque!
+              Founded by the League of American Bicyclists, National Bike Month is celebrated every May to promote
+              bicycling for fun, fitness, and transportation. Bike Month Raleigh brings together a wide range of groups,
+              including local nonprofits, local and regional government agencies, parks, bike shops, race teams, social
+              clubs, breweries, coffee shops, and many more, to celebrate the fun and excitement of life on two wheels
+              in Raleigh.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis omnis quasi quidem iusto
-              architecto
-              quisquam earum et sunt ex. Voluptate incidunt temporibus nam sunt ullam animi amet in atque!
+              To learn more about National Bike Month, visit <a href="https://bikeleague.org" target="_blank"
+                rel="noopener noreferrer">bikeleague.org</a>.
+            </p>
+            <p>
+              To learn more about Oaks and Spokes, visit <a href="https://oaksandspokes.org" target="_blank"
+                rel="noopener noreferrer">oaksandspokes.org</a> or follow @oaksandspokes on
+              <a href="https://www.instagram.com/oaksandspokes/" target="_blank" rel="noopener noreferrer">Instagram</a>
+              or
+              <a href="https://www.facebook.com/oaksandspokes/" target="_blank" rel="noopener noreferrer">Facebook</a>.
             </p>
           </div>
         </div>
@@ -126,8 +135,8 @@
     <section class="section partners-section">
       <div class="section-inner container">
         <h2>Partners</h2>
-        <p><a href="#">Fake Link.</a></p>
         <p>Here is where info or logos and links to the partners can go.</p>
+        <div id="partnersGrid" class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-4"></div>
       </div>
     </section>
 
@@ -136,26 +145,98 @@
         <div class="row justify-content-center">
           <div class="col-12 col-lg-8 text-center">
             <h2 class="mb-4">About</h2>
-            <p><a href="#">Fake Link</a></p>
-            <p>This is where some information about Bike Month and maybe Oaks and Spokes will go.</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis omnis quasi quidem iusto
-              architecto quisquam earum et sunt ex. Voluptate incidunt temporibus nam sunt ullam animi amet in atque!
+              Oaks and Spokes is transforming Raleigh into a city where biking and walking are safe, accessible, and
+              integral to everyday life.
+            </p>
+            <p class="os-contact fs-3">
+              <a href="mailto:info@oaksandspokes.org" class="mx-2" aria-label="Email">
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+              <a href="https://oaksandspokes.org" target="_blank" rel="noopener noreferrer" class="mx-2"
+                aria-label="Website">
+                <i class="bi bi-globe"></i>
+              </a>
+              <a href="https://www.instagram.com/oaksandspokes/" target="_blank" rel="noopener noreferrer" class="mx-2"
+                aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://discord.gg/" target="_blank" rel="noopener noreferrer" class="mx-2" aria-label="Discord">
+                <i class="bi bi-discord"></i>
+              </a>
             </p>
           </div>
         </div>
 
-        <div class="row g-3 justify-content-center">
-          <div class="col-4 col-md-3">
+        <div class="row g-5 justify-content-center py-3">
+          <div class="col-2">
             <img src="assets/images/o&s_blue.svg" class="img-fluid" alt="">
           </div>
-          <div class="col-4 col-md-3">
+          <div class="col-2">
             <img src="assets/images/o&s_green.svg" class="img-fluid" alt="">
           </div>
-          <div class="col-4 col-md-3">
+          <div class="col-2">
             <img src="assets/images/o&s_orange.svg" class="img-fluid" alt="">
           </div>
         </div>
+
+        <div class="row justify-content-center">
+          <div class="col-12 pt-4 text-center">
+            <p>
+              We would like to thank the 2026 Bike Month Raleigh sponsors:
+            </p>
+          </div>
+        </div>
+
+        <div class="row text-center g-4 justify-content-center">
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <img src="images/aarp.png" class="img-fluid mb-2" alt="AARP">
+            <div class="small">AARP</div>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <img src="images/ttc.png" class="img-fluid mb-2" alt="Triangle Transportation Choices">
+            <div class="small">Triangle Transportation Choices</div>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <img src="images/spin.png" class="img-fluid mb-2" alt="Spin">
+            <div class="small">Spin</div>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <img src="images/lime.png" class="img-fluid mb-2" alt="Lime">
+            <div class="small">Lime</div>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <img src="images/veo.png" class="img-fluid mb-2" alt="Veo">
+            <div class="small">Veo</div>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <img src="images/safe-routes.png" class="img-fluid mb-2" alt="Safe Routes to School - Wake County">
+            <div class="small">Safe Routes to School</div>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <img src="images/trophy.png" class="img-fluid mb-2" alt="Trophy Brewing">
+            <div class="small">Trophy Brewing</div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="about-footer text-center">
+        <p class="mb-0 small">
+          Site by
+          <a href="https://dargen.io/" target="_blank" rel="noopener noreferrer">Michael D'Argenio</a>
+          &nbsp;|&nbsp;
+          Graphics by
+          <a href="https://bryancouchman.com/" target="_blank" rel="noopener noreferrer">Bryan Couchman</a>
+        </p>
       </div>
     </section>
 

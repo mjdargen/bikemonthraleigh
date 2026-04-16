@@ -1,4 +1,10 @@
 import { RBM_EVENTS } from "./events.js";
+import { renderPartnersGrid } from "./partners.js";
+
+document.addEventListener("DOMContentLoaded", () => {
+  initCalendar();
+  initEvents();
+});
 
 /*************************************************
  * DATA + DOM REFERENCES
@@ -184,24 +190,30 @@ function sanitizeDescription(html) {
   const host = document.createElement("div");
   host.innerHTML = String(html ?? "");
 
-  const allowedTags = new Set(["P", "BR", "A", "B", "STRONG", "I", "EM", "UL", "OL", "LI"]);
+  const allowedTags = new Set(["P", "BR", "A", "B", "STRONG", "I", "EM", "U", "UL", "OL", "LI"]);
 
   const walker = document.createTreeWalker(host, NodeFilter.SHOW_ELEMENT);
-  const toReplace = [];
+  const toUnwrap = [];
 
   while (walker.nextNode()) {
     const el = walker.currentNode;
     if (!allowedTags.has(el.tagName)) {
-      toReplace.push(el);
+      toUnwrap.push(el);
     }
   }
 
-  for (const el of toReplace) {
+  for (const el of toUnwrap) {
     el.replaceWith(...el.childNodes);
   }
 
+  autolinkTextNodes(host);
+
   host.querySelectorAll("a").forEach((a) => {
-    const href = a.getAttribute("href") || "";
+    let href = (a.getAttribute("href") || "").trim();
+
+    // Clean punctuation accidentally captured at the end
+    href = trimTrailingPunctuation(href);
+
     const safe = href.startsWith("https://") || href.startsWith("http://") || href.startsWith("mailto:");
 
     if (!safe) {
@@ -209,11 +221,86 @@ function sanitizeDescription(html) {
       return;
     }
 
+    a.setAttribute("href", href);
     a.setAttribute("target", "_blank");
     a.setAttribute("rel", "noopener noreferrer");
   });
 
-  return host.innerHTML;
+  return host.innerHTML.trim();
+}
+
+function autolinkTextNodes(root) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const textNodes = [];
+
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+
+    if (!node.nodeValue.trim()) continue;
+    if (node.parentElement?.closest("a")) continue;
+
+    textNodes.push(node);
+  }
+
+  for (const node of textNodes) {
+    const frag = linkifyText(node.nodeValue);
+    if (frag) {
+      node.replaceWith(frag);
+    }
+  }
+}
+
+function linkifyText(text) {
+  const fragment = document.createDocumentFragment();
+
+  // URLs with protocol OR plain emails
+  const pattern = /(\bhttps?:\/\/[^\s<]+|\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b)/gi;
+
+  let lastIndex = 0;
+  let matchFound = false;
+  let match;
+
+  while ((match = pattern.exec(text)) !== null) {
+    matchFound = true;
+
+    const start = match.index;
+    const rawMatch = match[0];
+
+    if (start > lastIndex) {
+      fragment.appendChild(document.createTextNode(text.slice(lastIndex, start)));
+    }
+
+    const cleaned = trimTrailingPunctuation(rawMatch);
+    const trailing = rawMatch.slice(cleaned.length);
+
+    const a = document.createElement("a");
+    const isEmail = !cleaned.startsWith("http://") && !cleaned.startsWith("https://");
+
+    a.textContent = cleaned;
+    a.href = isEmail ? `mailto:${cleaned}` : cleaned;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+
+    fragment.appendChild(a);
+
+    if (trailing) {
+      fragment.appendChild(document.createTextNode(trailing));
+    }
+
+    lastIndex = start + rawMatch.length;
+  }
+
+  if (!matchFound) return null;
+
+  if (lastIndex < text.length) {
+    fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+  }
+
+  return fragment;
+}
+
+function trimTrailingPunctuation(str) {
+  return str.replace(/[),.;!?]+$/g, "");
 }
 
 /*************************************************
@@ -312,8 +399,8 @@ function slideHTML(ev, isCurrent = false) {
         <div class="col-12 col-md-7 col-lg-8">
           <div class="event-details">
             <h2 class="event-title mb-4 d-none d-md-block">${title}</h2>
-            <p class="mb-2"><strong>Location:</strong> ${where}</p>
-            <p class="mb-2"><strong>Date:</strong> ${when}</p>
+            <p class="mb-2"><strong>Where:</strong> ${where}</p>
+            <p class="mb-2"><strong>When:</strong> ${when}</p>
             <div class="mb-0">${desc}</div>
           </div>
         </div>
@@ -703,6 +790,7 @@ function renderMonthView(year, monthIndex) {
 
 document.addEventListener("DOMContentLoaded", () => {
   renderMonthView(2026, 4);
+  renderPartnersGrid();
   buildSlides();
 
   currentIndex = findInitialIndex();
@@ -724,8 +812,8 @@ document.addEventListener("DOMContentLoaded", () => {
     paddingTop: nav.offsetHeight + "px",
     controlArrows: true,
     scrollOverflow: true,
-    recordHistory: false,
-    lockAnchors: true,
+    // recordHistory: false,
+    // lockAnchors: true,
 
     /*********************************************
      * afterLoad
