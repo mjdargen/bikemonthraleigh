@@ -1,10 +1,5 @@
-import { RBM_EVENTS } from "./events.js";
+import { RBM_EVENTS } from "./event-data.js";
 import { renderPartnersGrid } from "./partners.js";
-
-document.addEventListener("DOMContentLoaded", () => {
-  initCalendar();
-  initEvents();
-});
 
 /*************************************************
  * DATA + DOM REFERENCES
