@@ -340,6 +340,9 @@ function attachGlobalPopoverListeners() {
   document.addEventListener("click", (e) => {
     if (!e.target.closest(".partner-tile") && !e.target.closest("#partnerPopover")) {
       hidePartnerPopover();
+      document.querySelectorAll(".partner-tile").forEach((t) => {
+        t.setAttribute("aria-expanded", "false");
+      });
     }
   });
 
@@ -358,6 +361,9 @@ function attachGlobalPopoverListeners() {
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
       hidePartnerPopover();
+      document.querySelectorAll(".partner-tile").forEach((t) => {
+        t.setAttribute("aria-expanded", "false");
+      });
     }
   });
 }
@@ -385,57 +391,31 @@ export function renderPartnersGrid(containerId = "partnersGrid") {
       <div class="partner-logo-wrap">
         <img
           src="${escapeHTML(partner.image)}"
-          class="img-fluid partner-logo"
+          class="partner-logo"
           alt="${escapeHTML(partner.name)}"
           loading="lazy"
         >
       </div>
     `;
 
-    const open = () => {
-      showPartnerPopover(partner, tile);
-      tile.setAttribute("aria-expanded", "true");
-    };
+    tile.addEventListener("click", (e) => {
+      e.stopPropagation();
 
-    const close = () => {
-      if (activeTile === tile) {
+      if (activeTile === tile && !getPopover().hidden) {
         hidePartnerPopover();
-      }
-      tile.setAttribute("aria-expanded", "false");
-    };
-
-    tile.addEventListener("mouseenter", () => {
-      if (window.matchMedia("(hover: hover)").matches) {
-        open();
-      }
-    });
-
-    tile.addEventListener("mouseleave", () => {
-      if (window.matchMedia("(hover: hover)").matches) {
-        close();
-      }
-    });
-
-    tile.addEventListener("focus", open);
-
-    tile.addEventListener("blur", () => {
-      if (!window.matchMedia("(hover: hover)").matches) {
+        tile.setAttribute("aria-expanded", "false");
         return;
       }
-      close();
-    });
 
-    tile.addEventListener("click", () => {
-      if (activeTile === tile) {
-        close();
-      } else {
-        open();
-      }
+      document.querySelectorAll(".partner-tile").forEach((t) => {
+        t.setAttribute("aria-expanded", "false");
+      });
+
+      showPartnerPopover(partner, tile);
+      tile.setAttribute("aria-expanded", "true");
     });
 
     col.appendChild(tile);
     container.appendChild(col);
   });
 }
-
-export { PARTNERS };
