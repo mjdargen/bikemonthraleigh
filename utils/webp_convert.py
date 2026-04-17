@@ -11,9 +11,8 @@ MAX_SIZE = None  # e.g. (512, 512) if you want resizing, else None
 
 def convert_to_webp(input_path, output_path):
     with Image.open(input_path) as img:
-        # Convert to RGB if needed (WebP doesn't support some modes cleanly)
-        if img.mode in ("RGBA", "LA"):
-            # keep transparency
+        # If image has transparency info, convert to RGBA
+        if img.mode in ("RGBA", "LA") or "transparency" in img.info:
             img = img.convert("RGBA")
         else:
             img = img.convert("RGB")
@@ -21,7 +20,7 @@ def convert_to_webp(input_path, output_path):
         if MAX_SIZE:
             img.thumbnail(MAX_SIZE, Image.LANCZOS)
 
-        img.save(output_path, "WEBP", quality=QUALITY, method=6, optimize=True)  # best compression
+        img.save(output_path, "WEBP", quality=QUALITY, method=6, optimize=True)
 
 
 def main():

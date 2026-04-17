@@ -1,5 +1,3 @@
-import { PARTNERS } from "./partner-data.js";
-
 function escapeHTML(str) {
   return String(str ?? "")
     .replaceAll("&", "&amp;")
@@ -9,12 +7,12 @@ function escapeHTML(str) {
     .replaceAll("'", "&#039;");
 }
 
-function getPopover() {
-  let popover = document.getElementById("partnerPopover");
+function getPopover(popoverId = "gridPopover") {
+  let popover = document.getElementById(popoverId);
 
   if (!popover) {
     popover = document.createElement("div");
-    popover.id = "partnerPopover";
+    popover.id = popoverId;
     popover.className = "partner-popover-root";
     popover.hidden = true;
     document.body.appendChild(popover);
@@ -24,16 +22,18 @@ function getPopover() {
 }
 
 let activeTile = null;
+let activePopoverId = null;
 
-function hidePartnerPopover() {
-  const popover = getPopover();
+function hideGridPopover(popoverId = activePopoverId || "gridPopover") {
+  const popover = getPopover(popoverId);
   popover.hidden = true;
   popover.innerHTML = "";
   activeTile = null;
+  activePopoverId = null;
 }
 
-function positionPartnerPopover(tile) {
-  const popover = getPopover();
+function positionGridPopover(tile, popoverId = activePopoverId || "gridPopover") {
+  const popover = getPopover(popoverId);
   if (!tile || popover.hidden) return;
 
   const gap = 12;
@@ -62,22 +62,23 @@ function positionPartnerPopover(tile) {
   popover.dataset.placement = placement;
 }
 
-function showPartnerPopover(partner, tile) {
-  const popover = getPopover();
+function showGridPopover(item, tile, popoverId = "gridPopover") {
+  const popover = getPopover(popoverId);
 
   popover.innerHTML = `
-    <div class="partner-popover-title">${escapeHTML(partner.name)}</div>
-    <div class="partner-popover-desc">${escapeHTML(partner.description)}</div>
+    <div class="partner-popover-title">${escapeHTML(item.name)}</div>
+    <div class="partner-popover-desc">${escapeHTML(item.description)}</div>
     ${
-      partner.url
-        ? `<a href="${escapeHTML(partner.url)}" target="_blank" rel="noopener noreferrer" class="partner-popover-link">Visit site</a>`
+      item.url
+        ? `<a href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer" class="partner-popover-link">Visit site</a>`
         : ""
     }
   `;
 
   popover.hidden = false;
   activeTile = tile;
-  positionPartnerPopover(tile);
+  activePopoverId = popoverId;
+  positionGridPopover(tile, popoverId);
 }
 
 function attachGlobalPopoverListeners() {
@@ -85,8 +86,8 @@ function attachGlobalPopoverListeners() {
   attachGlobalPopoverListeners.done = true;
 
   document.addEventListener("click", (e) => {
-    if (!e.target.closest(".partner-tile") && !e.target.closest("#partnerPopover")) {
-      hidePartnerPopover();
+    if (!e.target.closest(".partner-tile") && !e.target.closest(".partner-popover-root")) {
+      hideGridPopover();
       document.querySelectorAll(".partner-tile").forEach((t) => {
         t.setAttribute("aria-expanded", "false");
       });
@@ -94,20 +95,24 @@ function attachGlobalPopoverListeners() {
   });
 
   window.addEventListener("resize", () => {
-    if (activeTile) positionPartnerPopover(activeTile);
+    if (activeTile && activePopoverId) {
+      positionGridPopover(activeTile, activePopoverId);
+    }
   });
 
   window.addEventListener(
     "scroll",
     () => {
-      if (activeTile) positionPartnerPopover(activeTile);
+      if (activeTile && activePopoverId) {
+        positionGridPopover(activeTile, activePopoverId);
+      }
     },
     true,
   );
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
-      hidePartnerPopover();
+      hideGridPopover();
       document.querySelectorAll(".partner-tile").forEach((t) => {
         t.setAttribute("aria-expanded", "false");
       });
@@ -115,50 +120,66 @@ function attachGlobalPopoverListeners() {
   });
 }
 
-export function renderPartnersGrid(containerId = "partnersGrid") {
+export function renderInfoGrid(containerId, items, options = {}) {
+  const {
+    popoverId = "gridPopover",
+    tileClass = "partner-tile",
+    colClass = "col",
+    logoWrapClass = "partner-logo-wrap",
+    logoClass = "partner-logo",
+    popoverLabel = "details",
+  } = options;
+
   const container = document.getElementById(containerId);
   if (!container) return;
 
   attachGlobalPopoverListeners();
-  getPopover();
+  getPopover(popoverId);
 
   container.innerHTML = "";
 
-  PARTNERS.forEach((partner) => {
+  items.forEach((item) => {
     const col = document.createElement("div");
-    col.className = "col";
+    col.className = colClass;
 
     const tile = document.createElement("button");
     tile.type = "button";
-    tile.className = "partner-tile";
-    tile.setAttribute("aria-label", `${partner.name} details`);
+    tile.className = tileClass;
+    tile.setAttribute("aria-label", `${item.name} ${popoverLabel}`);
     tile.setAttribute("aria-expanded", "false");
 
     tile.innerHTML = `
-      <div class="partner-logo-wrap">
-        <img
-          src="${escapeHTML(partner.image)}"
-          class="partner-logo"
-          alt="${escapeHTML(partner.name)}"
-          loading="lazy"
-        >
+      <div class="partner-content">
+        <div class="${logoWrapClass}">
+          <img
+            src="${escapeHTML(item.image)}"
+            class="${logoClass}"
+            alt="${escapeHTML(item.alt || item.name)}"
+            loading="lazy"
+          >
+        </div>
+        <div class="grid-label small mt-1 text-center">
+          ${escapeHTML(item.name)}
+        </div>
       </div>
     `;
 
     tile.addEventListener("click", (e) => {
       e.stopPropagation();
 
-      if (activeTile === tile && !getPopover().hidden) {
-        hidePartnerPopover();
+      const popover = getPopover(popoverId);
+
+      if (activeTile === tile && activePopoverId === popoverId && !popover.hidden) {
+        hideGridPopover(popoverId);
         tile.setAttribute("aria-expanded", "false");
         return;
       }
 
-      document.querySelectorAll(".partner-tile").forEach((t) => {
+      document.querySelectorAll(`.${tileClass}`).forEach((t) => {
         t.setAttribute("aria-expanded", "false");
       });
 
-      showPartnerPopover(partner, tile);
+      showGridPopover(item, tile, popoverId);
       tile.setAttribute("aria-expanded", "true");
     });
 

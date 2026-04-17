@@ -1,4 +1,6 @@
-import { renderPartnersGrid } from "./partners.js";
+import { renderInfoGrid } from "./grid.js";
+import { PARTNERS } from "./partner-data.js";
+import { SPONSORS } from "./sponsor-data.js";
 import {
   events,
   nav,
@@ -47,7 +49,17 @@ function setNavTheme(anchor) {
 
 export function initPage() {
   renderMonthView(2026, 4);
-  renderPartnersGrid();
+
+  PARTNERS.sort((a, b) => a.name.localeCompare(b.name));
+  SPONSORS.sort((a, b) => a.name.localeCompare(b.name));
+  renderInfoGrid("partnersGrid", PARTNERS, {
+    popoverId: "partnersPopover",
+    popoverLabel: "details",
+  });
+  renderInfoGrid("sponsorsGrid", SPONSORS, {
+    popoverId: "sponsorsPopover",
+    popoverLabel: "details",
+  });
 
   bindEventsSectionInteractions();
   buildSlides();

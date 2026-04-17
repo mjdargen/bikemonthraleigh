@@ -125,6 +125,12 @@ export const PARTNERS = [
     description:
       "A program promoting safe walking and biking for K–12 students through education and community initiatives.",
     url: null,
-    image: "assets/partners/safe_routes.webp",
+    image: "assets/partners/SRTS_WakeCounty_white.webp",
+  },
+  {
+    name: "Raleigh Community Kickstand",
+    description:
+      "A volunteer bike collective working to ensure everyone has access to safe, reliable, and self-sufficient transportation.",
+    image: "assets/partners/rck.svg",
   },
 ];
