@@ -153,6 +153,8 @@ export function initCalendar() {
     dayMaxEvents: true,
     fixedWeekCount: false,
     showNonCurrentDates: false,
+    // listDaySideFormat: false,
+    displayEventEnd: false,
 
     views: {
       listMonth: { buttonText: "Agenda" },
@@ -164,7 +166,6 @@ export function initCalendar() {
       month: "short",
       day: "numeric",
     },
-    listDaySideFormat: false,
 
     eventTimeFormat: {
       hour: "numeric",
