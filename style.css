@@ -731,7 +731,7 @@ h3 {
 }
 
 #calendar-container {
-  margin: 1rem;
+  margin: 0rem 1rem;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 8px 8px 0 var(--rbm-orange);
