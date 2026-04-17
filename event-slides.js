@@ -126,21 +126,31 @@ export function slideHTML(ev, isCurrent = false) {
   const loadingAttr = isCurrent ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"';
   const decodingAttr = isCurrent ? 'decoding="sync"' : 'decoding="async"';
   const n = getPlaceholderNumber(ev);
-  const imageBlock = imgUrl
-    ? `
+  // const imageBlock = imgUrl
+  //   ? `
+  //     <img
+  //       src="${escapeHTML(imgUrl)}"
+  //       alt="${title}"
+  //       class="img-fluid rounded shadow event-image"
+  //       onerror="this.onerror=null; this.src='assets/events/placeholder1.svg';"
+  //       ${loadingAttr}
+  //       ${decodingAttr}
+  //     >
+  //   `
+  //   : `
+  //     <img
+  //       src="assets/events/placeholder${n}.svg"
+  //       alt="Bike Month Raleigh"
+  //       class="img-fluid rounded shadow event-image"
+  //       onerror="this.onerror=null; this.src='assets/events/placeholder1.svg';"
+  //       ${loadingAttr}
+  //       ${decodingAttr}
+  //     >
+  //   `;
+  const imageBlock = `
       <img
         src="${escapeHTML(imgUrl)}"
         alt="${title}"
-        class="img-fluid rounded shadow event-image"
-        onerror="this.onerror=null; this.src='assets/events/placeholder1.svg';"
-        ${loadingAttr}
-        ${decodingAttr}
-      >
-    `
-    : `
-      <img
-        src="assets/events/placeholder${n}.svg"
-        alt="Bike Month Raleigh"
         class="img-fluid rounded shadow event-image"
         onerror="this.onerror=null; this.src='assets/events/placeholder1.svg';"
         ${loadingAttr}

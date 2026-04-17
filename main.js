@@ -1,6 +1,8 @@
 import { renderInfoGrid } from "./grid.js";
 import { PARTNERS } from "./partner-data.js";
 import { SPONSORS } from "./sponsor-data.js";
+import { initCalendar } from "./calendar.js";
+
 import {
   events,
   nav,
@@ -48,7 +50,7 @@ function setNavTheme(anchor) {
  *************************************************/
 
 export function initPage() {
-  renderMonthView(2026, 4);
+  initCalendar();
 
   PARTNERS.sort((a, b) => a.name.localeCompare(b.name));
   SPONSORS.sort((a, b) => a.name.localeCompare(b.name));
