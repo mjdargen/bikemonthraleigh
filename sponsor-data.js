@@ -13,7 +13,7 @@ export const SPONSORS = [
     alt: "Central Pines Regional Council",
     url: "https://www.centralpinesnc.gov/mobility-transportation/triangle-transportation-choices",
     description:
-      "CPRC’s Triangle Transportation Choices program is a marketing and outreach effort to promote alternative transportation modes within a seven-county central NC region.",
+      "CPRC's Triangle Transportation Choices program is a marketing and outreach effort to promote alternative transportation modes within a seven-county central NC region.",
   },
   {
     name: "Lime",
@@ -33,7 +33,7 @@ export const SPONSORS = [
   },
   {
     name: "Spin",
-    image: "assets/sponsors/Spin.webp",
+    image: "assets/sponsors/SPIN.webp",
     alt: "Spin",
     url: "https://www.spin.app/",
     description:
@@ -41,7 +41,7 @@ export const SPONSORS = [
   },
   {
     name: "Trophy Brewing",
-    image: "assets/sponsors/Trophy.webp",
+    image: "assets/sponsors/Trophy logo.webp",
     alt: "Trophy Brewing",
     url: "https://www.trophybrewing.com/",
     description:
@@ -60,6 +60,6 @@ export const SPONSORS = [
     description:
       "The Downtown Raleigh Alliance administers the Municipal Services District and supports downtown through ambassador programs, business development, and community engagement.",
     url: "https://downtownraleigh.org/",
-    image: "assets/partners/dra.webp",
+    image: "assets/partners/dralogo.webp",
   },
 ];

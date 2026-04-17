@@ -14,14 +14,7 @@ import {
   setHasPositionedEvents,
 } from "./event-state.js";
 
-import {
-  buildSlides,
-  findInitialIndex,
-  renderAround,
-  startAutoSlides,
-  stopAutoSlides,
-  bindEventsSectionInteractions,
-} from "./event-slides.js";
+import { buildSlides, findInitialIndex, renderAround } from "./event-slides.js";
 
 import {
   freezeBackgroundLayers,
@@ -63,7 +56,6 @@ export function initPage() {
     popoverLabel: "details",
   });
 
-  bindEventsSectionInteractions();
   buildSlides();
 
   setCurrentIndex(findInitialIndex());
@@ -118,10 +110,7 @@ export function initPage() {
           setBikeFacingForward();
           setBikeIdle();
         }
-
-        startAutoSlides();
       } else {
-        stopAutoSlides();
         fullpage_api.setScrollingSpeed(700);
       }
     },
@@ -135,7 +124,6 @@ export function initPage() {
      *********************************************/
     onLeave: function (origin, destination) {
       if (origin.anchor === "events" && destination.anchor !== "events") {
-        stopAutoSlides();
         fullpage_api.setScrollingSpeed(700);
       }
     },
@@ -172,10 +160,6 @@ export function initPage() {
 
       setCurrentIndex(destination.index);
       renderAround(currentIndex);
-
-      if (section.anchor === "events") {
-        startAutoSlides();
-      }
     },
   });
 }

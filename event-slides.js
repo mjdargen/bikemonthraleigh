@@ -16,58 +16,6 @@ import {
 import { escapeHTML, formatWhen, formatLocation, sanitizeDescription, bestImageUrl, parseISO } from "./event-utils.js";
 
 /*************************************************
- * AUTO-ADVANCING EVENT SLIDES
- *
- * The Events section auto-advances unless the user
- * is hovering over it.
- *************************************************/
-
-export function stopAutoSlides() {
-  if (slideInterval) {
-    clearInterval(slideInterval);
-    setSlideInterval(null);
-  }
-}
-
-export function startAutoSlides() {
-  if (isHoveringEvents || isFocusInEvents) return;
-  stopAutoSlides();
-
-  const id = setInterval(() => {
-    const total = slides.length;
-    const next = (currentIndex + 1) % total;
-    fullpage_api.moveTo("events", next);
-  }, SLIDE_DELAY);
-
-  setSlideInterval(id);
-}
-
-// Pause auto-advance while the mouse is over the Events section.
-export function bindEventsSectionInteractions() {
-  eventsSection.addEventListener("mouseenter", () => {
-    setIsHoveringEvents(true);
-    stopAutoSlides();
-  });
-
-  eventsSection.addEventListener("mouseleave", () => {
-    setIsHoveringEvents(false);
-    startAutoSlides();
-  });
-
-  eventsSection.addEventListener("focusin", () => {
-    setIsFocusInEvents(true);
-    stopAutoSlides();
-  });
-
-  eventsSection.addEventListener("focusout", () => {
-    setIsFocusInEvents(eventsSection.contains(document.activeElement));
-    if (!eventsSection.contains(document.activeElement)) {
-      startAutoSlides();
-    }
-  });
-}
-
-/*************************************************
  * IMAGE PRELOADING
  *
  * Only preload images we might need soon, and only
@@ -126,27 +74,6 @@ export function slideHTML(ev, isCurrent = false) {
   const loadingAttr = isCurrent ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"';
   const decodingAttr = isCurrent ? 'decoding="sync"' : 'decoding="async"';
   const n = getPlaceholderNumber(ev);
-  // const imageBlock = imgUrl
-  //   ? `
-  //     <img
-  //       src="${escapeHTML(imgUrl)}"
-  //       alt="${title}"
-  //       class="img-fluid rounded shadow event-image"
-  //       onerror="this.onerror=null; this.src='assets/events/placeholder1.svg';"
-  //       ${loadingAttr}
-  //       ${decodingAttr}
-  //     >
-  //   `
-  //   : `
-  //     <img
-  //       src="assets/events/placeholder${n}.svg"
-  //       alt="Bike Month Raleigh"
-  //       class="img-fluid rounded shadow event-image"
-  //       onerror="this.onerror=null; this.src='assets/events/placeholder1.svg';"
-  //       ${loadingAttr}
-  //       ${decodingAttr}
-  //     >
-  //   `;
   const imageBlock = `
       <img
         src="${escapeHTML(imgUrl)}"
@@ -160,7 +87,7 @@ export function slideHTML(ev, isCurrent = false) {
 
   return `
     <div class="event-slide-content section-inner container">
-      <div class="row py-4 py-md-5">
+      <div class="row py-3 align-items-md-center">
 
         <div class="col-12 d-md-none">
           <h2 class="event-title mb-4">${title}</h2>

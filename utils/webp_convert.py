@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
-INPUT_DIR = os.path.join(BASE_DIR, "../assets/partners")  # change if needed
+INPUT_DIR = os.path.join(BASE_DIR, "../assets/sponsors")  # change if needed
 OUTPUT_DIR = INPUT_DIR  # or use a separate folder
 
 QUALITY = 85  # 80–90 is a good balance

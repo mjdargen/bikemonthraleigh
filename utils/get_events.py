@@ -422,9 +422,23 @@ def export_public_ics(ics_url: str, window_start: datetime, window_end: datetime
 
     events_out: List[Dict[str, Any]] = []
 
-    # One session for all downloads (fewer TCP handshakes)
     session = requests.Session()
     url_cache: Dict[str, str] = {}
+
+    # First pass:
+    # Collect overridden recurring instances so the master RRULE expansion
+    # does not also emit the same occurrence.
+    overridden_instances: set[tuple[str, datetime]] = set()
+
+    for component in cal.walk():
+        if component.name != "VEVENT":
+            continue
+
+        uid = _to_text(component.get("UID"))
+        recurrence_id = _get_recurrence_id(component, tzname)
+
+        if uid and recurrence_id is not None:
+            overridden_instances.add((uid, recurrence_id))
 
     for component in cal.walk():
         if component.name != "VEVENT":
@@ -437,6 +451,7 @@ def export_public_ics(ics_url: str, window_start: datetime, window_end: datetime
         url = _to_text(component.get("URL"))
         status = _to_text(component.get("STATUS"))
         categories = component.get("CATEGORIES")
+
         categories_text = None
         if categories is not None:
             if isinstance(categories, list):
@@ -455,10 +470,17 @@ def export_public_ics(ics_url: str, window_start: datetime, window_end: datetime
             continue
 
         recurrence_id = _get_recurrence_id(component, tzname)
+
+        # If this is a one-off override of a recurring event, emit only that one instance.
         if recurrence_id is not None:
             starts = [recurrence_id]
         else:
             starts = _expand_rrule(component, dtstart, window_start, window_end, tzname)
+
+            # If this component is a recurring master, skip any occurrence that has
+            # a corresponding RECURRENCE-ID override elsewhere in the feed.
+            if uid:
+                starts = [occ for occ in starts if (uid, occ) not in overridden_instances]
 
         for occ_start in starts:
             base_start, base_end = _event_window(dtstart, dtend, is_all_day)
@@ -477,7 +499,6 @@ def export_public_ics(ics_url: str, window_start: datetime, window_end: datetime
             seen = set()
             images = [u for u in images if not (u in seen or seen.add(u))]
 
-            # Download images and store local paths
             local_images: List[str] = []
             attachment_name_by_url = {a["url"]: a.get("filename") for a in attachments if a.get("url")}
 
@@ -533,7 +554,7 @@ def main() -> None:
         default="https://calendar.google.com/calendar/ical/c_68253accc6c8fd6a59483d04329bc7149676eeb6c9b4b8715cf31647d83abb00%40group.calendar.google.com/public/full.ics",
     )
     ap.add_argument("--start", default="2026-05-01", help="YYYY-MM-DD or RFC3339 datetime")
-    ap.add_argument("--end", default="2026-05-31", help="YYYY-MM-DD or RFC3339 datetime (end is exclusive)")
+    ap.add_argument("--end", default="2026-06-01", help="YYYY-MM-DD or RFC3339 datetime (end is exclusive)")
     ap.add_argument("--tz", default="America/New_York")
     ap.add_argument("--out", default="events.json")
     args = ap.parse_args()

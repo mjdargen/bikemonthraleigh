@@ -111,7 +111,7 @@ export function initCalendar() {
 
   function renderEventModal(fcEvent) {
     const source = fcEvent.extendedProps?.source ?? {};
-    const photo = fcEvent.extendedProps?.photo ?? "";
+    // const photo = fcEvent.extendedProps?.photo ?? "";
 
     modalTitle.textContent = fcEvent.title || "";
     modalDate.textContent = formatEventDateRange(
@@ -124,18 +124,19 @@ export function initCalendar() {
     modalLocation.textContent = source.location || "";
     modalDescription.innerHTML = source.description || "";
 
-    if (photo) {
-      modalImage.src = photo;
-      modalImage.classList.remove("hidden");
-    } else {
-      modalImage.classList.add("hidden");
-    }
+    // if (photo) {
+    //   modalImage.src = photo;
+    //   modalImage.classList.remove("hidden");
+    // } else {
+    //   modalImage.classList.add("hidden");
+    // }
+    modalImage.classList.add("hidden");
 
     clearLinks();
 
     source.attachments?.forEach((a, i) => addLinkButton(a.url, a.filename || `Attachment ${i + 1}`));
 
-    source.links?.forEach((link, i) => addLinkButton(link, `Link ${i + 1}`));
+    // source.links?.forEach((link, i) => addLinkButton(link, `Link ${i + 1}`));
 
     if (source.url) addLinkButton(source.url, "Event Link");
 

@@ -32,7 +32,7 @@ export const PARTNERS = [
     description:
       "The Downtown Raleigh Alliance administers the Municipal Services District and supports downtown through ambassador programs, business development, and community engagement.",
     url: "https://downtownraleigh.org/",
-    image: "assets/partners/dra.webp",
+    image: "assets/partners/dralogo.webp",
   },
   {
     name: "Greenway Gear Collective",
@@ -60,14 +60,14 @@ export const PARTNERS = [
     description:
       "A local independent cycling shop in downtown Raleigh offering bikes, parts, repairs, and a full calendar of community rides and events.",
     url: "https://www.oakcitycycling.com/",
-    image: "assets/partners/occ.webp",
+    image: "assets/partners/Oak City Cycling.webp",
   },
   {
     name: "Oak City Cycling Race Team",
     description:
       "A community-focused race team hosting events like short track MTB, cyclocross, and other cycling competitions throughout the year.",
     url: "https://instagram.com/oakcitycyclingteam",
-    image: "assets/partners/occrt.webp",
+    image: "assets/partners/Oak City Cycling Team.webp",
   },
   {
     name: "Raleigh Bike Polo",
@@ -81,7 +81,7 @@ export const PARTNERS = [
     description:
       "A monthly community ride promoting shared streets for all users. All wheels welcome for a relaxed, no-drop group ride.",
     url: "https://instagram.com/raleighcriticalmass",
-    image: "assets/partners/RaleighCriticalMass.webp",
+    image: "assets/partners/Critical Mass.webp",
   },
   {
     name: "Raleigh Parks",
@@ -106,13 +106,13 @@ export const PARTNERS = [
     name: "Trek Holly Park",
     description: "A Trek Bicycle store offering bikes, gear, and fast service, located centrally in Raleigh.",
     url: "https://www.trekbikes.com/",
-    image: "assets/partners/trek.webp",
+    image: "assets/partners/Trek Holly Park.webp",
   },
   {
     name: "Trek North Raleigh",
     description: "A Trek Bicycle shop near major trails offering bikes, service, and cycling gear for all riders.",
     url: "https://www.trekbikes.com/",
-    image: "assets/partners/Trek_black.webp",
+    image: "assets/partners/Trek North Raleigh.webp",
   },
   {
     name: "Triangle Offroad Cyclists",
@@ -123,7 +123,7 @@ export const PARTNERS = [
   {
     name: "Wake County Safe Routes to School",
     description:
-      "A program promoting safe walking and biking for K–12 students through education and community initiatives.",
+      "A program promoting safe walking and biking for K-12 students through education and community initiatives.",
     url: null,
     image: "assets/partners/SRTS_WakeCounty_white.webp",
   },
@@ -131,6 +131,14 @@ export const PARTNERS = [
     name: "Raleigh Community Kickstand",
     description:
       "A volunteer bike collective working to ensure everyone has access to safe, reliable, and self-sufficient transportation.",
+    url: "https://raleighcommunitykickstand.org/",
     image: "assets/partners/rck.svg",
+  },
+  {
+    name: "Le Dive",
+    description:
+      "This bartender-owned + operated dive keeps the energy flowing with cold drinks, lunch to late-night bites from Da Bubs, and nonstop good vibes.",
+    url: "https://www.lediveraleigh.com/",
+    image: "assets/partners/Le Dive.webp",
   },
 ];

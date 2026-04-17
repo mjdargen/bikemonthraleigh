@@ -5,7 +5,7 @@
   },
   "timeZone": "America/New_York",
   "windowStart": "2026-05-01T00:00:00-04:00",
-  "windowEnd": "2026-05-31T00:00:00-04:00",
+  "windowEnd": "2026-06-01T00:00:00-04:00",
   "count": 31,
   "events": [
     {
@@ -167,6 +167,22 @@
       ]
     },
     {
+      "uid": "76ov35nc01qnh1saai4e0m9ibl@google.com",
+      "title": "Greenway Cleanup with FRoG",
+      "description": "<br>Give back to the greenways and join Friends of the Raleigh Greenways on a ride/cleanup from Kiwanis Park to Anderson Point Park (or optionally, meet at Anderson Point Park at 2:45p for the cleanup portion).<br><br>The area we are targeting to do litter cleanup is the area between Anderson Point Park and mile marker 1.5 on the Crabtree Creek trail. This is adjacent to the Sonoco facility and is generally accessible for those not riding as you may park at APP and walk down. We will provide all materials necessary (gloves,  cleanup, etc) and have a construction orange cooler with water and will provide FRoG water bottles for those needing/wanting them.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Friends of the Raleigh Greenways",
+      "location": "Kiwanis Neighborhood Center, 2525 Noble Rd, Raleigh, NC 27608, USA",
+      "start": "2026-05-03T18:00:00+00:00",
+      "end": "2026-05-03T20:30:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
       "uid": "3l3j1ti5fdvlattq3sttth1a7f@google.com",
       "title": "Bike & Roll to School Day",
       "description": "Multiple schools across Wake County are participating in Bike &amp; Roll to School Day -- is your school one of them? Check <a href=\"https://www.walkbiketoschool.org/registration/whosbiking.php?sid=NC&amp;cntyid=WAKE%20COUNTY\">here</a> or connect with your PTA or school administration to learn more about meeting times, locations, and what fun activities you can expect for your roll to school. Current Raleigh schools: Green, Jeffrey's Grove, Joyner, Leesville, Olds, Powell, Root. <br><br><b>Registration required? </b>No<br><b>Passport eligible? </b>No<br><b>Community partner: </b>Wake County Safe Routes to School, and schools!",
@@ -279,25 +295,6 @@
     {
       "uid": "04r6d9lnov23ca89hb1e0fg9b2@google.com",
       "title": "Learn to Ride @ Lion's Park",
-      "description": "Our spring Learn to Ride series for kids concludes with classes at Lion's Park (10a-12p) and Dix Park (2-4p). Registration is free. Lion's Park: <u><a target=\"_blank\" href=\"http://tinyurl.com/LionsLTR.\">tinyurl.com/LionsLTR.</a></u> Bikes and helmets are available to borrow! Volunteer help appreciated; contact Kat@oaksandspokes.org if interested in helping out.<br><ul><li><b>Passport eligible:</b> Yes (for kids/families and volunteers)</li><li><b>Registration required: </b>Yes - register <a href=\"http://tinyurl.com/LionsLTR\">here</a>!</li></ul>",
-      "location": "Lions Park playground, 1421 Lions Way, Raleigh, NC 27604, USA",
-      "start": "2026-05-09T10:00:00-04:00",
-      "end": "2026-05-09T12:00:00-04:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [
-        "http://tinyurl.com/LionsLTR.",
-        "http://tinyurl.com/LionsLTR"
-      ],
-      "attachments": [],
-      "images": [],
-      "localImages": []
-    },
-    {
-      "uid": "04r6d9lnov23ca89hb1e0fg9b2@google.com",
-      "title": "Learn to Ride @ Lion's Park",
       "description": "Our spring Learn to Ride series for kids concludes with classes at Lion's Park (10a-12p) and Dix Park (2-4p). Registration is free; register <a href=\"https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&amp;SubAction=&amp;_csrf_token=jb63165T1H723R2X1V3L2H3F5M5W6L4T075D4L4C50055T5X5555704R4J546G6X5U5G6D4D6Y5P4I6L4W085F4V6D53065D4Q4Y516C5O4T586G015Y4K4B501A5U4J5E&amp;keyword=learn+to+ride&amp;location=Lions+Park+Community+Center&amp;grade=&amp;keywordoption=Match+One&amp;primarycode=&amp;showwithavailable=No&amp;beginyear=&amp;bydayonly=No&amp;spotsavailable=&amp;gender=&amp;timeblock=&amp;dayoption=Any&amp;display=Listing&amp;sort=ActivityNumber&amp;search=yes&amp;page=1&amp;module=AR&amp;multiselectlist_value=&amp;arwebsearch_buttonsearch=yes\">here</a><u><a href=\"http://tinyurl.com/LionsLTR.\" target=\"_blank\">.</a></u> Bikes and helmets are available to borrow! Volunteer help appreciated; contact <a href=\"mailto:Kat@oaksandspokes.org\" target=\"_blank\">Kat@oaksandspokes.org</a> if interested in helping out.<br><b><br></b><br><b>Registration required: </b>Yes - register for free <u><a href=\"https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&amp;SubAction=&amp;_csrf_token=jb63165T1H723R2X1V3L2H3F5M5W6L4T075D4L4C50055T5X5555704R4J546G6X5U5G6D4D6Y5P4I6L4W085F4V6D53065D4Q4Y516C5O4T586G015Y4K4B501A5U4J5E&amp;keyword=learn+to+ride&amp;location=Lions+Park+Community+Center&amp;grade=&amp;keywordoption=Match+One&amp;primarycode=&amp;showwithavailable=No&amp;beginyear=&amp;bydayonly=No&amp;spotsavailable=&amp;gender=&amp;timeblock=&amp;dayoption=Any&amp;display=Listing&amp;sort=ActivityNumber&amp;search=yes&amp;page=1&amp;module=AR&amp;multiselectlist_value=&amp;arwebsearch_buttonsearch=yes\">here</a></u>!<br><b>Passport eligible:</b> Yes (for kids/families <u>and</u> volunteers)<br><b>Community partner</b>: Wake County Safe Routes to School",
       "location": "Lions Park playground, 1421 Lions Way, Raleigh, NC 27604, USA",
       "start": "2026-05-09T10:00:00-04:00",
@@ -323,25 +320,6 @@
       "localImages": [
         "assets/events/10 - May 9 - Learn to Ride.jpg"
       ]
-    },
-    {
-      "uid": "5q0asantv1c3ue7goe5g7opiqr@google.com",
-      "title": "Community Kickstand: Bicycle Repair Day",
-      "description": "<a href=\"https://www.google.com/url?q=https://raleighcommunitykickstand.org/&amp;sa=D&amp;source=calendar&amp;ust=1683058234580138&amp;usg=AOvVaw3OdunF8yoLE4kCcpVbQPPB\" target=\"_blank\">https://raleighcommunitykickstand.org/</a>  <br><br><br>The Raleigh Community Kickstand is an all-volunteer, non-profit community bicycle cooperative project located in Raleigh, NC and established in 2017. We are currently partnering with homeless resource centers in the Raleigh area to repair bicycles and teach maintenance skills. We work with the city, local cycling shops, cycling non-profits, and other organizations and individuals to collect resources and skills to address a need in our community for safe, reliable, self-sufficient transportation. Our motto is simple: fix, teach, give.  ",
-      "location": "Oak City Cares, 1430 S Wilmington St, Raleigh, NC 27603, USA",
-      "start": "2026-05-09T13:00:00-04:00",
-      "end": "2026-05-09T15:00:00-04:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [
-        "https://www.google.com/url?q=https://raleighcommunitykickstand.org/&amp;sa=D&amp;source=calendar&amp;ust=1683058234580138&amp;usg=AOvVaw3OdunF8yoLE4kCcpVbQPPB",
-        "https://raleighcommunitykickstand.org/"
-      ],
-      "attachments": [],
-      "images": [],
-      "localImages": []
     },
     {
       "uid": "5q0asantv1c3ue7goe5g7opiqr@google.com",
@@ -713,6 +691,22 @@
       "links": [
         "https://www.meetup.com/torc-nc/events/314192450/"
       ],
+      "attachments": [],
+      "images": [],
+      "localImages": []
+    },
+    {
+      "uid": "3dbagfn2l11591rub4a543sa44@google.com",
+      "title": "Bike Month Finale Party",
+      "description": "Come celebrate the month with us! This will also be an opportunity to pick up your passport \"tier\" prizes (3 events = Bike Month patch, 5 events = coupon for free pizza, and 7 events = a musette bag!). We'll be raffling off our Bike Month grand prizes at 6:30p. Remember, each event you attend on your passport gives you an additional raffle entry, so come on out to Bike Month events to increase your chances! Must be present to win. <br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> No (you'll be turning them in at the event!)<br><b>Community partner: </b>Le Dive",
+      "location": "Le Dive, 14 W Martin St, Raleigh, NC 27601, USA",
+      "start": "2026-05-31T21:00:00+00:00",
+      "end": "2026-06-01T00:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
       "attachments": [],
       "images": [],
       "localImages": []
