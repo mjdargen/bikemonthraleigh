@@ -1,7 +1,7 @@
 export const SPONSORS = [
   {
     name: "AARP",
-    image: "assets/sponsors/AARP.webp",
+    image: "assets/sponsors/aarp.webp",
     alt: "AARP",
     url: "https://www.aarp.org/",
     description:
@@ -9,7 +9,7 @@ export const SPONSORS = [
   },
   {
     name: "Central Pines Regional Council",
-    image: "assets/sponsors/CPRC.webp",
+    image: "assets/sponsors/cprc.webp",
     alt: "Central Pines Regional Council",
     url: "https://www.centralpinesnc.gov/mobility-transportation/triangle-transportation-choices",
     description:
@@ -17,7 +17,7 @@ export const SPONSORS = [
   },
   {
     name: "Lime",
-    image: "assets/sponsors/Lime.webp",
+    image: "assets/sponsors/lime.webp",
     alt: "Lime",
     url: "https://www.li.me/",
     description:
@@ -25,7 +25,7 @@ export const SPONSORS = [
   },
   {
     name: "Safe Routes to School",
-    image: "assets/sponsors/SRTS_WakeCounty_black.webp",
+    image: "assets/sponsors/srts-wakecounty-black.webp",
     alt: "Safe Routes to School - Wake County",
     url: "",
     description:
@@ -33,7 +33,7 @@ export const SPONSORS = [
   },
   {
     name: "Spin",
-    image: "assets/sponsors/SPIN.webp",
+    image: "assets/sponsors/spin.webp",
     alt: "Spin",
     url: "https://www.spin.app/",
     description:
@@ -41,7 +41,7 @@ export const SPONSORS = [
   },
   {
     name: "Trophy Brewing",
-    image: "assets/sponsors/Trophy logo.webp",
+    image: "assets/sponsors/trophy-logo.webp",
     alt: "Trophy Brewing",
     url: "https://www.trophybrewing.com/",
     description:
@@ -49,7 +49,7 @@ export const SPONSORS = [
   },
   {
     name: "Veo",
-    image: "assets/sponsors/VEO.webp",
+    image: "assets/sponsors/veo.webp",
     alt: "Veo",
     url: "https://www.veoride.com/",
     description:
@@ -60,6 +60,30 @@ export const SPONSORS = [
     description:
       "The Downtown Raleigh Alliance administers the Municipal Services District and supports downtown through ambassador programs, business development, and community engagement.",
     url: "https://downtownraleigh.org/",
-    image: "assets/partners/dralogo.webp",
+    image: "assets/sponsors/dralogo.webp",
+  },
+  {
+    name: "GoPerks",
+    image: "assets/sponsors/goperks.webp",
+    alt: "GoPerks",
+    url: "https://goperks.com/",
+    description:
+      "GoPerks provides commuter benefits and incentive programs that encourage walking, biking, transit, and other sustainable transportation choices.",
+  },
+  {
+    name: "North State Bank",
+    image: "assets/sponsors/north-state-bank.webp",
+    alt: "North State Bank",
+    url: "https://www.northstatebank.com/",
+    description:
+      "North State Bank is a community bank providing personal and business banking services with a focus on supporting local initiatives and organizations.",
+  },
+  {
+    name: "North Carolina Courage",
+    image: "assets/sponsors/nc-courage.svg",
+    alt: "North Carolina Courage",
+    url: "https://www.nccourage.com/",
+    description:
+      "The North Carolina Courage is a professional women's soccer team competing in the National Women's Soccer League and supporting community engagement across the region.",
   },
 ];

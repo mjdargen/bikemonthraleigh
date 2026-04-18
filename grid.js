@@ -124,7 +124,7 @@ export function renderInfoGrid(containerId, items, options = {}) {
   const {
     popoverId = "gridPopover",
     tileClass = "partner-tile",
-    colClass = "col",
+    colClass = "col p-0",
     logoWrapClass = "partner-logo-wrap",
     logoClass = "partner-logo",
     popoverLabel = "details",

@@ -25,8 +25,6 @@ import {
   setBikePedaling,
 } from "./event-bike.js";
 
-import { renderMonthView } from "./calendar-view.js";
-
 function setNavTheme(anchor) {
   const nav = document.getElementById("mainNav");
   nav.classList.remove("home", "calendar", "events", "partners", "about");
