@@ -186,8 +186,8 @@ export const PARTNERS = [
   {
     name: "Old North Cycling",
     description:
-      "A cycling brand creating apparel and goods that celebrate riding and community across North Carolina.",
-    url: "https://oldnorthcycling.com/",
+      "A community-focused cycling team built around camaraderie, group rides, and making cycling more welcoming and accessible while supporting events and advocacy across the Triangle.",
+    url: "https://www.oncraleigh.com/",
     image: "assets/partners/old-north.webp",
   },
 ];
