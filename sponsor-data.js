@@ -66,7 +66,7 @@ export const SPONSORS = [
     name: "GoPerks",
     image: "assets/sponsors/goperks.webp",
     alt: "GoPerks",
-    url: "https://goperks.com/",
+    url: "https://goperks.org/",
     description:
       "GoPerks provides commuter benefits and incentive programs that encourage walking, biking, transit, and other sustainable transportation choices.",
   },
