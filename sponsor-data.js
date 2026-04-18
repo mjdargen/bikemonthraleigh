@@ -8,12 +8,12 @@ export const SPONSORS = [
       "AARP is a nonprofit organization focused on empowering people as they age, supporting communities through advocacy, education, and programs that improve quality of life.",
   },
   {
-    name: "Central Pines Regional Council",
-    image: "assets/sponsors/cprc.webp",
-    alt: "Central Pines Regional Council",
+    name: "Triangle Transportation Choices",
+    image: "assets/sponsors/triangle-transportation-choices.webp",
+    alt: "Triangle Transportation Choices",
     url: "https://www.centralpinesnc.gov/mobility-transportation/triangle-transportation-choices",
     description:
-      "CPRC's Triangle Transportation Choices program is a marketing and outreach effort to promote alternative transportation modes within a seven-county central NC region.",
+      "Central Pines Regional Council's Triangle Transportation Choices program is a marketing and outreach effort to promote alternative transportation modes within a seven-county central NC region.",
   },
   {
     name: "Lime",

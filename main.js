@@ -160,6 +160,15 @@ export function initPage() {
       renderAround(currentIndex);
     },
   });
+
+  const homeBrandLink = document.getElementById("homeBrandLink");
+  if (homeBrandLink) {
+    homeBrandLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      bsCollapse.hide();
+      fullpage_api.moveTo("home");
+    });
+  }
 }
 
 /*************************************************
