@@ -2,229 +2,157 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description"
     content="Bike Month Raleigh brings together a wide range of groups, including local nonprofits, local and regional government agencies, parks, bike shops, race teams, social clubs, breweries, coffee shops, and many more, to celebrate the fun and excitement of life on two wheels in Raleigh.">
   <meta name="author" content="Michael D'Argenio">
 
-  <!-- icon for browser -->
-  <link rel="icon" href="assets/images/favicon.ico">
+  <link rel="icon" href="assets\images\favicon.ico">
 
   <title>Bike Month Raleigh</title>
 
-  <!-- Poppins from google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap"
-    rel="stylesheet">
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-  <!-- fullPage.js CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullpage.js/dist/fullpage.min.css">
-  <!-- CSS style sheets -->
-  <link href="style.css" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+    }
+
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: "Courier New", Courier, monospace;
+      text-align: center;
+
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    .container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    h1 {
+      margin: 0 0 1.5rem 0;
+      font-size: clamp(1.6rem, 5vw, 3rem);
+      letter-spacing: 2px;
+      line-height: 1.1;
+      animation: blink 1s infinite;
+      max-width: 20ch;
+    }
+
+    p {
+      margin: 0.75rem 0;
+      font-size: clamp(1rem, 2.8vw, 1.2rem);
+      line-height: 1.4;
+    }
+
+    .box {
+      border: 2px dashed #00ff00;
+      padding: 1.25rem;
+      display: inline-block;
+      margin: 1rem 0;
+      max-width: min(90vw, 500px);
+    }
+
+    .spinner {
+      margin: 3rem 0;
+      font-size: clamp(1.2rem, 4vw, 1.5rem);
+      animation: spin 1s linear infinite;
+    }
+
+    footer {
+      padding: 0.75rem 1rem 1rem;
+      font-size: clamp(0.75rem, 2.5vw, 0.8rem);
+      color: #008800;
+    }
+
+    a {
+      color: orange;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 0.2;
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 1.25rem 0.75rem;
+      }
+
+      .box {
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-  <!-- Keep navbar OUTSIDE #fullpage -->
-  <nav id="mainNav" class="navbar navbar-expand-md navbar-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="#home">
-        <div class="icon-bg">
-          <img class="brand-logo" src="assets/images/bike_color.svg" alt="Bike Month Logo">
-        </div>
-        <span class="ms-2">bike month raleigh</span>
-      </a>
+  <div class="container">
+    <h1>BIKE MONTH RALEIGH COMING SOON</h1>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ms-auto" id="mainMenu">
-          <li class="nav-item" data-menuanchor="home">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item" data-menuanchor="calendar">
-            <a class="nav-link" href="#calendar">Calendar</a>
-          </li>
-          <li class="nav-item" data-menuanchor="events">
-            <a class="nav-link" href="#events">Events</a>
-          </li>
-          <li class="nav-item" data-menuanchor="partners">
-            <a class="nav-link" href="#partners">Partners</a>
-          </li>
-          <li class="nav-item" data-menuanchor="about">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-        </ul>
-      </div>
+    <div class="box">
+      <p>[ SITE UNDER CONSTRUCTION ]</p>
+      <p>please stand by...</p>
+      <p>we are building something cool</p>
     </div>
-  </nav>
 
-  <div id="partnerPopover" class="partner-popover-root" hidden></div>
-  <div id="event-modal" class="event-modal hidden" aria-hidden="true">
-    <div class="event-modal-backdrop"></div>
+    <div class="spinner">| / - \ |</div>
 
-    <div class="event-modal-card" role="dialog" aria-modal="true" aria-labelledby="event-modal-title">
-      <button id="event-modal-close" class="event-modal-close" type="button" aria-label="Close">
-        ×
-      </button>
-
-      <img id="event-modal-image" class="event-modal-image hidden" alt="" />
-
-      <div class="event-modal-body">
-        <p id="event-modal-date" class="event-modal-kicker"></p>
-        <h3 id="event-modal-title"></h3>
-        <p id="event-modal-location" class="event-modal-location"></p>
-        <div id="event-modal-description" class="event-modal-description"></div>
-        <div id="event-modal-links" class="event-modal-links"></div>
-      </div>
-    </div>
+    <p style="margin-top: 2rem;">
+      <a href="#">refresh</a> | <a href="#">email webmaster</a>
+    </p>
+    <p id="randomMessage"></p>
   </div>
 
-  <div id="fullpage">
-    <section class="section home-section">
-      <div class="section-inner container py-5">
-        <div class="row justify-content-center text-center">
-          <div class="col-12 col-lg-8">
-            <img src="assets/images/bm_flowers.svg" alt="Bike Month Logo" class="img-fluid mb-4">
+  <footer>
+    © forever under construction
+  </footer>
 
-            <p>
-              Founded by the League of American Bicyclists, National Bike Month is celebrated every May to promote
-              bicycling for fun, fitness, and transportation. Bike Month Raleigh brings together a wide range of groups,
-              including local nonprofits, local and regional government agencies, parks, bike shops, race teams, social
-              clubs, breweries, coffee shops, and many more, to celebrate the fun and excitement of life on two wheels
-              in Raleigh.
-            </p>
-            <p>
-              To learn more about National Bike Month, visit <a href="https://bikeleague.org" target="_blank"
-                rel="noopener noreferrer">bikeleague.org</a>.
-            </p>
-            <p>
-              To learn more about Oaks and Spokes, visit <a href="https://oaksandspokes.org" target="_blank"
-                rel="noopener noreferrer">oaksandspokes.org</a> or follow @oaksandspokes on
-              <a href="https://www.instagram.com/oaksandspokes/" target="_blank" rel="noopener noreferrer">Instagram</a>
-              or
-              <a href="https://www.facebook.com/oaksandspokes/" target="_blank" rel="noopener noreferrer">Facebook</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+  <script>
+    const messages = [
+      "i definitely gave you my email",
+      "i dare you to hit the refresh button a zillion times",
+      "this site works best in netscape navigator",
+      "did you try turning your computer off and on again?",
+      "404: motivation not found",
+      "did you even napster?!"
+    ];
 
-    <section class="section calendar-section">
-      <div class="section-inner container">
-        <div class="row justify-content-center text-center">
-          <div class="col-12">
-            <img src="assets/images/bm_banner_yellow.svg" alt="Bike Month Logo" class="img-fluid">
-            <h2 class="my-2 ">Calendar</h2>
-          </div>
-        </div>
-        <div id="calendar-container"></div>
-      </div>
-
-    </section>
-
-    <section class="section events-section">
-      <div class="bike-overlay idle">
-        <div class="background-layer sky-layer" aria-hidden="true"></div>
-        <div class="background-layer scenery-layer" aria-hidden="true"></div>
-        <div class="bike-sprite" aria-hidden="true"></div>
-      </div>
-      <!-- events content inserted here -->
-    </section>
-
-    <section class="section partners-section">
-      <div class="section-inner container">
-        <h2>Partners</h2>
-        <div id="partnersGrid" class="row row-cols-2 row-cols-sm-4 row-cols-md-6 justify-content-center"></div>
-      </div>
-    </section>
-
-    <section class="section about-section">
-      <div class="section-inner container py-5">
-        <div class="row justify-content-center">
-          <div class="col-12 col-lg-8 text-center">
-            <h2 class="mb-4">About</h2>
-            <p>
-              Oaks and Spokes is transforming Raleigh into a city where biking and walking are safe, accessible, and
-              integral to everyday life.
-            </p>
-            <p class="os-contact fs-3">
-              <a href="mailto:info@oaksandspokes.org" class="mx-2" aria-label="Email">
-                <i class="bi bi-envelope-fill"></i>
-              </a>
-              <a href="https://oaksandspokes.org" target="_blank" rel="noopener noreferrer" class="mx-2"
-                aria-label="Website">
-                <i class="bi bi-globe"></i>
-              </a>
-              <a href="https://www.instagram.com/oaksandspokes/" target="_blank" rel="noopener noreferrer" class="mx-2"
-                aria-label="Instagram">
-                <i class="bi bi-instagram"></i>
-              </a>
-              <a href="https://discord.gg/uThSaKTARf" target="_blank" rel="noopener noreferrer" class="mx-2"
-                aria-label="Discord">
-                <i class="bi bi-discord"></i>
-              </a>
-            </p>
-          </div>
-        </div>
-
-        <div class="row row-cols-3 row-cols-md-6 g-3 g-md-5 justify-content-center py-3 text-center">
-          <div class="col os-logo">
-            <img src="assets/images/o&s_blue.svg" class="img-fluid" alt="">
-          </div>
-          <div class="col os-logo">
-            <img src="assets/images/o&s_green.svg" class="img-fluid" alt="">
-          </div>
-          <div class="col os-logo">
-            <img src="assets/images/o&s_orange.svg" class="img-fluid" alt="">
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-12 pt-4 text-center">
-            <p>
-              We would like to thank the 2026 Bike Month Raleigh sponsors:
-            </p>
-          </div>
-        </div>
-
-        <div id="sponsorsGrid" class="row g-2 row-cols-2 row-cols-sm-4 row-cols-md-6 justify-content-center"></div>
-
-      </div>
-
-      <div class="about-footer text-center">
-        <div class="container">
-          <p class="mb-0 small">
-            Site by
-            <a href="https://dargen.io/" target="_blank" rel="noopener noreferrer">Michael D'Argenio</a>
-            &nbsp;|&nbsp;
-            Graphics by
-            <a href="https://bryancouchman.com/" target="_blank" rel="noopener noreferrer">Bryan Couchman</a>
-          </p>
-        </div>
-      </div>
-    </section>
-
-  </div>
-
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- fullPage.js -->
-  <script src="https://cdn.jsdelivr.net/npm/fullpage.js/dist/fullpage.min.js"></script>
-  <!-- FullCalendar -->
-  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.global.min.js"></script>
-  <!-- my javascript -->
-  <script type="module" src="main.js"></script>
+    const randomIndex = Math.floor(Math.random() * messages.length);
+    document.getElementById("randomMessage").textContent = messages[randomIndex];
+  </script>
 
 </body>
 
