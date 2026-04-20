@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Export events from a public Google Calendar ICS feed to JSON (no auth).
-Also downloads image attachments to ./assets/events and saves them by Drive id when possible.
+Export events from a public Google Calendar ICS feed to JSON/JS (no auth).
+Also downloads image attachments to ./assets/events and saves them when possible.
 """
 
 import argparse

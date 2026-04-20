@@ -46,7 +46,7 @@ export const PARTNERS = [
     description:
       "High Dive produces narrative shorts, feature-length films, and music videos with dynamic visuals and a playful, creative perspective rooted in North Carolina.",
     url: "https://highdivestudio.com",
-    image: "assets/partners/highdivestudios.webp",
+    image: "assets/partners/highdive.webp",
   },
   {
     name: "NC Families for Safe Streets",
@@ -188,6 +188,6 @@ export const PARTNERS = [
     description:
       "A community-focused cycling team built around camaraderie, group rides, and making cycling more welcoming and accessible while supporting events and advocacy across the Triangle.",
     url: "https://www.oncraleigh.com/",
-    image: "assets/partners/old-north.webp",
+    image: "assets/partners/onc-logo.webp",
   },
 ];

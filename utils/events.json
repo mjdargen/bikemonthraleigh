@@ -64,7 +64,7 @@
     },
     {
       "uid": "65ne764q8te9kr4p916kl3bben@google.com",
-      "title": "Raleigh History - By Bike!",
+      "title": "America 250 Historic Bike Ride",
       "description": "Hop on your bike for a ride into history. The Raleigh Historic Development Commission (RHDC), in partnership with the Bicycle and Pedestrian Advisory Commission (BPAC) and Raleigh Sister Cities, is hosting the 3rd annual Raleigh Historic Bike Ride. This year, the 5-mile route will feature stops at five Raleigh Historic Landmarks that span 250 years of the city’s building history! RHDC volunteers at each site will share a brief history of the property and talk about what else was going on in Raleigh during that time.<br><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: BPAC and RHDC",
       "location": "One Exchange Plaza, 1 Exchange Plaza, Raleigh, NC 27601, USA",
       "start": "2026-05-02T14:00:00+00:00",
@@ -90,7 +90,7 @@
     },
     {
       "uid": "0rctp91q57qbkh4odad3k2j13n@google.com",
-      "title": "Bike Month Kickoff Party!",
+      "title": "Bike Month Kickoff Party",
       "description": "Kick off Bike Month with Oaks &amp; Spokes! Clean off your bike and roll out to Bend Bar to pick up your Bike Month passport (and get your first stamp, if you didn't make it to Coffee Outside or Kidical Mass), grab a slice of pizza, and pick up some free swag! This is a drop-in event. Join us!<b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner: </b>AARP &amp; Bend Bar",
       "location": "The Bend Bar, 853 W Morgan St, Raleigh, NC 27603, USA",
       "start": "2026-05-02T20:00:00+00:00",
@@ -112,6 +112,32 @@
       ],
       "localImages": [
         "assets/events/03 - May 2 - Bike Month Kickoff.jpg"
+      ]
+    },
+    {
+      "uid": "02lnbct4uletehd4b4k689n62j@google.com",
+      "title": "Williamson Preserve Challenge",
+      "description": "Come join Trek Holly Park on Sunday, May 3rd at 12pm for the Williamson Preserve Challenge. Tackle 40 miles of greenway or up to 55 miles including the preserve's singletrack! Ride options:<br>1. 40 miles out &amp; back to Williamson Trailhead: Any type of bikes can handle this 40 mile out and back and e-bikes welcomed.<br>2. Same as above but your choice on how much of Williamson you'd like to do (e-bikes not permitted on Williamson, sorry). There are six loops totaling an additional 14 miles of flowy &amp; hilly singletrack if you include Magnolia and Lily Loops.<br>3. \"The Full Pull.\" Greenway + all of Williamson, totaling approximately 55 miles. Expect the fastest riders to take at least 4 hours minimum. No prizes or trophies as this is just for fun, and please be respectful of hikers and other riders. This ride is non-supported, but there will be coolers with drinks &amp; nutrition at the Mial Plantation lot.<br><b><br></b><br><b>Registration required?</b> Recommended, but not required<br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Trek Holly Park and 12th State Cycling",
+      "location": "Trek Bicycle Raleigh Holly Park, 3020 Wake Forest Rd Suite 100, Raleigh, NC 27609, USA",
+      "start": "2026-05-03T16:00:00+00:00",
+      "end": "2026-05-03T21:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1hqjzx0upQxQbMT2Sx64XDa817YMBu1Mn",
+          "filename": "04 - May 3 - Williamson Challenge.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "https://drive.google.com/open?id=1hqjzx0upQxQbMT2Sx64XDa817YMBu1Mn"
+      ],
+      "localImages": [
+        "assets/events/04 - May 3 - Williamson Challenge.jpg"
       ]
     },
     {
@@ -138,32 +164,6 @@
       ],
       "localImages": [
         "assets/events/05 - May 3 - Bike Polo.jpg"
-      ]
-    },
-    {
-      "uid": "02lnbct4uletehd4b4k689n62j@google.com",
-      "title": "Trek Holly Park Williamson Challenge",
-      "description": "Come join Trek Holly Park on Sunday, May 3rd at 12pm for the Williamson Preserve Challenge. Tackle 40 miles of greenway or up to 55 miles including the preserve's singletrack! Ride options:<br>1. 40 miles out &amp; back to Williamson Trailhead: Any type of bikes can handle this 40 mile out and back and e-bikes welcomed.<br>2. Same as above but your choice on how much of Williamson you'd like to do (e-bikes not permitted on Williamson, sorry). There are six loops totaling an additional 14 miles of flowy &amp; hilly singletrack if you include Magnolia and Lily Loops.<br>3. \"The Full Pull.\" Greenway + all of Williamson, totaling approximately 55 miles. Expect the fastest riders to take at least 4 hours minimum. No prizes or trophies as this is just for fun, and please be respectful of hikers and other riders. This ride is non-supported, but there will be coolers with drinks &amp; nutrition at the Mial Plantation lot.<br><b><br></b><br><b>Registration required?</b> Recommended, but not required<br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Trek Holly Park and 12th State Cycling",
-      "location": "Trek Bicycle Raleigh Holly Park, 3020 Wake Forest Rd Suite 100, Raleigh, NC 27609, USA",
-      "start": "2026-05-03T16:00:00+00:00",
-      "end": "2026-05-03T21:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [
-        {
-          "url": "https://drive.google.com/open?id=1hqjzx0upQxQbMT2Sx64XDa817YMBu1Mn",
-          "filename": "04 - May 3 - Williamson Challenge.jpg",
-          "fmttype": "image/jpeg"
-        }
-      ],
-      "images": [
-        "https://drive.google.com/open?id=1hqjzx0upQxQbMT2Sx64XDa817YMBu1Mn"
-      ],
-      "localImages": [
-        "assets/events/04 - May 3 - Williamson Challenge.jpg"
       ]
     },
     {
@@ -212,7 +212,7 @@
     },
     {
       "uid": "3sshroo4ok7ce5j8n6djmlv5vo@google.com",
-      "title": "Green Line Commuter Bike Bus",
+      "title": "The Green Line Commuter Bike Bus",
       "description": "<p>Every Wednesday morning, April–October 2026<br></p><p>If you live near these greenways and work at or near NC State or Downtown Raleigh, or anywhere along the route, this is for you. Or do you work from home and just want a friendly, casual morning ride? Join us!</p><p>You do not have to start at Lockwood Park. Hop on anywhere along the route and leave whenever you need. Ride the whole way or just a segment that fits your commute.</p><p>The pace is casual, around 12 mph. This is technically a “drop ride” so we can stay on schedule and arrive in Downtown Raleigh by 9:00 AM.</p><p>GREEN LINE SCHEDULE:<br>7:30 AM: Lockwood Park – Departure<br>7:45 AM: Industrial Dr – Ride by<br>7:48 AM: Kiwanis Park – Ride by<br>7:50 AM: Anderson Dr and Claremont Rd – Stop (2 mins)<br>7:58 AM: Lassiter Mill Rd – Ride by<br>8:05 AM: Alleghany Dr – Ride by<br>8:08 AM: Ironwood Trail at Crabtree Creek Trail – Ride by<br>8:12 AM: MacDonald’s at Crabtree Valley Ave – Stop (2 mins)<br>8:19 AM: Field at Glen Eden Park – Ride by<br>8:25 AM: Gravel Parking Lot at Horton St – Ride by<br>8:28 AM: Pedestrian Bridge at Reedy Creek Trail – Stop (2 mins)<br>8:36 AM: Hillsborough St at Faircloth St – Ride by<br>8:46 AM: NCSU at Carmichael Gymnasium – Stop (2 mins)<br>8:52 AM: Central Prison at Western Blvd – Ride by<br>8:56 AM: Boylan Bridge at Rebus Works – Ride by<br>9:03 AM: Moore Square – End Line</p><p>RIDE WITH GPS ROUTE: <a href=\"https://ridewithgps.com/routes/54290314\" target=\"_blank\">https://ridewithgps.com/routes/54290314</a></p><p><b>Registration required?</b> No</p><p><b>Passport eligible?</b> Yes</p><p><b>Community partner</b>: NA</p>",
       "location": "Lockwood Park, 1200 Crabtree Blvd, Raleigh, NC 27610, USA",
       "start": "2026-05-06T07:30:00-04:00",
@@ -240,7 +240,7 @@
     },
     {
       "uid": "4vtj5roamjuf7qe4q677og0qcl@google.com",
-      "title": "Stop Super Speeders Lobby Day",
+      "title": "Lobby Day Stop Super Speeders ",
       "description": "Join North Carolina Stop Super Speeders to advocate for Intelligent Speed Assist, technology which can be used to stop repeat speed offenders. The day will feature a technology demonstration and a press conference between 10:00 AM–12:00 PM. Participants will meet with elected officials throughout the day—both before and after the press event—to urge passage of a Stop Super Speeders bill to protect all North Carolinians. Want to share your story or lobby? Register <a href=\"https://secure.everyaction.com/vFvg9xltZ0mQ2ps7dithAw2\" target=\"_blank\"><u>here</u></a>.<b><br></b><br><b>Registration required?</b> <a href=\"https://secure.everyaction.com/vFvg9xltZ0mQ2ps7dithAw2\" target=\"_blank\">Yes</a> (for lobbying/speaking, but not for press conference/tech demonstration)<br><b>Passport eligible?</b> No<br><b>Community partner:</b> NC Families for Safe Streets",
       "location": "North Carolina State Capitol, 1 E Edenton St, Raleigh, NC 27601, USA",
       "start": "2026-05-06T13:30:00+00:00",
@@ -268,7 +268,7 @@
     },
     {
       "uid": "798duchh3aid42j7uil0a2rsmp@google.com",
-      "title": "Chavis Park Bike Rodeo + Traffic Garden",
+      "title": "Annual Kids Bike Rodeo",
       "description": "Grab your bike and come on our to our second-annual Chavis Park Kids' Bike Rodeo and Traffic Garden! We'll have a series of skill stations, a pop-up traffic garden to explore a miniature world of streets, and a really awesome bike obstacle course. Plus, come meet Roary from Carolina Courage! Bikes and helmets will be available to borrow. All ages K-12 welcome. This event is in partnership with Wake County Safe Routes to School and Chavis Park.<b><b><br></b></b><br><b><b>Registration required?</b></b><br><b>Passport eligible? </b>Yes<br><b>Community partner</b>: Wake County Safe Routes to School and Raleigh Parks",
       "location": "600 Chavis Way, Raleigh, NC 27601, USA",
       "start": "2026-05-06T20:00:00+00:00",
@@ -323,7 +323,7 @@
     },
     {
       "uid": "5q0asantv1c3ue7goe5g7opiqr@google.com",
-      "title": "Community Kickstand: Bicycle Repair Day",
+      "title": "Second Saturday Free Bike Repair",
       "description": "The <a href=\"https://raleighcommunitykickstand.org/\">Raleigh Community Kickstand</a> is an all-volunteer, non-profit community bicycle cooperative project located in Raleigh, NC and established in 2017. We are currently partnering with homeless resource centers in the Raleigh area to repair bicycles and teach maintenance skills. Want to get involved? We'll teach you basic repair skills so you can give back to our community!<br><br><b>Registration required</b>: No, but if you'd like to volunteer to help fix bikes, reach out to volunteer@raleighcommunitykickstand.org.<br><b>Passport eligible?</b> Yes, if you volunteer!<br><b>Community partner</b>: Raleigh Community Kickstand",
       "location": "Oak City Cares, 1430 S Wilmington St, Raleigh, NC 27603, USA",
       "start": "2026-05-09T13:00:00-04:00",
@@ -351,7 +351,7 @@
     },
     {
       "uid": "2k8tuacdhndlvuu67ruij3d3qu@google.com",
-      "title": "E-Bike Demo Day",
+      "title": "Trek E-Bike Demo Day",
       "description": "Drop-in between 12-2 at Green Hills County Park to try out a pedal-assist e-bike with Trek North Raleigh! E-bikes can replace car trips for many people. Do a test ride up to the viewpoint to really experience the full capability of these bikes.<b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Trek North Raleigh",
       "location": "Green Hills County Park, 9300 Deponie Dr, Raleigh, NC 27614, USA",
       "start": "2026-05-09T16:00:00+00:00",
@@ -405,7 +405,7 @@
     },
     {
       "uid": "29fcuiliculh34qs2sirk5rha7@google.com",
-      "title": "Gravel Criterium (GRIT)",
+      "title": "GRIT Gravel Criterium",
       "description": "Oak City Cycling Race Team presents GRIT, a gravel criterium, 30 to 45 minutes of racing on the Wake Med Cross Country course just outside downtown Cary. You'll be racing on a 1.6 mile loop of surprisingly punchy, twisty, gravel road around the soccer park. Come out to give crits the good ol' college try, race it for realz, or just come cheer! This is a low-stakes chance for you to experience road racing with the comfort of that gravel and cyclocross spirit. Our mission is to make this thing fun! Passport eligible for all participants and spectators. <b><br></b><br><b>Registration required</b>? Yes, if racing -- sign up <a href=\"https://www.bikereg.com/grit-2026\" target=\"_blank\"><u><u>here</u></u></a><br><b>Passport eligible</b>?<b> </b>Yes<br><b>Community partner</b>: Oak City Cycling Race Team",
       "location": "WakeMed Soccer Park, 101 Soccer Park Dr, Cary, NC 27511, USA",
       "start": "2026-05-10T14:00:00+00:00",
@@ -433,7 +433,7 @@
     },
     {
       "uid": "3sshroo4ok7ce5j8n6djmlv5vo@google.com",
-      "title": "Green Line Commuter Bike Bus",
+      "title": "The Green Line Commuter Bike Bus",
       "description": "<p>Every Wednesday morning, April–October 2026<br></p><p>If you live near these greenways and work at or near NC State or Downtown Raleigh, or anywhere along the route, this is for you. Or do you work from home and just want a friendly, casual morning ride? Join us!</p><p>You do not have to start at Lockwood Park. Hop on anywhere along the route and leave whenever you need. Ride the whole way or just a segment that fits your commute.</p><p>The pace is casual, around 12 mph. This is technically a “drop ride” so we can stay on schedule and arrive in Downtown Raleigh by 9:00 AM.</p><p>GREEN LINE SCHEDULE:<br>7:30 AM: Lockwood Park – Departure<br>7:45 AM: Industrial Dr – Ride by<br>7:48 AM: Kiwanis Park – Ride by<br>7:50 AM: Anderson Dr and Claremont Rd – Stop (2 mins)<br>7:58 AM: Lassiter Mill Rd – Ride by<br>8:05 AM: Alleghany Dr – Ride by<br>8:08 AM: Ironwood Trail at Crabtree Creek Trail – Ride by<br>8:12 AM: MacDonald’s at Crabtree Valley Ave – Stop (2 mins)<br>8:19 AM: Field at Glen Eden Park – Ride by<br>8:25 AM: Gravel Parking Lot at Horton St – Ride by<br>8:28 AM: Pedestrian Bridge at Reedy Creek Trail – Stop (2 mins)<br>8:36 AM: Hillsborough St at Faircloth St – Ride by<br>8:46 AM: NCSU at Carmichael Gymnasium – Stop (2 mins)<br>8:52 AM: Central Prison at Western Blvd – Ride by<br>8:56 AM: Boylan Bridge at Rebus Works – Ride by<br>9:03 AM: Moore Square – End Line</p><p>RIDE WITH GPS ROUTE: <a href=\"https://ridewithgps.com/routes/54290314\" target=\"_blank\">https://ridewithgps.com/routes/54290314</a></p><p><b>Registration required?</b> No</p><p><b>Passport eligible?</b> Yes</p><p><b>Community partner</b>: NA</p>",
       "location": "Lockwood Park, 1200 Crabtree Blvd, Raleigh, NC 27610, USA",
       "start": "2026-05-13T07:30:00-04:00",
@@ -559,7 +559,7 @@
     },
     {
       "uid": "3sshroo4ok7ce5j8n6djmlv5vo@google.com",
-      "title": "Green Line Commuter Bike Bus",
+      "title": "The Green Line Commuter Bike Bus",
       "description": "<p>Every Wednesday morning, April–October 2026<br></p><p>If you live near these greenways and work at or near NC State or Downtown Raleigh, or anywhere along the route, this is for you. Or do you work from home and just want a friendly, casual morning ride? Join us!</p><p>You do not have to start at Lockwood Park. Hop on anywhere along the route and leave whenever you need. Ride the whole way or just a segment that fits your commute.</p><p>The pace is casual, around 12 mph. This is technically a “drop ride” so we can stay on schedule and arrive in Downtown Raleigh by 9:00 AM.</p><p>GREEN LINE SCHEDULE:<br>7:30 AM: Lockwood Park – Departure<br>7:45 AM: Industrial Dr – Ride by<br>7:48 AM: Kiwanis Park – Ride by<br>7:50 AM: Anderson Dr and Claremont Rd – Stop (2 mins)<br>7:58 AM: Lassiter Mill Rd – Ride by<br>8:05 AM: Alleghany Dr – Ride by<br>8:08 AM: Ironwood Trail at Crabtree Creek Trail – Ride by<br>8:12 AM: MacDonald’s at Crabtree Valley Ave – Stop (2 mins)<br>8:19 AM: Field at Glen Eden Park – Ride by<br>8:25 AM: Gravel Parking Lot at Horton St – Ride by<br>8:28 AM: Pedestrian Bridge at Reedy Creek Trail – Stop (2 mins)<br>8:36 AM: Hillsborough St at Faircloth St – Ride by<br>8:46 AM: NCSU at Carmichael Gymnasium – Stop (2 mins)<br>8:52 AM: Central Prison at Western Blvd – Ride by<br>8:56 AM: Boylan Bridge at Rebus Works – Ride by<br>9:03 AM: Moore Square – End Line</p><p>RIDE WITH GPS ROUTE: <a href=\"https://ridewithgps.com/routes/54290314\" target=\"_blank\">https://ridewithgps.com/routes/54290314</a></p><p><b>Registration required?</b> No</p><p><b>Passport eligible?</b> Yes</p><p><b>Community partner</b>: NA</p>",
       "location": "Lockwood Park, 1200 Crabtree Blvd, Raleigh, NC 27610, USA",
       "start": "2026-05-20T07:30:00-04:00",
@@ -588,8 +588,8 @@
     {
       "uid": "3s3s4pvujnu6sur8k230olu2gc@google.com",
       "title": "Ride of Silence",
-      "description": "The Ride of Silence is a quiet ride honoring victims of traffic violence. We will convene at 5:30 at the south end of the state capitol building, where we'll hear two powerful stories. We will roll at 6p to visit the site where pedestrian Natalia Duque-Wilkins was killed in 2025 and hang a pair of ghost shoes before rolling to the ghost bike honoring cyclist Nancy Antoine Leidy, killed in 2008, where we'll install a memorial plague. Helmets and lights strongly recommended. Join us afterward at Transfer Food Hall to share a meal and a drink.<br><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Black Girls Do Bike",
-      "location": "North Carolina State Capitol, 1 E Edenton St, Raleigh, NC 27601, USA",
+      "description": "The Ride of Silence is a quiet ride honoring victims of traffic violence. We will convene at 5:30 at Nash Square, where we'll hear two powerful stories. We will roll at 6p to visit the site where pedestrian Natalia Duque-Wilkins was killed in 2025 and hang a pair of ghost shoes before rolling to the ghost bike honoring cyclist Nancy Antoine Leidy, killed in 2008, where we'll install a memorial plague. Helmets and lights strongly recommended. Join us afterward at Transfer Food Hall to share a meal and a drink.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Black Girls Do Bike",
+      "location": "Nash Square, 200 South McDowell St, Raleigh, NC 27601, USA",
       "start": "2026-05-20T21:30:00+00:00",
       "end": "2026-05-20T23:00:00+00:00",
       "allDay": false,
@@ -635,7 +635,7 @@
     },
     {
       "uid": "3sshroo4ok7ce5j8n6djmlv5vo@google.com",
-      "title": "Green Line Commuter Bike Bus",
+      "title": "The Green Line Commuter Bike Bus",
       "description": "<p>Every Wednesday morning, April–October 2026<br></p><p>If you live near these greenways and work at or near NC State or Downtown Raleigh, or anywhere along the route, this is for you. Or do you work from home and just want a friendly, casual morning ride? Join us!</p><p>You do not have to start at Lockwood Park. Hop on anywhere along the route and leave whenever you need. Ride the whole way or just a segment that fits your commute.</p><p>The pace is casual, around 12 mph. This is technically a “drop ride” so we can stay on schedule and arrive in Downtown Raleigh by 9:00 AM.</p><p>GREEN LINE SCHEDULE:<br>7:30 AM: Lockwood Park – Departure<br>7:45 AM: Industrial Dr – Ride by<br>7:48 AM: Kiwanis Park – Ride by<br>7:50 AM: Anderson Dr and Claremont Rd – Stop (2 mins)<br>7:58 AM: Lassiter Mill Rd – Ride by<br>8:05 AM: Alleghany Dr – Ride by<br>8:08 AM: Ironwood Trail at Crabtree Creek Trail – Ride by<br>8:12 AM: MacDonald’s at Crabtree Valley Ave – Stop (2 mins)<br>8:19 AM: Field at Glen Eden Park – Ride by<br>8:25 AM: Gravel Parking Lot at Horton St – Ride by<br>8:28 AM: Pedestrian Bridge at Reedy Creek Trail – Stop (2 mins)<br>8:36 AM: Hillsborough St at Faircloth St – Ride by<br>8:46 AM: NCSU at Carmichael Gymnasium – Stop (2 mins)<br>8:52 AM: Central Prison at Western Blvd – Ride by<br>8:56 AM: Boylan Bridge at Rebus Works – Ride by<br>9:03 AM: Moore Square – End Line</p><p>RIDE WITH GPS ROUTE: <a href=\"https://ridewithgps.com/routes/54290314\" target=\"_blank\">https://ridewithgps.com/routes/54290314</a></p><p><b>Registration required?</b> No</p><p><b>Passport eligible?</b> Yes</p><p><b>Community partner</b>: NA</p>",
       "location": "Lockwood Park, 1200 Crabtree Blvd, Raleigh, NC 27610, USA",
       "start": "2026-05-27T07:30:00-04:00",
