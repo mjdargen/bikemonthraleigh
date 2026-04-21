@@ -13,6 +13,7 @@ from pathlib import Path
 from datetime import datetime, date, time, timedelta
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import urlparse, parse_qs, unquote
+from webp_convert import convert_images, normalize_filename
 
 import requests
 from icalendar import Calendar
@@ -410,6 +411,21 @@ def _download_image(
         return None
 
 
+def _webp_path_for_local_image(local_path: str) -> str:
+    path = Path(local_path)
+    normalized_name = normalize_filename(path.stem)
+    return str((path.parent / f"{normalized_name}.webp").as_posix())
+
+
+def _replace_local_images_with_webp(payload: Dict[str, Any]) -> None:
+    for event in payload.get("events", []):
+        local_images = event.get("localImages") or []
+        if local_images:
+            webp_images = [_webp_path_for_local_image(img) for img in local_images]
+            event["localImages"] = webp_images
+            event["images"] = webp_images
+
+
 def export_public_ics(ics_url: str, window_start: datetime, window_end: datetime, tzname: str) -> Dict[str, Any]:
     r = requests.get(ics_url, timeout=30)
     r.raise_for_status()
@@ -575,6 +591,9 @@ def main() -> None:
     window_end = parse_start_end(args.end, is_end=True)
 
     payload = export_public_ics(args.ics_url, window_start, window_end, args.tz)
+
+    convert_images(EVENT_IMAGES_DIR, EVENT_IMAGES_DIR)
+    _replace_local_images_with_webp(payload)
 
     with open(f"utils/{args.out}", "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)

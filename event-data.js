@@ -29,10 +29,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1CXDU3nizhtdlEkC2YZSldocsp1ReIZUc"
+        "assets/events/01-may-1-coffee-outside.webp"
       ],
       "localImages": [
-        "assets/events/01 - May 1 - Coffee Outside.jpg"
+        "assets/events/01-may-1-coffee-outside.webp"
       ]
     },
     {
@@ -57,10 +57,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1g1XWHsbwAJMBeIdBZWE4GkTvweecnjSN"
+        "assets/events/02-may-1-kidical-mass.webp"
       ],
       "localImages": [
-        "assets/events/02 - May 1 - Kidical Mass.jpg"
+        "assets/events/02-may-1-kidical-mass.webp"
       ]
     },
     {
@@ -83,10 +83,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=13sS5ytyCYTXTU4U9NH4GxeVLVsYXn-sD"
+        "assets/events/03-may-2-america-250.webp"
       ],
       "localImages": [
-        "assets/events/03 - May 2 - America 250.jpg"
+        "assets/events/03-may-2-america-250.webp"
       ]
     },
     {
@@ -109,36 +109,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1MANDXgSRpDqpBJARNYAPYY5Dm6TXyzBv"
+        "assets/events/03-may-2-bike-month-kickoff.webp"
       ],
       "localImages": [
-        "assets/events/03 - May 2 - Bike Month Kickoff.jpg"
-      ]
-    },
-    {
-      "uid": "02lnbct4uletehd4b4k689n62j@google.com",
-      "title": "Williamson Preserve Challenge",
-      "description": "Come join Trek Holly Park on Sunday, May 3rd at 12pm for the Williamson Preserve Challenge. Tackle 40 miles of greenway or up to 55 miles including the preserve's singletrack! Ride options:<br>1. 40 miles out &amp; back to Williamson Trailhead: Any type of bikes can handle this 40 mile out and back and e-bikes welcomed.<br>2. Same as above but your choice on how much of Williamson you'd like to do (e-bikes not permitted on Williamson, sorry). There are six loops totaling an additional 14 miles of flowy &amp; hilly singletrack if you include Magnolia and Lily Loops.<br>3. \"The Full Pull.\" Greenway + all of Williamson, totaling approximately 55 miles. Expect the fastest riders to take at least 4 hours minimum. No prizes or trophies as this is just for fun, and please be respectful of hikers and other riders. This ride is non-supported, but there will be coolers with drinks &amp; nutrition at the Mial Plantation lot.<br><b><br></b><br><b>Registration required?</b> Recommended, but not required<br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Trek Holly Park and 12th State Cycling",
-      "location": "Trek Bicycle Raleigh Holly Park, 3020 Wake Forest Rd Suite 100, Raleigh, NC 27609, USA",
-      "start": "2026-05-03T16:00:00+00:00",
-      "end": "2026-05-03T21:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [
-        {
-          "url": "https://drive.google.com/open?id=1hqjzx0upQxQbMT2Sx64XDa817YMBu1Mn",
-          "filename": "04 - May 3 - Williamson Challenge.jpg",
-          "fmttype": "image/jpeg"
-        }
-      ],
-      "images": [
-        "https://drive.google.com/open?id=1hqjzx0upQxQbMT2Sx64XDa817YMBu1Mn"
-      ],
-      "localImages": [
-        "assets/events/04 - May 3 - Williamson Challenge.jpg"
+        "assets/events/03-may-2-bike-month-kickoff.webp"
       ]
     },
     {
@@ -161,10 +135,36 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1-_she6ATpgKeNJKZNgHz-SR02VMk5TEh"
+        "assets/events/05-may-3-bike-polo.webp"
       ],
       "localImages": [
-        "assets/events/05 - May 3 - Bike Polo.jpg"
+        "assets/events/05-may-3-bike-polo.webp"
+      ]
+    },
+    {
+      "uid": "02lnbct4uletehd4b4k689n62j@google.com",
+      "title": "Williamson Preserve Challenge",
+      "description": "Come join Trek Holly Park on Sunday, May 3rd at 12pm for the Williamson Preserve Challenge. Tackle 40 miles of greenway or up to 55 miles including the preserve's singletrack! Ride options:<br>1. 40 miles out &amp; back to Williamson Trailhead: Any type of bikes can handle this 40 mile out and back and e-bikes welcomed.<br>2. Same as above but your choice on how much of Williamson you'd like to do (e-bikes not permitted on Williamson, sorry). There are six loops totaling an additional 14 miles of flowy &amp; hilly singletrack if you include Magnolia and Lily Loops.<br>3. \"The Full Pull.\" Greenway + all of Williamson, totaling approximately 55 miles. Expect the fastest riders to take at least 4 hours minimum. No prizes or trophies as this is just for fun, and please be respectful of hikers and other riders. This ride is non-supported, but there will be coolers with drinks &amp; nutrition at the Mial Plantation lot.<br><b><br></b><br><b>Registration required?</b> Recommended, but not required<br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Trek Holly Park and 12th State Cycling",
+      "location": "Trek Bicycle Raleigh Holly Park, 3020 Wake Forest Rd Suite 100, Raleigh, NC 27609, USA",
+      "start": "2026-05-03T16:00:00+00:00",
+      "end": "2026-05-03T21:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1hqjzx0upQxQbMT2Sx64XDa817YMBu1Mn",
+          "filename": "04 - May 3 - Williamson Challenge.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/04-may-3-williamson-challenge.webp"
+      ],
+      "localImages": [
+        "assets/events/04-may-3-williamson-challenge.webp"
       ]
     },
     {
@@ -205,10 +205,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=10eC-zzvvgkojx7n9UZnqd-pZ2tAD3ZQy"
+        "assets/events/08-may-6-bike-and-roll-to-school-day.webp"
       ],
       "localImages": [
-        "assets/events/08 - May 6 - Bike and Roll to School Day.jpg"
+        "assets/events/08-may-6-bike-and-roll-to-school-day.webp"
       ]
     },
     {
@@ -233,10 +233,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1uaOGBn3imEMbLIZn8uCXfvv7Xv1Ov6-J"
+        "assets/events/06-may-6-green-line.webp"
       ],
       "localImages": [
-        "assets/events/06 - May 6 - Green Line.jpg"
+        "assets/events/06-may-6-green-line.webp"
       ]
     },
     {
@@ -261,10 +261,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1bcIkeCW_WhKr0Xa3n7foZJltqGohsNX8"
+        "assets/events/08-may-6-lobby-day.webp"
       ],
       "localImages": [
-        "assets/events/08 - May 6 - Lobby Day.jpg"
+        "assets/events/08-may-6-lobby-day.webp"
       ]
     },
     {
@@ -287,10 +287,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=18xljnVnwBiYrryKevFyUn6v5GAjTPjU9"
+        "assets/events/07-may-6-bike-rodeo.webp"
       ],
       "localImages": [
-        "assets/events/07 - May 6 - Bike Rodeo.jpg"
+        "assets/events/07-may-6-bike-rodeo.webp"
       ]
     },
     {
@@ -316,10 +316,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=13q5g5uKhlpTLoBT_Ku_LxwGBFmOj6XPA"
+        "assets/events/10-may-9-learn-to-ride.webp"
       ],
       "localImages": [
-        "assets/events/10 - May 9 - Learn to Ride.jpg"
+        "assets/events/10-may-9-learn-to-ride.webp"
       ]
     },
     {
@@ -344,10 +344,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1Zal4To-K2u9qDE1yzXZzafI2j0Hmcwh9"
+        "assets/events/11-may-9-rck-second-saturday.webp"
       ],
       "localImages": [
-        "assets/events/11 - May 9 - RCK Second Saturday.jpg"
+        "assets/events/11-may-9-rck-second-saturday.webp"
       ]
     },
     {
@@ -370,10 +370,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1YVRtyry-jfut1-131iKcOH6C_99ggtfy"
+        "assets/events/09-may-9-trek-ebike-demo.webp"
       ],
       "localImages": [
-        "assets/events/09 - May 9 - Trek Ebike Demo.jpg"
+        "assets/events/09-may-9-trek-ebike-demo.webp"
       ]
     },
     {
@@ -398,10 +398,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1_pfvh33G4ZbQINhNv-CN8KGbGWNkshHH"
+        "assets/events/12-may-9-learn-to-ride.webp"
       ],
       "localImages": [
-        "assets/events/12 - May 9 - Learn to Ride.jpg"
+        "assets/events/12-may-9-learn-to-ride.webp"
       ]
     },
     {
@@ -426,10 +426,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1ZKOY6F_WC-xc2krKHg170z0pwhlKSbt8"
+        "assets/events/12-may-10-grit.webp"
       ],
       "localImages": [
-        "assets/events/12 - May 10 - GRIT.jpg"
+        "assets/events/12-may-10-grit.webp"
       ]
     },
     {
@@ -454,10 +454,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1uaOGBn3imEMbLIZn8uCXfvv7Xv1Ov6-J"
+        "assets/events/06-may-6-green-line.webp"
       ],
       "localImages": [
-        "assets/events/06 - May 6 - Green Line.jpg"
+        "assets/events/06-may-6-green-line.webp"
       ]
     },
     {
@@ -580,10 +580,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1uaOGBn3imEMbLIZn8uCXfvv7Xv1Ov6-J"
+        "assets/events/06-may-6-green-line.webp"
       ],
       "localImages": [
-        "assets/events/06 - May 6 - Green Line.jpg"
+        "assets/events/06-may-6-green-line.webp"
       ]
     },
     {
@@ -656,10 +656,10 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "https://drive.google.com/open?id=1uaOGBn3imEMbLIZn8uCXfvv7Xv1Ov6-J"
+        "assets/events/06-may-6-green-line.webp"
       ],
       "localImages": [
-        "assets/events/06 - May 6 - Green Line.jpg"
+        "assets/events/06-may-6-green-line.webp"
       ]
     },
     {
