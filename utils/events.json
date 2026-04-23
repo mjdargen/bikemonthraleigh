@@ -6,7 +6,7 @@
   "timeZone": "America/New_York",
   "windowStart": "2026-05-01T00:00:00-04:00",
   "windowEnd": "2026-06-01T00:00:00-04:00",
-  "count": 31,
+  "count": 32,
   "events": [
     {
       "uid": "643c14s9kqsd8ch2qmo08nrqf3@google.com",
@@ -61,6 +61,22 @@
       "localImages": [
         "assets/events/02-may-1-kidical-mass.webp"
       ]
+    },
+    {
+      "uid": "0mk8cfc1usn0p4r89rvhe2etnl@google.com",
+      "title": "Bike Bonanza",
+      "description": "Bike Bonanza is the annual kick-off for the City of Raleigh’s Bike Month celebrations! This year includes:<br><ul><li>A bike tune-up station</li><li>A bike decorating station hosted by vendors</li><li>Free helmets</li><li>Free e-bike test rides</li><li>A guided ride led by Oaks and Spokes</li><li>Event t-shirts</li><li>Popsicles for the first 150 guests!</li></ul><br><b>Registration needed? </b>No<br><b>Passport eligible? </b>Yes -- come find the Oaks &amp; Spokes tent!",
+      "location": "Harvey Hill at Dix Park, Cranmer Dr, Raleigh, NC 27603, USA",
+      "start": "2026-05-01T20:30:00+00:00",
+      "end": "2026-05-01T22:30:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [],
+      "images": [],
+      "localImages": []
     },
     {
       "uid": "65ne764q8te9kr4p916kl3bben@google.com",
@@ -471,9 +487,19 @@
       "status": "CONFIRMED",
       "categories": null,
       "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=12FBrsVImvPdAuOVyVBlcFUSahrMFFG5H",
+          "filename": "15 - May 14 - Bike To Work.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/15-may-14-bike-to-work.webp"
+      ],
+      "localImages": [
+        "assets/events/15-may-14-bike-to-work.webp"
+      ]
     },
     {
       "uid": "01mbandcpbc6pr48osbn7jj637@google.com",
@@ -487,9 +513,19 @@
       "status": "CONFIRMED",
       "categories": null,
       "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1Hzt5zV2FSBSzefmijwwK4UcUR2zykfx5",
+          "filename": "16 - May 14 - Bike From Work.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/16-may-14-bike-from-work.webp"
+      ],
+      "localImages": [
+        "assets/events/16-may-14-bike-from-work.webp"
+      ]
     },
     {
       "uid": "1o2ds4mr2f8pp47bnl99ms5o9l@google.com",
@@ -508,6 +544,32 @@
       "localImages": []
     },
     {
+      "uid": "2a3r71jen8im1s1bli8lsfu857@google.com",
+      "title": "Oak City Swim School Summer Safety Festival",
+      "description": "Come on out for Oak City Swim School's Summer Safety festival! There will be games, food, swimming, and, of course, bikes and bike safety! Oaks &amp; Spokes will be hosting a pop-up traffic garden at this event. Bikes and helmets will be available to borrow.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes (come find the Oaks &amp; Spokes tent)<br><b>Community partner: </b>Oak City Swim School",
+      "location": "Oak City Swim School, 3651 Bastion Ln, Raleigh, NC 27604, USA",
+      "start": "2026-05-16T14:00:00+00:00",
+      "end": "2026-05-16T18:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1_oz_KY5u_5-lioxpqyE8MYKW9d7-wSrJ",
+          "filename": "19 - May 16 - Swim School.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/19-may-16-swim-school.webp"
+      ],
+      "localImages": [
+        "assets/events/19-may-16-swim-school.webp"
+      ]
+    },
+    {
       "uid": "74vu76hkq6qknv8f3e3lr0js7j@google.com",
       "title": "Greenway Gear Collective Scavenger Hunt",
       "description": "Join us for a hands-on scavenger hunt across NC State Centennial Campus and Dorothea Dix Park, starting at the Greenway Gear Collective container by Lake Raleigh (near the Walnut Creek Greenway parking lot off Main Campus Dr. on the NE corner of the lake). We’ll teach basic navigation skills before you set out using a custom orienteering-style map – no phones or GPS, just your wits and your wheels.<br><br>Participate solo or as a team (teammates must stick together). Come ready to explore, problem-solve, and have some fun!<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Greenway Gear Collective",
@@ -519,25 +581,19 @@
       "status": "CONFIRMED",
       "categories": null,
       "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
-    },
-    {
-      "uid": "2a3r71jen8im1s1bli8lsfu857@google.com",
-      "title": "Oak City Swim School Summer Safety Festival",
-      "description": "Come on out for Oak City Swim School's Summer Safety festival! There will be games, food, swimming, and, of course, bikes and bike safety! Oaks &amp; Spokes will be hosting a pop-up traffic garden at this event. Bikes and helmets will be available to borrow.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes (come find the Oaks &amp; Spokes tent)<br><b>Community partner: </b>Oak City Swim School",
-      "location": "Oak City Swim School, 3651 Bastion Ln, Raleigh, NC 27604, USA",
-      "start": "2026-05-16T16:00:00+00:00",
-      "end": "2026-05-16T20:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1Ixn9uQGheGbuGBYmAjVS7sH7nq1jehKe",
+          "filename": "18 - May 16 - Scavenger Hunt.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/18-may-16-scavenger-hunt.webp"
+      ],
+      "localImages": [
+        "assets/events/18-may-16-scavenger-hunt.webp"
+      ]
     },
     {
       "uid": "7doccin6vnl8s6gflan6j2gf0n@google.com",
@@ -553,9 +609,19 @@
       "links": [
         "https://momence.com/Homebody-Yoga/Vinyasa/134606064?skipPreview=true&_gl=1*1gf2q08*_ga*MTA5NzM2Mjg1Mi4xNzYzNDAwOTM2*_ga_GS6ZXJF4DT*czE3NzYxMDU3NjIkbzYkZzEkdDE3NzYxMDU3NjMkajU5JGwwJGgw"
       ],
-      "attachments": [],
-      "images": [],
-      "localImages": []
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1ZSiQmdXvEV2FbiKOjybpYG0cctVQmcpc",
+          "filename": "21 - May 17 - Self-care Sunday.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/21-may-17-self-care-sunday.webp"
+      ],
+      "localImages": [
+        "assets/events/21-may-17-self-care-sunday.webp"
+      ]
     },
     {
       "uid": "3sshroo4ok7ce5j8n6djmlv5vo@google.com",
@@ -597,9 +663,19 @@
       "status": "CONFIRMED",
       "categories": null,
       "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1_YFSqQf-NgJOjVcKyqiF-EnUnYyGUeRE",
+          "filename": "22 - May 20 - Ride of Silence.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/22-may-20-ride-of-silence.webp"
+      ],
+      "localImages": [
+        "assets/events/22-may-20-ride-of-silence.webp"
+      ]
     },
     {
       "uid": "5mcjg09rn9ch21gjaf32175048@google.com",
