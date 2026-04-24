@@ -6,7 +6,7 @@
   "timeZone": "America/New_York",
   "windowStart": "2026-05-01T00:00:00-04:00",
   "windowEnd": "2026-06-01T00:00:00-04:00",
-  "count": 32,
+  "count": 35,
   "events": [
     {
       "uid": "643c14s9kqsd8ch2qmo08nrqf3@google.com",
@@ -74,9 +74,19 @@
       "status": "CONFIRMED",
       "categories": null,
       "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=11aeFb0Ou-AjRw3N4-HVp9O6ZVOlDKrAR",
+          "filename": "02 - May 1 - Bike Bonanza.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/02-may-1-bike-bonanza.webp"
+      ],
+      "localImages": [
+        "assets/events/02-may-1-bike-bonanza.webp"
+      ]
     },
     {
       "uid": "65ne764q8te9kr4p916kl3bben@google.com",
@@ -159,7 +169,7 @@
     {
       "uid": "02lnbct4uletehd4b4k689n62j@google.com",
       "title": "Williamson Preserve Challenge",
-      "description": "Come join Trek Holly Park on Sunday, May 3rd at 12pm for the Williamson Preserve Challenge. Tackle 40 miles of greenway or up to 55 miles including the preserve's singletrack! Ride options:<br>1. 40 miles out &amp; back to Williamson Trailhead: Any type of bikes can handle this 40 mile out and back and e-bikes welcomed.<br>2. Same as above but your choice on how much of Williamson you'd like to do (e-bikes not permitted on Williamson, sorry). There are six loops totaling an additional 14 miles of flowy &amp; hilly singletrack if you include Magnolia and Lily Loops.<br>3. \"The Full Pull.\" Greenway + all of Williamson, totaling approximately 55 miles. Expect the fastest riders to take at least 4 hours minimum. No prizes or trophies as this is just for fun, and please be respectful of hikers and other riders. This ride is non-supported, but there will be coolers with drinks &amp; nutrition at the Mial Plantation lot.<br><b><br></b><br><b>Registration required?</b> Recommended, but not required<br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Trek Holly Park and 12th State Cycling",
+      "description": "Come join Trek Holly Park on Sunday, May 3rd at 12pm for the Williamson Preserve Challenge. Tackle 40 miles of greenway or up to 55 miles including the preserve's singletrack! Ride options:<br>1. 40 miles out &amp; back to Williamson Trailhead: Any type of bikes can handle this 40 mile out and back and e-bikes welcomed.<br>2. Same as above but your choice on how much of Williamson you'd like to do (e-bikes not permitted on Williamson, sorry). There are six loops totaling an additional 14 miles of flowy &amp; hilly singletrack if you include Magnolia and Lily Loops.<br>3. \"The Full Pull.\" Greenway + all of Williamson, totaling approximately 55 miles. Expect the fastest riders to take at least 4 hours minimum. No prizes or trophies as this is just for fun, and please be respectful of hikers and other riders. This ride is non-supported, but there will be coolers with drinks &amp; nutrition at the Mial Plantation lot.<b><br></b><br><b>Registration required?</b> Yes, for liability purposes (it's still free!) - register <a href=\"https://www.eventbrite.com/e/trek-williamson-preserve-challenge-tickets-1987863756006\">here</a><br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Trek Holly Park and 12th State Cycling",
       "location": "Trek Bicycle Raleigh Holly Park, 3020 Wake Forest Rd Suite 100, Raleigh, NC 27609, USA",
       "start": "2026-05-03T16:00:00+00:00",
       "end": "2026-05-03T21:00:00+00:00",
@@ -167,7 +177,9 @@
       "url": null,
       "status": "CONFIRMED",
       "categories": null,
-      "links": [],
+      "links": [
+        "https://www.eventbrite.com/e/trek-williamson-preserve-challenge-tickets-1987863756006"
+      ],
       "attachments": [
         {
           "url": "https://drive.google.com/open?id=1hqjzx0upQxQbMT2Sx64XDa817YMBu1Mn",
@@ -463,16 +475,16 @@
       ],
       "attachments": [
         {
-          "url": "https://drive.google.com/open?id=1uaOGBn3imEMbLIZn8uCXfvv7Xv1Ov6-J",
-          "filename": "06 - May 6 - Green Line.jpg",
+          "url": "https://drive.google.com/open?id=1aYiwyQ2irG081zjSY0mKtCmdVY5FnvkZ",
+          "filename": "Green Line Variation 3.jpg",
           "fmttype": "image/jpeg"
         }
       ],
       "images": [
-        "assets/events/06-may-6-green-line.webp"
+        "assets/events/green-line-variation-3.webp"
       ],
       "localImages": [
-        "assets/events/06-may-6-green-line.webp"
+        "assets/events/green-line-variation-3.webp"
       ]
     },
     {
@@ -596,6 +608,32 @@
       ]
     },
     {
+      "uid": "026un3bhek7dv17c5qrkm2igo7@google.com",
+      "title": "Volunteer Work Day Container Clean-Out",
+      "description": "Did you know that Oaks &amp; Spokes was gifted a shipping container full of bikes from Trips for Kids RDU? Our new (old) container is now living at Dix Park and needs some TLC! Come help clean out the container (snacks and bevs provided). Meet in the gravel lot off the Dix Park entrance at Hunt Dr. (navigate to \"Sunflower Field #1\" in Google Maps or 35.774059, -78.660315).<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner: </b>Raleigh Community Kickstand",
+      "location": "35.774059, -78.660315",
+      "start": "2026-05-17T14:00:00+00:00",
+      "end": "2026-05-17T16:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1IgwKm9r1q2_HEa6sJZyJ1iTRGe-zD6J5",
+          "filename": "20 - May 17 - Container Clean Out.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/20-may-17-container-clean-out.webp"
+      ],
+      "localImages": [
+        "assets/events/20-may-17-container-clean-out.webp"
+      ]
+    },
+    {
       "uid": "7doccin6vnl8s6gflan6j2gf0n@google.com",
       "title": "Bikes Mean Business: Self-Care Ride (Women/Trans/Femme)",
       "description": "Ladies -- do you need some self-care during this busy Bike Month? We've got you! Join us for a women/trans/femme \"Self Care Sunday\" ride sponsored by the Downtown Raleigh Alliance. We'll start the day off at the Bike Library with a coffee or matcha at 10:30 (optionally, join us for 9:30am yoga at Homebody Yoga beforehand -- 10 free spots are available for free using code BIKES). At 11, we'll take the scenic route to the Self Care Marketplace and Raleigh Raw, before heading to Raleigh City Farm where Lauren B. will give us a personal tour! Finally, we'll ride to Blackbird Books &amp; Coffee to pick up a new read before heading back to the Bike Library.<br><b><br></b><br><b>Registration required</b>? Not for the ride! Register for yoga beforehand <a href=\"https://momence.com/Homebody-Yoga/Vinyasa/134606064?skipPreview=true&_gl=1*1gf2q08*_ga*MTA5NzM2Mjg1Mi4xNzYzNDAwOTM2*_ga_GS6ZXJF4DT*czE3NzYxMDU3NjIkbzYkZzEkdDE3NzYxMDU3NjMkajU5JGwwJGgw\" target=\"_blank\">here</a> (10 spots are available for free using code BIKES).<br><b>Passport eligible</b>? Yes<br><b>Community partner</b>: Downtown Raleigh Alliance &amp; The Bike Library",
@@ -639,16 +677,16 @@
       ],
       "attachments": [
         {
-          "url": "https://drive.google.com/open?id=1uaOGBn3imEMbLIZn8uCXfvv7Xv1Ov6-J",
-          "filename": "06 - May 6 - Green Line.jpg",
+          "url": "https://drive.google.com/open?id=1pi97XYsSHvsDMov0o6NwgFIoF9sd8zMH",
+          "filename": "Green Line Variation 2.jpg",
           "fmttype": "image/jpeg"
         }
       ],
       "images": [
-        "assets/events/06-may-6-green-line.webp"
+        "assets/events/green-line-variation-2.webp"
       ],
       "localImages": [
-        "assets/events/06-may-6-green-line.webp"
+        "assets/events/green-line-variation-2.webp"
       ]
     },
     {
@@ -678,9 +716,35 @@
       ]
     },
     {
+      "uid": "46tarmbmuj9oqueqrku8mvv73b@google.com",
+      "title": "Spring Short Track MTB Race #1",
+      "description": "Oak City Cycling Race Team is hosting another summer short track mountain biking race series at Spring Hill! These weekday races are a perfect way to get the legs tuned up while having a blast with all your best pals. <br><br><b>Registration required? </b>Yes, if racing -- stay tuned for the link. Or, come cheer!<br><b>Passport eligible? </b>Yes, stamp at the registration table (spectators and racers are both eligible for stamps).<br><b>Community partner: </b>Oak City Cycling Race Team",
+      "location": "Spring Hill Cyclocross (CX) Course, 2238-2212 Dorsett Dr, Raleigh, NC 27603, USA",
+      "start": "2026-05-20T22:00:00+00:00",
+      "end": "2026-05-21T00:30:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=13Hf3JYrP8H2EdfbXpxFm0kmlBwfIznt4",
+          "filename": "23 - May 20 - Short Track.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/23-may-20-short-track.webp"
+      ],
+      "localImages": [
+        "assets/events/23-may-20-short-track.webp"
+      ]
+    },
+    {
       "uid": "5mcjg09rn9ch21gjaf32175048@google.com",
-      "title": "Cruiser Ride: Smokey Hollow & the S-Line",
-      "description": "Oaks &amp; Spokes is taking over Oak City Cycling's 3rd Thursday Cruiser Ride (\"the slowest ride in town!\"). On this ride, we'll be hearing from Downtown Raleigh Alliance experts on three interconnected projects: The new Smoky Hollow Park; the S-line train from Raleigh to Richmond; and upcoming protected bike lanes on West/Harrington Sts.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Downtown Raleigh Alliance &amp; Oak City Cycling",
+      "title": "Third Thursday Cruiser Ride Takeover",
+      "description": "Oaks &amp; Spokes is taking over Oak City Cycling's 3rd Thursday Cruiser Ride (\"the slowest ride in town!\"). On this ride, we'll be hearing from Downtown Raleigh Alliance experts on several planned, in progress, or stalled bike lane projects around downtown. <br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Downtown Raleigh Alliance &amp; Oak City Cycling",
       "location": "Oak City Cycling, 707 N Person St, Raleigh, NC 27604, USA",
       "start": "2026-05-21T23:00:00+00:00",
       "end": "2026-05-22T01:00:00+00:00",
@@ -689,9 +753,19 @@
       "status": "CONFIRMED",
       "categories": null,
       "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1gL2ZGaEkt2KE9Ifg5io52iLRep1Znc2H",
+          "filename": "24 - May 21 - Cruiser Ride.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/24-may-21-cruiser-ride.webp"
+      ],
+      "localImages": [
+        "assets/events/24-may-21-cruiser-ride.webp"
+      ]
     },
     {
       "uid": "30nm3454ts5g8k3ee1s8rk4hda@google.com",
@@ -705,9 +779,19 @@
       "status": "CONFIRMED",
       "categories": null,
       "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=10V4VMhZmE8GGDy8XMTbMNAF_HHy7l43t",
+          "filename": "25 - May 24 - Geek Pride.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/25-may-24-geek-pride.webp"
+      ],
+      "localImages": [
+        "assets/events/25-may-24-geek-pride.webp"
+      ]
     },
     {
       "uid": "3sshroo4ok7ce5j8n6djmlv5vo@google.com",
@@ -725,16 +809,42 @@
       ],
       "attachments": [
         {
-          "url": "https://drive.google.com/open?id=1uaOGBn3imEMbLIZn8uCXfvv7Xv1Ov6-J",
-          "filename": "06 - May 6 - Green Line.jpg",
+          "url": "https://drive.google.com/open?id=178MxuBNui3nr8DzMTnOPBIfBvWFw2LIv",
+          "filename": "Green Line Variation 4.jpg",
           "fmttype": "image/jpeg"
         }
       ],
       "images": [
-        "assets/events/06-may-6-green-line.webp"
+        "assets/events/green-line-variation-4.webp"
       ],
       "localImages": [
-        "assets/events/06-may-6-green-line.webp"
+        "assets/events/green-line-variation-4.webp"
+      ]
+    },
+    {
+      "uid": "3obid2j8898c56efcg1r32d0rl@google.com",
+      "title": "Spring Short Track MTB Race #2",
+      "description": "Oak City Cycling Race Team is hosting another summer short track mountain biking race series at Spring Hill! These weekday races are a perfect way to get the legs tuned up while having a blast with all your best pals. <br><br><b>Registration required? </b>Yes, if racing -- stay tuned for the link. Or, come cheer!<br><b>Passport eligible? </b>Yes, stamp at the registration table (spectators and racers are both eligible for stamps).<br><b>Community partner: </b>Oak City Cycling Race Team",
+      "location": "Spring Hill Cyclocross (CX) Course, 2238-2212 Dorsett Dr, Raleigh, NC 27603, USA",
+      "start": "2026-05-27T22:00:00+00:00",
+      "end": "2026-05-28T00:30:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1Fl7OinAsa9f2ePz_BUdeA31Vsh4B2NDK",
+          "filename": "25 - May 27 - Short Track 2.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/25-may-27-short-track-2.webp"
+      ],
+      "localImages": [
+        "assets/events/25-may-27-short-track-2.webp"
       ]
     },
     {
@@ -749,13 +859,23 @@
       "status": "CONFIRMED",
       "categories": null,
       "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1Fp5nittnBkedNxarZJouZ_w7kicNmThT",
+          "filename": "26 - May 29 - Critical Mass.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/26-may-29-critical-mass.webp"
+      ],
+      "localImages": [
+        "assets/events/26-may-29-critical-mass.webp"
+      ]
     },
     {
       "uid": "24f9adba1rhhlglam26s70fhvj@google.com",
-      "title": "Youth Mountain Biking Clinic",
+      "title": "Intro to Mountain Biking for Kids",
       "description": "<p>Join Triangle Offroad Cyclists (TORC) for a special event designed to help kids learn the fundamentals of off-road bike riding. This two-hour clinic engages participants through structured instruction in small groups, led by experienced coaches who group riders by similar age and skill level. Snacks, break time, and fun games will be included throughout the session. Kids will build confidence, improve bike handling skills, and have fun exploring the basics of trail riding in a safe and supportive environment.</p><p>Participants must be between ages 7–12 (typically 2nd–5th grade). Children should already be able to balance and pedal independently. Riders must bring a properly fitting youth bike with 20-inch wheels or larger and functioning hand brakes and a helmet.</p><p><b>Registration required?</b> Yes - register <a href=\"https://www.meetup.com/torc-nc/events/314192450/\" target=\"_blank\">here</a></p><p><b>Passport eligible?</b> Yes</p><p><b>Community partner:</b> Triangle Offroad Cyclists</p><p></p>",
       "location": "Spring Hill Cyclocross (CX) Course, 2238-2212 Dorsett Dr, Raleigh, NC 27603, USA",
       "start": "2026-05-30T13:00:00+00:00",
@@ -767,13 +887,23 @@
       "links": [
         "https://www.meetup.com/torc-nc/events/314192450/"
       ],
-      "attachments": [],
-      "images": [],
-      "localImages": []
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=18s6zkcpewvq5C5yP-CQjzUnxuGzIGRP8",
+          "filename": "27 - May 30 - Kids MTB.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/27-may-30-kids-mtb.webp"
+      ],
+      "localImages": [
+        "assets/events/27-may-30-kids-mtb.webp"
+      ]
     },
     {
       "uid": "3dbagfn2l11591rub4a543sa44@google.com",
-      "title": "Bike Month Finale Party",
+      "title": "Bike Month 2026 Afterparty",
       "description": "Come celebrate the month with us! This will also be an opportunity to pick up your passport \"tier\" prizes (3 events = Bike Month patch, 5 events = coupon for free pizza, and 7 events = a musette bag!). We'll be raffling off our Bike Month grand prizes at 6:30p. Remember, each event you attend on your passport gives you an additional raffle entry, so come on out to Bike Month events to increase your chances! Must be present to win. <br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> No (you'll be turning them in at the event!)<br><b>Community partner: </b>Le Dive",
       "location": "Le Dive, 14 W Martin St, Raleigh, NC 27601, USA",
       "start": "2026-05-31T21:00:00+00:00",
@@ -783,9 +913,19 @@
       "status": "CONFIRMED",
       "categories": null,
       "links": [],
-      "attachments": [],
-      "images": [],
-      "localImages": []
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1R8L3ZhC6Lah-Do65NGwcOklzDP5P2A-Q",
+          "filename": "28 - May 31 - Afterparty.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/28-may-31-afterparty.webp"
+      ],
+      "localImages": [
+        "assets/events/28-may-31-afterparty.webp"
+      ]
     }
   ]
 }
