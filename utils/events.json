@@ -576,32 +576,6 @@
       ]
     },
     {
-      "uid": "2a3r71jen8im1s1bli8lsfu857@google.com",
-      "title": "Oak City Swim School Summer Safety Festival",
-      "description": "Come on out for Oak City Swim School's Summer Safety festival! There will be games, food, swimming, and, of course, bikes and bike safety! Oaks &amp; Spokes will be hosting a pop-up traffic garden at this event. Bikes and helmets will be available to borrow.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes (come find the Oaks &amp; Spokes tent)<br><b>Community partner: </b>Oak City Swim School",
-      "location": "Oak City Swim School, 3651 Bastion Ln, Raleigh, NC 27604, USA",
-      "start": "2026-05-16T14:00:00+00:00",
-      "end": "2026-05-16T18:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [
-        {
-          "url": "https://drive.google.com/open?id=1_oz_KY5u_5-lioxpqyE8MYKW9d7-wSrJ",
-          "filename": "19 - May 16 - Swim School.jpg",
-          "fmttype": "image/jpeg"
-        }
-      ],
-      "images": [
-        "assets/events/19-may-16-swim-school.webp"
-      ],
-      "localImages": [
-        "assets/events/19-may-16-swim-school.webp"
-      ]
-    },
-    {
       "uid": "74vu76hkq6qknv8f3e3lr0js7j@google.com",
       "title": "Greenway Gear Collective Scavenger Hunt",
       "description": "Join us for a hands-on scavenger hunt across NC State Centennial Campus and Dorothea Dix Park, starting at the Greenway Gear Collective container by Lake Raleigh (near the Walnut Creek Greenway parking lot off Main Campus Dr. on the NE corner of the lake). We’ll teach basic navigation skills before you set out using a custom orienteering-style map – no phones or GPS, just your wits and your wheels.<br><br>Participate solo or as a team (teammates must stick together). Come ready to explore, problem-solve, and have some fun!<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Greenway Gear Collective",
@@ -628,12 +602,38 @@
       ]
     },
     {
+      "uid": "2a3r71jen8im1s1bli8lsfu857@google.com",
+      "title": "Oak City Swim School Summer Safety Festival",
+      "description": "Come on out for Oak City Swim School's Summer Safety festival! There will be games, food, swimming, and, of course, bikes and bike safety! Oaks &amp; Spokes will be hosting a pop-up traffic garden at this event. Bikes and helmets will be available to borrow.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes (come find the Oaks &amp; Spokes tent)<br><b>Community partner: </b>Oak City Swim School",
+      "location": "Oak City Swim School, 3651 Bastion Ln, Raleigh, NC 27604, USA",
+      "start": "2026-05-16T14:00:00+00:00",
+      "end": "2026-05-16T18:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1_oz_KY5u_5-lioxpqyE8MYKW9d7-wSrJ",
+          "filename": "19 - May 16 - Swim School.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/19-may-16-swim-school.webp"
+      ],
+      "localImages": [
+        "assets/events/19-may-16-swim-school.webp"
+      ]
+    },
+    {
       "uid": "026un3bhek7dv17c5qrkm2igo7@google.com",
       "title": "Volunteer Work Day Container Clean-Out",
       "description": "Did you know that Oaks &amp; Spokes was gifted a shipping container full of bikes from Trips for Kids RDU? Our new (old) container is now living at Dix Park and needs some TLC! Come help clean out the container (snacks and bevs provided). Meet in the gravel lot off the Dix Park entrance at Hunt Dr. (navigate to \"Sunflower Field #1\" in Google Maps or 35.774059, -78.660315).<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner: </b>Raleigh Community Kickstand",
       "location": "35.774059, -78.660315",
       "start": "2026-05-17T14:00:00+00:00",
-      "end": "2026-05-17T16:00:00+00:00",
+      "end": "2026-05-17T18:00:00+00:00",
       "allDay": false,
       "url": null,
       "status": "CONFIRMED",
