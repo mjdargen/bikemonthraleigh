@@ -373,10 +373,10 @@ def _download_image(
 
         out_path = dest_dir / name
 
-        if out_path.exists() and out_path.stat().st_size > 0:
-            rel = str(out_path.as_posix())
-            url_cache[url] = rel
-            return rel
+        # if out_path.exists() and out_path.stat().st_size > 0:
+        #     rel = str(out_path.as_posix())
+        #     url_cache[url] = rel
+        #     return rel
 
         if "text/html" in content_type.lower():
             if fetch_url != url:
