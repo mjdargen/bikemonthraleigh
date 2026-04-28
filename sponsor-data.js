@@ -78,12 +78,4 @@ export const SPONSORS = [
     description:
       "North State Bank is a community bank providing personal and business banking services with a focus on supporting local initiatives and organizations.",
   },
-  {
-    name: "North Carolina Courage",
-    image: "assets/sponsors/nc-courage.svg",
-    alt: "North Carolina Courage",
-    url: "https://www.nccourage.com/",
-    description:
-      "The North Carolina Courage is a professional women's soccer team competing in the National Women's Soccer League and supporting community engagement across the region.",
-  },
 ];

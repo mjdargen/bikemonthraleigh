@@ -7,7 +7,7 @@ export const RBM_EVENTS = {
   "timeZone": "America/New_York",
   "windowStart": "2026-05-01T00:00:00-04:00",
   "windowEnd": "2026-06-01T00:00:00-04:00",
-  "count": 35,
+  "count": 36,
   "events": [
     {
       "uid": "643c14s9kqsd8ch2qmo08nrqf3@google.com",
@@ -142,32 +142,6 @@ export const RBM_EVENTS = {
       ]
     },
     {
-      "uid": "5g4h4tnfprq062sdkj74f356b2@google.com",
-      "title": "Try Bike Polo! + Alley Cat",
-      "description": "Try your hand at one of the most unique bike sports out there -- bike polo! This soccer-like game is played on a basketball court with a ball, a stick, and two players per team. Raleigh Bike Polo will be providing basic coaching and have bikes and sticks available to borrow. Not in for court time? Join for a mid-day \"alley cat\" (a scavenger hunt bike race) to work up an appetite for a post-race grillout.<br>Open play: 12-4p<br>Alley cat scavenger hunt race: 1:30-2:30p<br><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Raleigh Bike Polo",
-      "location": "Tarboro Road Community Center, 121 N Tarboro St, Raleigh, NC 27610, USA",
-      "start": "2026-05-03T16:00:00+00:00",
-      "end": "2026-05-03T20:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [
-        {
-          "url": "https://drive.google.com/open?id=1-_she6ATpgKeNJKZNgHz-SR02VMk5TEh",
-          "filename": "05 - May 3 - Bike Polo.jpg",
-          "fmttype": "image/jpeg"
-        }
-      ],
-      "images": [
-        "assets/events/05-may-3-bike-polo.webp"
-      ],
-      "localImages": [
-        "assets/events/05-may-3-bike-polo.webp"
-      ]
-    },
-    {
       "uid": "02lnbct4uletehd4b4k689n62j@google.com",
       "title": "Williamson Preserve Challenge",
       "description": "Come join Trek Holly Park on Sunday, May 3rd at 12pm for the Williamson Preserve Challenge. Tackle 40 miles of greenway or up to 55 miles including the preserve's singletrack! Ride options:<br>1. 40 miles out &amp; back to Williamson Trailhead: Any type of bikes can handle this 40 mile out and back and e-bikes welcomed.<br>2. Same as above but your choice on how much of Williamson you'd like to do (e-bikes not permitted on Williamson, sorry). There are six loops totaling an additional 14 miles of flowy &amp; hilly singletrack if you include Magnolia and Lily Loops.<br>3. \"The Full Pull.\" Greenway + all of Williamson, totaling approximately 55 miles. Expect the fastest riders to take at least 4 hours minimum. No prizes or trophies as this is just for fun, and please be respectful of hikers and other riders. This ride is non-supported, but there will be coolers with drinks &amp; nutrition at the Mial Plantation lot.<b><br></b><br><b>Registration required?</b> Yes, for liability purposes (it's still free!) - register <a href=\"https://www.eventbrite.com/e/trek-williamson-preserve-challenge-tickets-1987863756006\">here</a><br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Trek Holly Park and 12th State Cycling",
@@ -193,6 +167,32 @@ export const RBM_EVENTS = {
       ],
       "localImages": [
         "assets/events/04-may-3-williamson-challenge.webp"
+      ]
+    },
+    {
+      "uid": "5g4h4tnfprq062sdkj74f356b2@google.com",
+      "title": "Try Bike Polo! + Alley Cat",
+      "description": "Try your hand at one of the most unique bike sports out there -- bike polo! This soccer-like game is played on a basketball court with a ball, a stick, and two players per team. Raleigh Bike Polo will be providing basic coaching and have bikes and sticks available to borrow. Not in for court time? Join for a mid-day \"alley cat\" (a scavenger hunt bike race) to work up an appetite for a post-race grillout.<br>Open play: 12-4p<br>Alley cat scavenger hunt race: 1:30-2:30p<br><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Raleigh Bike Polo",
+      "location": "Tarboro Road Community Center, 121 N Tarboro St, Raleigh, NC 27610, USA",
+      "start": "2026-05-03T16:00:00+00:00",
+      "end": "2026-05-03T20:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1-_she6ATpgKeNJKZNgHz-SR02VMk5TEh",
+          "filename": "05 - May 3 - Bike Polo.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/05-may-3-bike-polo.webp"
+      ],
+      "localImages": [
+        "assets/events/05-may-3-bike-polo.webp"
       ]
     },
     {
@@ -329,6 +329,32 @@ export const RBM_EVENTS = {
       ],
       "localImages": [
         "assets/events/07-may-6-bike-rodeo.webp"
+      ]
+    },
+    {
+      "uid": "6dfui223028nmqrf351nuc714h@google.com",
+      "title": "Advocacy Commitee Meetup",
+      "description": "Join the Oaks &amp; Spokes Advocacy Committee to do a bike lane cleanup! We'll use hand tools, trash pickup, and our very own bike lane sweeper Wheelie Clean. Meet at the Walnut Creek Wetland Center.<br><br><b>Registration required? </b>No<br><b>Passport eligible? </b>Yes<br><b>Community partner:</b> Oaks &amp; Spokes Advocacy Committee",
+      "location": "Walnut Creek Wetland Center, 950 Peterson St, Raleigh, NC 27610, USA, Advocacy Calendar",
+      "start": "2026-05-07T21:00:00+00:00",
+      "end": "2026-05-07T22:30:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1czcb30aQDu-aOYWFQFiQAel9niok0h8s",
+          "filename": "11 - May 7 - Advocacy Committee.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/11-may-7-advocacy-committee.webp"
+      ],
+      "localImages": [
+        "assets/events/11-may-7-advocacy-committee.webp"
       ]
     },
     {
@@ -552,8 +578,8 @@ export const RBM_EVENTS = {
     },
     {
       "uid": "1o2ds4mr2f8pp47bnl99ms5o9l@google.com",
-      "title": "Bike Movies @ The Rialto",
-      "description": "For this year's Bike Month, we'll be showing a double header at the Rialto. First, a short film called Tandem, filmed right here in Raleigh, followed by Breaking Away, the classic (and Oscar-winning) 1979 film about four friends, an obsession with an Italian cycling team, and the race of a lifetime.<b><br></b><br><b>Registration required?</b> Tickets available for purchase<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: The Rialto, High Dive Studios",
+      "title": "Bike Movie Double Feature",
+      "description": "For this year's Bike Month, we'll be showing a double header at the Rialto! First, we'll watch a short film called Tandem, filmed right here in Raleigh by local production studio High Dive. Our feature film is Breaking Away, a classic (and Oscar-winning) 1979 film about four friends, an obsession with an Italian cycling team, and the race of a lifetime. Doors open at 6:15p, show at 7p.<br><br><b>Registration required?</b> Tickets available for purchase for $11 (+tax) <a href=\"https://therialto.com/event/bike-to-the-movies-night-breaking-away/the-rialto-theatre/\">here</a>, or can be purchased at the door.<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: The Rialto, High Dive Studios",
       "location": "The Rialto, 1620 Glenwood Ave, Raleigh, NC 27608, USA",
       "start": "2026-05-15T23:00:00+00:00",
       "end": "2026-05-16T01:00:00+00:00",
@@ -561,7 +587,9 @@ export const RBM_EVENTS = {
       "url": null,
       "status": "CONFIRMED",
       "categories": null,
-      "links": [],
+      "links": [
+        "https://therialto.com/event/bike-to-the-movies-night-breaking-away/the-rialto-theatre/"
+      ],
       "attachments": [
         {
           "url": "https://drive.google.com/open?id=1nYLTCYFPCDE921QjhEyohkRjZLmm-eho",
@@ -574,32 +602,6 @@ export const RBM_EVENTS = {
       ],
       "localImages": [
         "assets/events/17-may-15-bike-movie.webp"
-      ]
-    },
-    {
-      "uid": "2a3r71jen8im1s1bli8lsfu857@google.com",
-      "title": "Oak City Swim School Summer Safety Festival",
-      "description": "Come on out for Oak City Swim School's Summer Safety festival! There will be games, food, swimming, and, of course, bikes and bike safety! Oaks &amp; Spokes will be hosting a pop-up traffic garden at this event. Bikes and helmets will be available to borrow.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes (come find the Oaks &amp; Spokes tent)<br><b>Community partner: </b>Oak City Swim School",
-      "location": "Oak City Swim School, 3651 Bastion Ln, Raleigh, NC 27604, USA",
-      "start": "2026-05-16T14:00:00+00:00",
-      "end": "2026-05-16T18:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [
-        {
-          "url": "https://drive.google.com/open?id=1_oz_KY5u_5-lioxpqyE8MYKW9d7-wSrJ",
-          "filename": "19 - May 16 - Swim School.jpg",
-          "fmttype": "image/jpeg"
-        }
-      ],
-      "images": [
-        "assets/events/19-may-16-swim-school.webp"
-      ],
-      "localImages": [
-        "assets/events/19-may-16-swim-school.webp"
       ]
     },
     {
@@ -626,6 +628,32 @@ export const RBM_EVENTS = {
       ],
       "localImages": [
         "assets/events/18-may-16-scavenger-hunt.webp"
+      ]
+    },
+    {
+      "uid": "2a3r71jen8im1s1bli8lsfu857@google.com",
+      "title": "Oak City Swim School Summer Safety Festival",
+      "description": "Come on out for Oak City Swim School's Summer Safety festival! There will be games, food, swimming, and, of course, bikes and bike safety! Oaks &amp; Spokes will be hosting a pop-up traffic garden at this event. Bikes and helmets will be available to borrow.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes (come find the Oaks &amp; Spokes tent)<br><b>Community partner: </b>Oak City Swim School",
+      "location": "Oak City Swim School, 3651 Bastion Ln, Raleigh, NC 27604, USA",
+      "start": "2026-05-16T14:00:00+00:00",
+      "end": "2026-05-16T18:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1_oz_KY5u_5-lioxpqyE8MYKW9d7-wSrJ",
+          "filename": "19 - May 16 - Swim School.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/19-may-16-swim-school.webp"
+      ],
+      "localImages": [
+        "assets/events/19-may-16-swim-school.webp"
       ]
     },
     {
