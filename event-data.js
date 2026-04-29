@@ -142,6 +142,32 @@ export const RBM_EVENTS = {
       ]
     },
     {
+      "uid": "5g4h4tnfprq062sdkj74f356b2@google.com",
+      "title": "Try Bike Polo! + Alley Cat",
+      "description": "Try your hand at one of the most unique bike sports out there -- bike polo! This soccer-like game is played on a basketball court with a ball, a stick, and two players per team. Raleigh Bike Polo will be providing basic coaching and have bikes and sticks available to borrow. Not in for court time? Join for a mid-day \"alley cat\" (a scavenger hunt bike race) to work up an appetite for a post-race grillout.<br>Open play: 12-4p<br>Alley cat scavenger hunt race: 1:30-2:30p<br><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Raleigh Bike Polo",
+      "location": "Tarboro Road Community Center, 121 N Tarboro St, Raleigh, NC 27610, USA",
+      "start": "2026-05-03T16:00:00+00:00",
+      "end": "2026-05-03T20:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1-_she6ATpgKeNJKZNgHz-SR02VMk5TEh",
+          "filename": "05 - May 3 - Bike Polo.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/05-may-3-bike-polo.webp"
+      ],
+      "localImages": [
+        "assets/events/05-may-3-bike-polo.webp"
+      ]
+    },
+    {
       "uid": "02lnbct4uletehd4b4k689n62j@google.com",
       "title": "Williamson Preserve Challenge",
       "description": "Come join Trek Holly Park on Sunday, May 3rd at 12pm for the Williamson Preserve Challenge. Tackle 40 miles of greenway or up to 55 miles including the preserve's singletrack! Ride options:<br>1. 40 miles out &amp; back to Williamson Trailhead: Any type of bikes can handle this 40 mile out and back and e-bikes welcomed.<br>2. Same as above but your choice on how much of Williamson you'd like to do (e-bikes not permitted on Williamson, sorry). There are six loops totaling an additional 14 miles of flowy &amp; hilly singletrack if you include Magnolia and Lily Loops.<br>3. \"The Full Pull.\" Greenway + all of Williamson, totaling approximately 55 miles. Expect the fastest riders to take at least 4 hours minimum. No prizes or trophies as this is just for fun, and please be respectful of hikers and other riders. This ride is non-supported, but there will be coolers with drinks &amp; nutrition at the Mial Plantation lot.<b><br></b><br><b>Registration required?</b> Yes, for liability purposes (it's still free!) - register <a href=\"https://www.eventbrite.com/e/trek-williamson-preserve-challenge-tickets-1987863756006\">here</a><br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Trek Holly Park and 12th State Cycling",
@@ -167,32 +193,6 @@ export const RBM_EVENTS = {
       ],
       "localImages": [
         "assets/events/04-may-3-williamson-challenge.webp"
-      ]
-    },
-    {
-      "uid": "5g4h4tnfprq062sdkj74f356b2@google.com",
-      "title": "Try Bike Polo! + Alley Cat",
-      "description": "Try your hand at one of the most unique bike sports out there -- bike polo! This soccer-like game is played on a basketball court with a ball, a stick, and two players per team. Raleigh Bike Polo will be providing basic coaching and have bikes and sticks available to borrow. Not in for court time? Join for a mid-day \"alley cat\" (a scavenger hunt bike race) to work up an appetite for a post-race grillout.<br>Open play: 12-4p<br>Alley cat scavenger hunt race: 1:30-2:30p<br><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Raleigh Bike Polo",
-      "location": "Tarboro Road Community Center, 121 N Tarboro St, Raleigh, NC 27610, USA",
-      "start": "2026-05-03T16:00:00+00:00",
-      "end": "2026-05-03T20:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [
-        {
-          "url": "https://drive.google.com/open?id=1-_she6ATpgKeNJKZNgHz-SR02VMk5TEh",
-          "filename": "05 - May 3 - Bike Polo.jpg",
-          "fmttype": "image/jpeg"
-        }
-      ],
-      "images": [
-        "assets/events/05-may-3-bike-polo.webp"
-      ],
-      "localImages": [
-        "assets/events/05-may-3-bike-polo.webp"
       ]
     },
     {
@@ -333,7 +333,7 @@ export const RBM_EVENTS = {
     },
     {
       "uid": "6dfui223028nmqrf351nuc714h@google.com",
-      "title": "Advocacy Commitee Meetup",
+      "title": "Advocacy Committee Meetup",
       "description": "Join the Oaks &amp; Spokes Advocacy Committee to do a bike lane cleanup! We'll use hand tools, trash pickup, and our very own bike lane sweeper Wheelie Clean. Meet at the Walnut Creek Wetland Center.<br><br><b>Registration required? </b>No<br><b>Passport eligible? </b>Yes<br><b>Community partner:</b> Oaks &amp; Spokes Advocacy Committee",
       "location": "Walnut Creek Wetland Center, 950 Peterson St, Raleigh, NC 27610, USA, Advocacy Calendar",
       "start": "2026-05-07T21:00:00+00:00",
@@ -528,7 +528,7 @@ export const RBM_EVENTS = {
       "uid": "6ocb9u9542pffsue6je68qnvdp@google.com",
       "title": "Bike to Work Day!",
       "description": "Celebrate Bike to Work Day with Oaks and Spokes! Stop by our table at ## between 7-9am to pick up a free pastry or bagel. Not on your route? Check out the map of pit stop locations developed by Commute Smart Raleigh.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes, at the O&amp;S-hosted location<br><b>Community partner:</b> Commute Smart Raleigh, Benchwarmers Bagels",
-      "location": "Benchwarmers Bagels, in the Rockway Building, 1015 S Saunders St, Raleigh, NC 27603, USA",
+      "location": "Boulted Bread, 328 Dupont Cir, Raleigh, NC 27603, USA",
       "start": "2026-05-14T11:00:00+00:00",
       "end": "2026-05-14T13:00:00+00:00",
       "allDay": false,
