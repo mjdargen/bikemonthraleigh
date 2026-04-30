@@ -197,7 +197,7 @@
     {
       "uid": "76ov35nc01qnh1saai4e0m9ibl@google.com",
       "title": "Greenway Cleanup and Ride",
-      "description": "<br>Give back to the greenways and join Friends of the Raleigh Greenways on a ride/cleanup from Kiwanis Park to Anderson Point Park (or optionally, meet at Anderson Point Park at 2:45p for the cleanup portion).<br><br>The area we are targeting to do litter cleanup is the area between Anderson Point Park and mile marker 1.5 on the Crabtree Creek trail. This is adjacent to the Sonoco facility and is generally accessible for those not riding as you may park at APP and walk down. We will provide all materials necessary (gloves,  cleanup, etc) and have a construction orange cooler with water and will provide FRoG water bottles for those needing/wanting them.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Friends of the Raleigh Greenways",
+      "description": "Give back to the greenways and join Friends of the Raleigh Greenways on a ride/cleanup from Kiwanis Park to Anderson Point Park (or optionally, meet at Anderson Point Park at 2:45p for the cleanup portion).<br><br>The area we are targeting to do litter cleanup is the area between Anderson Point Park and mile marker 2-2.5 on the Crabtree Creek trail. This is underneath I-40. We will provide all materials necessary (gloves,  cleanup, etc) and have a construction orange cooler with water and will provide FRoG water bottles for those needing/wanting them.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Friends of the Raleigh Greenways",
       "location": "Kiwanis Neighborhood Center, 2525 Noble Rd, Raleigh, NC 27608, USA",
       "start": "2026-05-03T18:00:00+00:00",
       "end": "2026-05-03T20:30:00+00:00",
@@ -604,32 +604,6 @@
       ]
     },
     {
-      "uid": "74vu76hkq6qknv8f3e3lr0js7j@google.com",
-      "title": "Greenway Gear Collective Scavenger Hunt",
-      "description": "Join us for a hands-on scavenger hunt across NC State Centennial Campus and Dorothea Dix Park, starting at the Greenway Gear Collective container by Lake Raleigh (near the Walnut Creek Greenway parking lot off Main Campus Dr. on the NE corner of the lake). We’ll teach basic navigation skills before you set out using a custom orienteering-style map – no phones or GPS, just your wits and your wheels.<br><br>Participate solo or as a team (teammates must stick together). Come ready to explore, problem-solve, and have some fun!<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Greenway Gear Collective",
-      "location": "Q88C+XX, Raleigh, NC 27606",
-      "start": "2026-05-16T14:00:00+00:00",
-      "end": "2026-05-16T17:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [
-        {
-          "url": "https://drive.google.com/open?id=1Ixn9uQGheGbuGBYmAjVS7sH7nq1jehKe",
-          "filename": "18 - May 16 - Scavenger Hunt.jpg",
-          "fmttype": "image/jpeg"
-        }
-      ],
-      "images": [
-        "assets/events/18-may-16-scavenger-hunt.webp"
-      ],
-      "localImages": [
-        "assets/events/18-may-16-scavenger-hunt.webp"
-      ]
-    },
-    {
       "uid": "2a3r71jen8im1s1bli8lsfu857@google.com",
       "title": "Oak City Swim School Summer Safety Festival",
       "description": "Come on out for Oak City Swim School's Summer Safety festival! There will be games, food, swimming, and, of course, bikes and bike safety! Oaks &amp; Spokes will be hosting a pop-up traffic garden at this event. Bikes and helmets will be available to borrow.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes (come find the Oaks &amp; Spokes tent)<br><b>Community partner: </b>Oak City Swim School",
@@ -653,6 +627,32 @@
       ],
       "localImages": [
         "assets/events/19-may-16-swim-school.webp"
+      ]
+    },
+    {
+      "uid": "74vu76hkq6qknv8f3e3lr0js7j@google.com",
+      "title": "Greenway Gear Collective Scavenger Hunt",
+      "description": "Join us for a hands-on scavenger hunt across NC State Centennial Campus and Dorothea Dix Park, starting at the Greenway Gear Collective container by Lake Raleigh (near the Walnut Creek Greenway parking lot off Main Campus Dr. on the NE corner of the lake). We’ll teach basic navigation skills before you set out using a custom orienteering-style map – no phones or GPS, just your wits and your wheels.<br><br>Participate solo or as a team (teammates must stick together). Come ready to explore, problem-solve, and have some fun!<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Greenway Gear Collective",
+      "location": "Q88C+XX, Raleigh, NC 27606",
+      "start": "2026-05-16T14:00:00+00:00",
+      "end": "2026-05-16T17:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1Ixn9uQGheGbuGBYmAjVS7sH7nq1jehKe",
+          "filename": "18 - May 16 - Scavenger Hunt.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/18-may-16-scavenger-hunt.webp"
+      ],
+      "localImages": [
+        "assets/events/18-may-16-scavenger-hunt.webp"
       ]
     },
     {
