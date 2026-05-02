@@ -89,32 +89,6 @@
       ]
     },
     {
-      "uid": "65ne764q8te9kr4p916kl3bben@google.com",
-      "title": "America 250 Historic Bike Ride",
-      "description": "Hop on your bike for a ride into history. The Raleigh Historic Development Commission (RHDC), in partnership with the Bicycle and Pedestrian Advisory Commission (BPAC) and Raleigh Sister Cities, is hosting the 3rd annual Raleigh Historic Bike Ride. This year, the 5-mile route will feature stops at five Raleigh Historic Landmarks that span 250 years of the city’s building history! RHDC volunteers at each site will share a brief history of the property and talk about what else was going on in Raleigh during that time.<br><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: BPAC and RHDC",
-      "location": "One Exchange Plaza, 1 Exchange Plaza, Raleigh, NC 27601, USA",
-      "start": "2026-05-02T14:00:00+00:00",
-      "end": "2026-05-02T16:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [
-        {
-          "url": "https://drive.google.com/open?id=1UYvf0M2kAb5K0tSuDa5JMav9Yws2XEep",
-          "filename": "03 - May 2 - America 250.jpg",
-          "fmttype": "image/jpeg"
-        }
-      ],
-      "images": [
-        "assets/events/03-may-2-america-250.webp"
-      ],
-      "localImages": [
-        "assets/events/03-may-2-america-250.webp"
-      ]
-    },
-    {
       "uid": "0rctp91q57qbkh4odad3k2j13n@google.com",
       "title": "Bike Month Kickoff Party",
       "description": "Kick off Bike Month with Oaks &amp; Spokes! Clean off your bike and roll out to Bend Bar to pick up your Bike Month passport (and get your first stamp, if you didn't make it to Coffee Outside or Kidical Mass), grab a slice of pizza, and pick up some free swag! This is a drop-in event. Join us!<b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner: </b>AARP &amp; Bend Bar",
@@ -411,6 +385,32 @@
       ],
       "localImages": [
         "assets/events/11-may-9-rck-second-saturday.webp"
+      ]
+    },
+    {
+      "uid": "65ne764q8te9kr4p916kl3bben@google.com",
+      "title": "America 250 Historic Bike Ride - RAIN DATE",
+      "description": "Hop on your bike for a ride into history. The Raleigh Historic Development Commission (RHDC), in partnership with the Bicycle and Pedestrian Advisory Commission (BPAC) and Raleigh Sister Cities, is hosting the 3rd annual Raleigh Historic Bike Ride. This year, the 5-mile route will feature stops at five Raleigh Historic Landmarks that span 250 years of the city’s building history! RHDC volunteers at each site will share a brief history of the property and talk about what else was going on in Raleigh during that time.<br><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: BPAC and RHDC",
+      "location": "One Exchange Plaza, 1 Exchange Plaza, Raleigh, NC 27601, USA",
+      "start": "2026-05-09T14:00:00+00:00",
+      "end": "2026-05-09T16:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1UYvf0M2kAb5K0tSuDa5JMav9Yws2XEep",
+          "filename": "03 - May 2 - America 250.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/03-may-2-america-250.webp"
+      ],
+      "localImages": [
+        "assets/events/03-may-2-america-250.webp"
       ]
     },
     {
