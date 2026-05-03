@@ -870,6 +870,23 @@ h3 {
   }
 }
 
+/* Styling for current day */
+.fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-frame {
+  border: 2px solid var(--rbm-pink) !important ;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-number,
+.fc .fc-list-day.fc-day-today .fc-list-day-text,
+.fc .fc-list-day.fc-day-today .fc-list-day-side-text {
+  display: inline-block;
+  background: var(--rbm-pink);
+  color: var(--rbm-black);
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
 /* Future per-event color classes */
 .event-blue {
   background: var(--rbm-blue);

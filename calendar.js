@@ -143,9 +143,12 @@ export function initCalendar() {
     openModal();
   }
 
+  const today = new Date();
+  const mayDate = new Date(2026, 4, today.getDate()); // month is 0-indexed (4 = May)
+
   const calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: isMobile() ? "listMonth" : "dayGridMonth",
-    initialDate: MAY_START,
+    initialDate: mayDate,
     validRange: { start: MAY_START, end: JUNE_START },
     headerToolbar: false,
     height: "auto",
@@ -163,7 +166,6 @@ export function initCalendar() {
     },
 
     listDayFormat: {
-      weekday: "short",
       month: "short",
       day: "numeric",
     },
@@ -189,7 +191,7 @@ export function initCalendar() {
   function syncResponsiveView() {
     const nextView = isMobile() ? "listMonth" : "dayGridMonth";
     if (calendar.view.type !== nextView) {
-      calendar.changeView(nextView, MAY_START);
+      calendar.changeView(nextView, mayDate);
     }
   }
 
