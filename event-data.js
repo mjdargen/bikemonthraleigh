@@ -116,32 +116,6 @@ export const RBM_EVENTS = {
       ]
     },
     {
-      "uid": "5g4h4tnfprq062sdkj74f356b2@google.com",
-      "title": "Try Bike Polo! + Alley Cat",
-      "description": "Try your hand at one of the most unique bike sports out there -- bike polo! This soccer-like game is played on a basketball court with a ball, a stick, and two players per team. Raleigh Bike Polo will be providing basic coaching and have bikes and sticks available to borrow. Not in for court time? Join for a mid-day \"alley cat\" (a scavenger hunt bike race) to work up an appetite for a post-race grillout.<br>Open play: 12-4p<br>Alley cat scavenger hunt race: 1:30-2:30p<br><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Raleigh Bike Polo",
-      "location": "Tarboro Road Community Center, 121 N Tarboro St, Raleigh, NC 27610, USA",
-      "start": "2026-05-03T16:00:00+00:00",
-      "end": "2026-05-03T20:00:00+00:00",
-      "allDay": false,
-      "url": null,
-      "status": "CONFIRMED",
-      "categories": null,
-      "links": [],
-      "attachments": [
-        {
-          "url": "https://drive.google.com/open?id=1-_she6ATpgKeNJKZNgHz-SR02VMk5TEh",
-          "filename": "05 - May 3 - Bike Polo.jpg",
-          "fmttype": "image/jpeg"
-        }
-      ],
-      "images": [
-        "assets/events/05-may-3-bike-polo.webp"
-      ],
-      "localImages": [
-        "assets/events/05-may-3-bike-polo.webp"
-      ]
-    },
-    {
       "uid": "02lnbct4uletehd4b4k689n62j@google.com",
       "title": "Williamson Preserve Challenge",
       "description": "Come join Trek Holly Park on Sunday, May 3rd at 12pm for the Williamson Preserve Challenge. Tackle 40 miles of greenway or up to 55 miles including the preserve's singletrack! Ride options:<br>1. 40 miles out &amp; back to Williamson Trailhead: Any type of bikes can handle this 40 mile out and back and e-bikes welcomed.<br>2. Same as above but your choice on how much of Williamson you'd like to do (e-bikes not permitted on Williamson, sorry). There are six loops totaling an additional 14 miles of flowy &amp; hilly singletrack if you include Magnolia and Lily Loops.<br>3. \"The Full Pull.\" Greenway + all of Williamson, totaling approximately 55 miles. Expect the fastest riders to take at least 4 hours minimum. No prizes or trophies as this is just for fun, and please be respectful of hikers and other riders. This ride is non-supported, but there will be coolers with drinks &amp; nutrition at the Mial Plantation lot.<b><br></b><br><b>Registration required?</b> Yes, for liability purposes (it's still free!) - register <a href=\"https://www.eventbrite.com/e/trek-williamson-preserve-challenge-tickets-1987863756006\">here</a><br><b>Passport eligible?</b> Yes<br><b>Community partner:</b> Trek Holly Park and 12th State Cycling",
@@ -167,6 +141,32 @@ export const RBM_EVENTS = {
       ],
       "localImages": [
         "assets/events/04-may-3-williamson-challenge.webp"
+      ]
+    },
+    {
+      "uid": "5g4h4tnfprq062sdkj74f356b2@google.com",
+      "title": "Try Bike Polo! + Alley Cat",
+      "description": "Try your hand at one of the most unique bike sports out there -- bike polo! This soccer-like game is played on a basketball court with a ball, a stick, and two players per team. Raleigh Bike Polo will be providing basic coaching and have bikes and sticks available to borrow. Not in for court time? Join for a mid-day \"alley cat\" (a scavenger hunt bike race) to work up an appetite for a post-race grillout.<br>Open play: 12-4p<br>Alley cat scavenger hunt race: 1:30-2:30p<br><b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Raleigh Bike Polo",
+      "location": "Tarboro Road Community Center, 121 N Tarboro St, Raleigh, NC 27610, USA",
+      "start": "2026-05-03T16:00:00+00:00",
+      "end": "2026-05-03T20:00:00+00:00",
+      "allDay": false,
+      "url": null,
+      "status": "CONFIRMED",
+      "categories": null,
+      "links": [],
+      "attachments": [
+        {
+          "url": "https://drive.google.com/open?id=1-_she6ATpgKeNJKZNgHz-SR02VMk5TEh",
+          "filename": "05 - May 3 - Bike Polo.jpg",
+          "fmttype": "image/jpeg"
+        }
+      ],
+      "images": [
+        "assets/events/05-may-3-bike-polo.webp"
+      ],
+      "localImages": [
+        "assets/events/05-may-3-bike-polo.webp"
       ]
     },
     {
@@ -344,11 +344,9 @@ export const RBM_EVENTS = {
         }
       ],
       "images": [
-        "assets/events/10-may-9-learn-to-ride.webp"
+        "https://drive.google.com/open?id=13q5g5uKhlpTLoBT_Ku_LxwGBFmOj6XPA"
       ],
-      "localImages": [
-        "assets/events/10-may-9-learn-to-ride.webp"
-      ]
+      "localImages": []
     },
     {
       "uid": "5q0asantv1c3ue7goe5g7opiqr@google.com",
@@ -407,7 +405,7 @@ export const RBM_EVENTS = {
     {
       "uid": "2k8tuacdhndlvuu67ruij3d3qu@google.com",
       "title": "Trek E-Bike Demo Day",
-      "description": "Drop-in between 12-2 at Green Hills County Park to try out a pedal-assist e-bike with Trek North Raleigh! E-bikes can replace car trips for many people. Do a test ride up to the viewpoint to really experience the full capability of these bikes.<b><br></b><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Trek North Raleigh",
+      "description": "Drop-in between 12-2 at Green Hills County Park to try out a pedal-assist e-bike with Trek North Raleigh! E-bikes can replace car trips for many people. Do a test ride up to the viewpoint to really experience the full capability of these bikes.<b><br></b><br><b>Registration required?</b> No, but recommended - register <a href=\"https://www.eventbrite.com/e/green-hills-e-bike-demo-tickets-1988679262207?aff=ebdsoporgprofile\">here</a><br><br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Trek North Raleigh",
       "location": "Green Hills County Park, 9300 Deponie Dr, Raleigh, NC 27614, USA",
       "start": "2026-05-09T16:00:00+00:00",
       "end": "2026-05-09T18:00:00+00:00",
@@ -415,7 +413,9 @@ export const RBM_EVENTS = {
       "url": null,
       "status": "CONFIRMED",
       "categories": null,
-      "links": [],
+      "links": [
+        "https://www.eventbrite.com/e/green-hills-e-bike-demo-tickets-1988679262207?aff=ebdsoporgprofile"
+      ],
       "attachments": [
         {
           "url": "https://drive.google.com/open?id=1YVRtyry-jfut1-131iKcOH6C_99ggtfy",
@@ -812,7 +812,7 @@ export const RBM_EVENTS = {
       "description": "Celebrate Geek Pride Day with Oaks &amp; Spokes, sponsored by the Downtown Raleigh Alliance!<br>Gather at 12p at Rebus Works for a coffee or snack. Then, we'll bike to Newsagents, Sorry State Records, pose with a troll in Dix (maybe with a nerdy prop...!) and play games at an arcade.<br><br><b>Registration required?</b> No<br><b>Passport eligible?</b> Yes<br><b>Community partner</b>: Downtown Raleigh Alliance",
       "location": "Rebus Works, 301-2 Kinsey St, Raleigh, NC 27603, USA",
       "start": "2026-05-24T16:00:00+00:00",
-      "end": "2026-05-24T18:00:00+00:00",
+      "end": "2026-05-24T20:00:00+00:00",
       "allDay": false,
       "url": null,
       "status": "CONFIRMED",
